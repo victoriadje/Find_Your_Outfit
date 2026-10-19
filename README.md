@@ -2,7 +2,7 @@
 Personalized outfit generator: you specify the vibe, the temperature, and your budget for the day, and the app assembles outfits using real items, complete with store information and pricing for each piece.
 - Project for the CSC207 (Software Design) course, University of Toronto.
 
-##Features
+## Features
 - User registration and login
 - Preferences: vibe, price range, measurements (private), and location
 - Outfit generation based on weather, vibe, and budget
@@ -18,4 +18,4 @@ Personalized outfit generator: you specify the vibe, the temperature, and your b
 ## Architecture
 
 Clean Architecture, with dependencies pointing inward:
-#To Be CONTINUEDDDDDD
+# To Be CONTINUEDDDDDD
