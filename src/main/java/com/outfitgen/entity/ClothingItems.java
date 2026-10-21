@@ -1,6 +1,7 @@
-package entity;
+package com.outfitgen.entity;
+
 //Stores a clothing item information
-public class ClothingItem {
+public class ClothingItems {
     private final String id;
     private final String name;
     private final String type;
@@ -11,7 +12,7 @@ public class ClothingItem {
     private final String storeName;
     private final String itemLink;
 
-    public ClothingItem(String id, String name, String type, String style, double price, float minTempCelcius,
+    public ClothingItems(String id, String name, String type, String style, double price, float minTempCelcius,
                         float maxTempCelcius, String storeName, String itemLink) {
         this.id = id;
         this.name = name;
