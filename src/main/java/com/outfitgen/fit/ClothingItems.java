@@ -1,4 +1,4 @@
-package com.outfitgen.entity;
+package com.outfitgen.fit;
 
 //Stores a clothing item information
 public class ClothingItems {

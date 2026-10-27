@@ -1,7 +1,7 @@
 package com.outfitgen;
 
-import com.outfitgen.entity.ClothingItems;
-import com.outfitgen.entity.Outfit;
+import com.outfitgen.fit.ClothingItems;
+import com.outfitgen.fit.Outfit;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
