@@ -30,6 +30,6 @@ public class ClimateConditionsData {
         return weatherId;
     }
 
-
+    // TODO: ADD WEATHER CONDITIONS BASED ON CODES FROM API
 }
 
