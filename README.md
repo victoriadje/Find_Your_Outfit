@@ -1,4 +1,12 @@
 # Find_Your_Outfit
+## Team Information
+### Team Members
+- Victoria Djedjeian
+- Sufia Naser
+- Disha Joshi
+
+--
+## Project Description
 Personalized outfit generator: you specify the vibe, the temperature, and your budget for the day, and the app assembles outfits using real items, complete with store information and pricing for each piece.
 - Project for the CSC207 (Software Design) course, University of Toronto.
 
