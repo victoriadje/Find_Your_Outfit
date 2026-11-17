@@ -25,7 +25,8 @@ Personalized outfit generator: you specify the vibe, the temperature, and your b
 1. As a user, I want to see various outfit options for a specific occasion, tailored to the current temperature.
 2. As a user, I want to browse my inventory and select specific items.
 3. As a user, I want to save my preferences so that I receive recommendations that match my size and personal vibe.
-4. As a user, I want to hand pick my own outfit and see it on someone before I change into it
+4. As a user, I want to hand pick my own outfit and see it put together before I change into it
+5. As a user, I want to be able to log out with my changes saved
 
 ## Architecture
 
