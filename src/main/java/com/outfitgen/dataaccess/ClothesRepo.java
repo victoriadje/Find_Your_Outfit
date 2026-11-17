@@ -1,0 +1,14 @@
+package com.outfitgen.dataaccess;
+
+import com.outfitgen.entity.ClothingItems;
+
+import java.util.List;
+
+public interface ClothesRepo {
+    List<ClothingItems> getAllClothingItems();
+    ClothingItems getClothingItemById(String id);
+    List<ClothingItems> getClothingItemByType(String type);
+    void addClothingItem(ClothingItems item);
+    void updateClothingItem(ClothingItems updatedItem);
+    void deleteClothingItem(String id);
+}
