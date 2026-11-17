@@ -2,6 +2,10 @@ package com.outfitgen.weatherforecast;
 
 //Store weather info
 
-public class OpenMeteoData {
+import java.net.http.HttpClient;
 
+public class OpenMeteoData {
+    private final HttpClient client = HttpClient.newHttpClient();
+
+    public ClimateConditionsData getClimateConditions(String location) {}
 }

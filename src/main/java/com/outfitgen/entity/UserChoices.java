@@ -1,4 +1,4 @@
-package com.outfitgen.fit;
+package com.outfitgen.entity;
 
 public class UserChoices {
 
@@ -6,9 +6,9 @@ public class UserChoices {
     private final Double budget;
     public  UserChoices(String style, double budget, String location) {
         this.style = style;
-        if(budget != null && budget < 0) {
+        if(budget < 0) {
             throw new IllegalArgumentException("Budget cannot be negative");
-        };
+        }
         this.budget = budget;
     }
 

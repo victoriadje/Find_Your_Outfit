@@ -1,4 +1,4 @@
-package com.outfitgen.fit;
+package com.outfitgen.entity;
 
 import java.util.List;
 
