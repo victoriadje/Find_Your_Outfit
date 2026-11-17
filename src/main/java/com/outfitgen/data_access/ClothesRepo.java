@@ -1,4 +1,4 @@
-package com.outfitgen.dataaccess;
+package com.outfitgen.data_access;
 
 import com.outfitgen.entity.ClothingItems;
 

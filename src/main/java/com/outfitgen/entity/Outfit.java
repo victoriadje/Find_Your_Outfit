@@ -1,20 +1,20 @@
 package com.outfitgen.entity;
 
 import java.util.List;
-
+//TODO: figure out if id is needed.
 public class Outfit {
 
-    private final String id;
+    //private final String id;
     private final List<ClothingItems> items;
 
-    public Outfit(String id, List<ClothingItems> items) {
-        this.id = id;
+    public Outfit( List<ClothingItems> items) {
+        //this.id = id;
         this.items = items;
     }
 
-    public String getId() {
-        return id;
-    }
+//    public String getId() {
+//        return id;
+//    }
 
     public List<ClothingItems> getItems() {
         return items;

@@ -1,6 +1,6 @@
 //created repository instead of paid API
 
-package com.outfitgen.dataaccess;
+package com.outfitgen.data_access;
 
 import com.outfitgen.entity.ClothingItems;
 
@@ -12,8 +12,8 @@ public class SavedClothingRepository implements ClothesRepo{
 
    public SavedClothingRepository(){
        //TODO: add items to create our own repo
-       items.add(new ClothingItems("1000", "Going out Top", "Top", "NightParty", 15.66, 17,
-               35, "Zara", "https://store.com"));
+       items.add(new ClothingItems("id", "Goutfit name", "Top", "NightParty", 0, -1,
+               35, "StoreName", ""));
 
    }
    @Override

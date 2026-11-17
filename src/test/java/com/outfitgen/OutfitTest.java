@@ -18,7 +18,7 @@ public class OutfitTest {
         ClothingItems blackHMJeans = new ClothingItems("1001", "Black Baggy Jeans", "Bottoms", "NightParty", 30.09, 10,
                 30, "H&M", "https://store2.com");
 
-        Outfit newOutfit = new Outfit("101", Arrays.asList(blackZaraTop, blackHMJeans));
+        Outfit newOutfit = new Outfit(Arrays.asList(blackZaraTop, blackHMJeans));
         assertEquals(45.75, newOutfit.getTotalCost(), 0.001);
     }
 
