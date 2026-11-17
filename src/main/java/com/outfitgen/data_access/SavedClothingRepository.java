@@ -1,5 +1,5 @@
 //created repository instead of paid API
-
+//TODO: Should we change name for InMemoryClothingRepository?
 package com.outfitgen.data_access;
 
 import com.outfitgen.entity.ClothingItems;
@@ -7,6 +7,9 @@ import com.outfitgen.entity.ClothingItems;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * In-memory implementation of the DAO for storing the clothes' repository.
+ */
 public class SavedClothingRepository implements ClothesRepo{
    private final List<ClothingItems> items = new ArrayList<>();
 

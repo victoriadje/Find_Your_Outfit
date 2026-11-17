@@ -1,7 +1,11 @@
 package com.outfitgen.entity;
-
 import java.util.List;
 //TODO: figure out if id is needed.
+
+/**
+ * A simple entity representing an outfit.
+ * Outfits are a list of clothing items.
+ */
 public class Outfit {
 
     //private final String id;
