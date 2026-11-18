@@ -44,7 +44,7 @@ public class SavedClothingRepository implements ClothesRepo{
         }
         return matchingType;
     }
-
+//TODO: figure if we need to add item
     @Override
     public void addClothingItem(ClothingItems item) {
         if (item == null) {

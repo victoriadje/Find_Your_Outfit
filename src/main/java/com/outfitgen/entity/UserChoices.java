@@ -14,7 +14,7 @@ public class UserChoices {
      * @param budget the user's budget
      * @throws IllegalArgumentException if the budget is negative
      */
-    //TODO: update once location once meteorological part of the code is done.
+    //TODO: update the location once meteorological part of the code is done.
     public  UserChoices(String style, double budget, String location) {
         this.style = style;
         if(budget < 0) {
