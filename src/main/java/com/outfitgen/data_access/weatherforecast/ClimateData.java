@@ -1,13 +1,13 @@
-package com.outfitgen.weatherforecast;
+package com.outfitgen.data_access.weatherforecast;
 
-public class ClimateConditionsData {
+public class ClimateData {
     private final String location;
     private final double temperature;
     private final double humidity;
     private final double windSpeed;
     private final int weatherId;
 
-    public ClimateConditionsData(String location, double temperature, double humidity, double windSpeed, int weatherId) {
+    public ClimateData(String location, double temperature, double humidity, double windSpeed, int weatherId) {
         this.location = location;
         this.temperature = temperature;
         this.humidity = humidity;
