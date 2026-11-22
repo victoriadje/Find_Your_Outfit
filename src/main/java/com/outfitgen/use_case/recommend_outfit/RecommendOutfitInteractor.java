@@ -1,6 +1,5 @@
-package com.outfitgen.use_case.recommendOutfit;
+package com.outfitgen.use_case.recommend_outfit;
 
-import com.outfitgen.data_access.ClothesRepo;
 import com.outfitgen.entity.ClothingItems;
 import com.outfitgen.entity.Outfit;
 
@@ -13,16 +12,16 @@ import java.util.List;
 
 //TODO: Add fail case logic.
 public class RecommendOutfitInteractor implements RecommendOutfitInputBoundary{
-    private final ClothesRepo clothesRepo;
+    private final RecommendOutfitDataAccessInterface clothingDataAccess;
     private final RecommendOutfitOutputBoundary presenter;
-    public RecommendOutfitInteractor(ClothesRepo clothesRepo, RecommendOutfitOutputBoundary presenter) {
-        this.clothesRepo=clothesRepo;
+    public RecommendOutfitInteractor(RecommendOutfitDataAccessInterface clothingDataAccess, RecommendOutfitOutputBoundary presenter) {
+        this.clothingDataAccess=clothingDataAccess;
         this.presenter=presenter;
     }
 
     @Override
     public void execute(RecommendOutfitInputData inputData) {
-        List<ClothingItems> items = clothesRepo.getAllClothingItems();
+        List<ClothingItems> items = clothingDataAccess.getAllItems();
         //TODO: figure out categories. For example, should we add shoes? Jackets? etc
         List<ClothingItems> tops = new ArrayList<ClothingItems>();
         List<ClothingItems> bottoms = new ArrayList<>();

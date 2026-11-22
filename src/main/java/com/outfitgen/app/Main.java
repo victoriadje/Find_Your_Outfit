@@ -1,4 +1,4 @@
-package app;
+package com.outfitgen.app;
 
 import javax.swing.*;
 

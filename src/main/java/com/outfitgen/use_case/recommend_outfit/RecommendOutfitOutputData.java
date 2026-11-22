@@ -1,4 +1,4 @@
-package com.outfitgen.use_case.recommendOutfit;
+package com.outfitgen.use_case.recommend_outfit;
 
 import com.outfitgen.entity.Outfit;
 
