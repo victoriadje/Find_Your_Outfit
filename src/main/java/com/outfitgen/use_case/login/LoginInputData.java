@@ -9,11 +9,11 @@ public class LoginInputData {
         this.password = password;
     }
 
-    public String getUsername() {
+    String getUsername() {
         return this.username;
     }
 
-    public String getPassword() {
+    String getPassword() {
         return password;
     }
 }
