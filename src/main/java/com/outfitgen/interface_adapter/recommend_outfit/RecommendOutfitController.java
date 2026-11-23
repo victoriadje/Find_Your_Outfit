@@ -10,7 +10,7 @@ public class RecommendOutfitController {
         this.interactor = interactor;
     }
 
-    public void execute(String preferredStyle, double budget, double temp) {
+    public void execute(String preferredStyle, Double budget, double temp) {
         RecommendOutfitInputData inputData = new RecommendOutfitInputData(preferredStyle, budget, temp);
         interactor.execute(inputData);
     }

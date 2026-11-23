@@ -77,7 +77,7 @@ public class ClothingItems {
         return itemLink;
     }
     public String getImageLink() {return imageLink;}
-    public boolean isAppropriateForTemp(int tempCelcius) {
+    public boolean isAppropriateForTemp(double tempCelcius) {
         return tempCelcius >= minTempCelcius && tempCelcius <= maxTempCelcius;
     }
 }

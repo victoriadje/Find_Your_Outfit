@@ -9,9 +9,9 @@ public class RecommendOutfitInputData {
 
     //private final UserChoices userChoices;
     private final String preferredStyle;
-    private final double budget;
+    private final Double budget;
     private final double temperature;
-    public RecommendOutfitInputData( String preferredStyle, double budget, double temperature) {
+    public RecommendOutfitInputData( String preferredStyle, Double budget, double temperature) {
        // this.userChoices = userChoices;
         this.preferredStyle = preferredStyle;
         this.budget = budget;
@@ -26,7 +26,7 @@ public class RecommendOutfitInputData {
         return preferredStyle;
     }
 
-    public double getBudget() {
+    public Double getBudget() {
         return budget;
     }
 
