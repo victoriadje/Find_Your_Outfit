@@ -1,4 +1,4 @@
-package com.outfitgen.use_case.recommendOutfit;
+package com.outfitgen.use_case.recommend_outfit;
 /**
  * Input Boundary for actions which are related to recommending and outfit.
  */
