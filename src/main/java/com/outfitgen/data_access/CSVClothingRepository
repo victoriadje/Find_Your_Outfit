@@ -1,0 +1,801 @@
+id,name,type,style,color,price,minTempCelcius,maxTempCelcius,storeName,itemLink,imageLink
+FY-00001,Blue Cotton T-Shirt,top,Streetwear,Blue,23.64,15,40,Studio Wardrobe,https://example.com/products/fy-00001,https://example.com/images/fy-00001.jpg
+FY-00002,Navy Graphic Tee,top,Vintage,Navy,18.73,16,38,Heritage Closet,https://example.com/products/fy-00002,https://example.com/images/fy-00002.jpg
+FY-00003,Burgundy Linen Shirt,top,Formal,Burgundy,60.66,18,40,Urban Thread,https://example.com/products/fy-00003,https://example.com/images/fy-00003.jpg
+FY-00004,Grey Oxford Button-Up,top,Preppy,Grey,48.67,5,30,Everyday Collective,https://example.com/products/fy-00004,https://example.com/images/fy-00004.jpg
+FY-00005,Green Knit Sweater,top,Preppy,Green,38.94,-3,20,Coastal Edit,https://example.com/products/fy-00005,https://example.com/images/fy-00005.jpg
+FY-00006,Brown Fleece Hoodie,top,Casual,Brown,51.34,-8,18,Maple Basics,https://example.com/products/fy-00006,https://example.com/images/fy-00006.jpg
+FY-00007,White Athletic Tank,top,Casual,White,40.03,21,42,Motion Wear,https://example.com/products/fy-00007,https://example.com/images/fy-00007.jpg
+FY-00008,Cream Blouse,top,Preppy,Cream,58.15,10,34,Northline Apparel,https://example.com/products/fy-00008,https://example.com/images/fy-00008.jpg
+FY-00009,Beige Turtleneck,top,Formal,Beige,48.21,-7,16,Studio Wardrobe,https://example.com/products/fy-00009,https://example.com/images/fy-00009.jpg
+FY-00010,Pink Polo Shirt,top,Casual,Pink,53.41,12,33,Heritage Closet,https://example.com/products/fy-00010,https://example.com/images/fy-00010.jpg
+FY-00011,Olive Tailored Trousers,bottom,Preppy,Olive,60.48,-4,28,Urban Thread,https://example.com/products/fy-00011,https://example.com/images/fy-00011.jpg
+FY-00012,Black Straight-Leg Jeans,bottom,Casual,Black,62.68,-7,29,Everyday Collective,https://example.com/products/fy-00012,https://example.com/images/fy-00012.jpg
+FY-00013,Blue Wide-Leg Jeans,bottom,Vintage,Blue,93.80,-3,29,Coastal Edit,https://example.com/products/fy-00013,https://example.com/images/fy-00013.jpg
+FY-00014,Navy Chino Pants,bottom,Minimalist,Navy,81.18,-5,32,Maple Basics,https://example.com/products/fy-00014,https://example.com/images/fy-00014.jpg
+FY-00015,Burgundy Cargo Pants,bottom,Streetwear,Burgundy,96.78,-4,31,Motion Wear,https://example.com/products/fy-00015,https://example.com/images/fy-00015.jpg
+FY-00016,Grey Linen Pants,bottom,Minimalist,Grey,52.69,19,40,Northline Apparel,https://example.com/products/fy-00016,https://example.com/images/fy-00016.jpg
+FY-00017,Green Athletic Leggings,bottom,Casual,Green,37.01,0,35,Studio Wardrobe,https://example.com/products/fy-00017,https://example.com/images/fy-00017.jpg
+FY-00018,Brown Running Shorts,bottom,Sporty,Brown,45.56,19,42,Heritage Closet,https://example.com/products/fy-00018,https://example.com/images/fy-00018.jpg
+FY-00019,White Denim Shorts,bottom,Vintage,White,56.00,18,38,Urban Thread,https://example.com/products/fy-00019,https://example.com/images/fy-00019.jpg
+FY-00020,Cream Midi Skirt,bottom,Preppy,Cream,71.79,14,36,Everyday Collective,https://example.com/products/fy-00020,https://example.com/images/fy-00020.jpg
+FY-00021,Beige Canvas Sneakers,shoes,Casual,Beige,95.33,5,34,Coastal Edit,https://example.com/products/fy-00021,https://example.com/images/fy-00021.jpg
+FY-00022,Pink Running Shoes,shoes,Sporty,Pink,74.46,-2,36,Maple Basics,https://example.com/products/fy-00022,https://example.com/images/fy-00022.jpg
+FY-00023,Olive Leather Loafers,shoes,Minimalist,Olive,86.73,1,30,Motion Wear,https://example.com/products/fy-00023,https://example.com/images/fy-00023.jpg
+FY-00024,Black Ankle Boots,shoes,Vintage,Black,98.83,-11,22,Northline Apparel,https://example.com/products/fy-00024,https://example.com/images/fy-00024.jpg
+FY-00025,Blue Sandals,shoes,Bohemian,Blue,27.48,19,40,Studio Wardrobe,https://example.com/products/fy-00025,https://example.com/images/fy-00025.jpg
+FY-00026,Navy High-Top Sneakers,shoes,Vintage,Navy,57.35,1,34,Heritage Closet,https://example.com/products/fy-00026,https://example.com/images/fy-00026.jpg
+FY-00027,Burgundy Winter Boots,shoes,Casual,Burgundy,133.21,-33,8,Urban Thread,https://example.com/products/fy-00027,https://example.com/images/fy-00027.jpg
+FY-00028,Grey Ballet Flats,shoes,Formal,Grey,47.42,10,33,Everyday Collective,https://example.com/products/fy-00028,https://example.com/images/fy-00028.jpg
+FY-00029,Green Baseball Cap,accessories,Streetwear,Green,25.50,10,42,Coastal Edit,https://example.com/products/fy-00029,https://example.com/images/fy-00029.jpg
+FY-00030,Brown Canvas Tote Bag,accessories,Casual,Brown,21.47,-19,42,Maple Basics,https://example.com/products/fy-00030,https://example.com/images/fy-00030.jpg
+FY-00031,White Leather Belt,accessories,Preppy,White,18.47,-20,42,Motion Wear,https://example.com/products/fy-00031,https://example.com/images/fy-00031.jpg
+FY-00032,Cream Knit Beanie,accessories,Sporty,Cream,39.69,-35,14,Northline Apparel,https://example.com/products/fy-00032,https://example.com/images/fy-00032.jpg
+FY-00033,Beige Wool Scarf,accessories,Formal,Beige,47.10,-35,12,Studio Wardrobe,https://example.com/products/fy-00033,https://example.com/images/fy-00033.jpg
+FY-00034,Pink Crossbody Bag,accessories,Casual,Pink,62.95,-20,42,Heritage Closet,https://example.com/products/fy-00034,https://example.com/images/fy-00034.jpg
+FY-00035,Olive Sunglasses,accessories,Sporty,Olive,71.38,13,42,Urban Thread,https://example.com/products/fy-00035,https://example.com/images/fy-00035.jpg
+FY-00036,Black Simple Necklace,accessories,Formal,Black,36.16,-20,42,Everyday Collective,https://example.com/products/fy-00036,https://example.com/images/fy-00036.jpg
+FY-00037,Blue Denim Jacket,jacket,Streetwear,Blue,90.72,6,23,Coastal Edit,https://example.com/products/fy-00037,https://example.com/images/fy-00037.jpg
+FY-00038,Navy Puffer Jacket,jacket,Streetwear,Navy,198.68,-29,8,Maple Basics,https://example.com/products/fy-00038,https://example.com/images/fy-00038.jpg
+FY-00039,Burgundy Wool Coat,jacket,Formal,Burgundy,135.41,-13,12,Motion Wear,https://example.com/products/fy-00039,https://example.com/images/fy-00039.jpg
+FY-00040,Grey Rain Jacket,jacket,Casual,Grey,108.65,1,22,Northline Apparel,https://example.com/products/fy-00040,https://example.com/images/fy-00040.jpg
+FY-00041,Green Blazer,jacket,Minimalist,Green,110.08,7,28,Studio Wardrobe,https://example.com/products/fy-00041,https://example.com/images/fy-00041.jpg
+FY-00042,Blue Windbreaker,jacket,Streetwear,Blue,115.42,7,25,Coastal Edit,https://example.com/products/fy-00042,https://example.com/images/fy-00042.jpg
+FY-00043,Navy Cotton T-Shirt,top,Casual,Navy,33.76,17,40,Maple Basics,https://example.com/products/fy-00043,https://example.com/images/fy-00043.jpg
+FY-00044,Burgundy Graphic Tee,top,Casual,Burgundy,19.15,15,37,Motion Wear,https://example.com/products/fy-00044,https://example.com/images/fy-00044.jpg
+FY-00045,Grey Linen Shirt,top,Bohemian,Grey,51.21,18,40,Northline Apparel,https://example.com/products/fy-00045,https://example.com/images/fy-00045.jpg
+FY-00046,Green Oxford Button-Up,top,Minimalist,Green,37.12,5,29,Studio Wardrobe,https://example.com/products/fy-00046,https://example.com/images/fy-00046.jpg
+FY-00047,Brown Knit Sweater,top,Casual,Brown,42.39,-5,20,Heritage Closet,https://example.com/products/fy-00047,https://example.com/images/fy-00047.jpg
+FY-00048,White Fleece Hoodie,top,Streetwear,White,70.40,-8,18,Urban Thread,https://example.com/products/fy-00048,https://example.com/images/fy-00048.jpg
+FY-00049,Cream Athletic Tank,top,Sporty,Cream,40.30,20,41,Everyday Collective,https://example.com/products/fy-00049,https://example.com/images/fy-00049.jpg
+FY-00050,Beige Blouse,top,Formal,Beige,63.09,10,34,Coastal Edit,https://example.com/products/fy-00050,https://example.com/images/fy-00050.jpg
+FY-00051,Pink Turtleneck,top,Minimalist,Pink,70.31,-7,17,Maple Basics,https://example.com/products/fy-00051,https://example.com/images/fy-00051.jpg
+FY-00052,Olive Polo Shirt,top,Sporty,Olive,51.16,13,35,Motion Wear,https://example.com/products/fy-00052,https://example.com/images/fy-00052.jpg
+FY-00053,Black Tailored Trousers,bottom,Formal,Black,43.10,-3,30,Northline Apparel,https://example.com/products/fy-00053,https://example.com/images/fy-00053.jpg
+FY-00054,Blue Straight-Leg Jeans,bottom,Minimalist,Blue,88.01,-6,28,Studio Wardrobe,https://example.com/products/fy-00054,https://example.com/images/fy-00054.jpg
+FY-00055,Navy Wide-Leg Jeans,bottom,Casual,Navy,110.12,-3,28,Heritage Closet,https://example.com/products/fy-00055,https://example.com/images/fy-00055.jpg
+FY-00056,Burgundy Chino Pants,bottom,Casual,Burgundy,69.11,-4,32,Urban Thread,https://example.com/products/fy-00056,https://example.com/images/fy-00056.jpg
+FY-00057,Grey Cargo Pants,bottom,Sporty,Grey,86.53,-3,32,Everyday Collective,https://example.com/products/fy-00057,https://example.com/images/fy-00057.jpg
+FY-00058,Green Linen Pants,bottom,Casual,Green,72.53,19,40,Coastal Edit,https://example.com/products/fy-00058,https://example.com/images/fy-00058.jpg
+FY-00059,Brown Athletic Leggings,bottom,Sporty,Brown,49.89,1,34,Maple Basics,https://example.com/products/fy-00059,https://example.com/images/fy-00059.jpg
+FY-00060,White Running Shorts,bottom,Casual,White,57.67,19,42,Motion Wear,https://example.com/products/fy-00060,https://example.com/images/fy-00060.jpg
+FY-00061,Cream Denim Shorts,bottom,Streetwear,Cream,20.84,20,40,Northline Apparel,https://example.com/products/fy-00061,https://example.com/images/fy-00061.jpg
+FY-00062,Beige Midi Skirt,bottom,Formal,Beige,59.90,14,37,Studio Wardrobe,https://example.com/products/fy-00062,https://example.com/images/fy-00062.jpg
+FY-00063,Pink Canvas Sneakers,shoes,Streetwear,Pink,54.49,7,33,Heritage Closet,https://example.com/products/fy-00063,https://example.com/images/fy-00063.jpg
+FY-00064,Olive Running Shoes,shoes,Casual,Olive,134.66,-2,38,Urban Thread,https://example.com/products/fy-00064,https://example.com/images/fy-00064.jpg
+FY-00065,Black Leather Loafers,shoes,Formal,Black,165.64,1,31,Everyday Collective,https://example.com/products/fy-00065,https://example.com/images/fy-00065.jpg
+FY-00066,Blue Ankle Boots,shoes,Formal,Blue,162.76,-12,22,Coastal Edit,https://example.com/products/fy-00066,https://example.com/images/fy-00066.jpg
+FY-00067,Navy Sandals,shoes,Minimalist,Navy,39.86,21,41,Maple Basics,https://example.com/products/fy-00067,https://example.com/images/fy-00067.jpg
+FY-00068,Burgundy High-Top Sneakers,shoes,Streetwear,Burgundy,85.84,2,34,Motion Wear,https://example.com/products/fy-00068,https://example.com/images/fy-00068.jpg
+FY-00069,Grey Winter Boots,shoes,Sporty,Grey,155.47,-34,6,Northline Apparel,https://example.com/products/fy-00069,https://example.com/images/fy-00069.jpg
+FY-00070,Green Ballet Flats,shoes,Minimalist,Green,43.55,12,34,Studio Wardrobe,https://example.com/products/fy-00070,https://example.com/images/fy-00070.jpg
+FY-00071,Brown Baseball Cap,accessories,Sporty,Brown,30.49,10,41,Heritage Closet,https://example.com/products/fy-00071,https://example.com/images/fy-00071.jpg
+FY-00072,White Canvas Tote Bag,accessories,Minimalist,White,18.14,-20,41,Urban Thread,https://example.com/products/fy-00072,https://example.com/images/fy-00072.jpg
+FY-00073,Cream Leather Belt,accessories,Minimalist,Cream,46.20,-18,41,Everyday Collective,https://example.com/products/fy-00073,https://example.com/images/fy-00073.jpg
+FY-00074,Beige Knit Beanie,accessories,Casual,Beige,42.37,-35,13,Coastal Edit,https://example.com/products/fy-00074,https://example.com/images/fy-00074.jpg
+FY-00075,Pink Wool Scarf,accessories,Vintage,Pink,63.82,-35,12,Maple Basics,https://example.com/products/fy-00075,https://example.com/images/fy-00075.jpg
+FY-00076,Olive Crossbody Bag,accessories,Minimalist,Olive,105.73,-18,42,Motion Wear,https://example.com/products/fy-00076,https://example.com/images/fy-00076.jpg
+FY-00077,Black Sunglasses,accessories,Casual,Black,59.53,13,41,Northline Apparel,https://example.com/products/fy-00077,https://example.com/images/fy-00077.jpg
+FY-00078,Blue Simple Necklace,accessories,Bohemian,Blue,44.41,-18,41,Studio Wardrobe,https://example.com/products/fy-00078,https://example.com/images/fy-00078.jpg
+FY-00079,Navy Denim Jacket,jacket,Vintage,Navy,67.75,5,22,Heritage Closet,https://example.com/products/fy-00079,https://example.com/images/fy-00079.jpg
+FY-00080,Burgundy Puffer Jacket,jacket,Casual,Burgundy,120.60,-30,6,Urban Thread,https://example.com/products/fy-00080,https://example.com/images/fy-00080.jpg
+FY-00081,Grey Wool Coat,jacket,Preppy,Grey,236.90,-14,12,Everyday Collective,https://example.com/products/fy-00081,https://example.com/images/fy-00081.jpg
+FY-00082,Green Rain Jacket,jacket,Minimalist,Green,163.97,0,20,Coastal Edit,https://example.com/products/fy-00082,https://example.com/images/fy-00082.jpg
+FY-00083,Brown Blazer,jacket,Formal,Brown,167.21,5,26,Maple Basics,https://example.com/products/fy-00083,https://example.com/images/fy-00083.jpg
+FY-00084,Navy Windbreaker,jacket,Casual,Navy,62.71,5,23,Heritage Closet,https://example.com/products/fy-00084,https://example.com/images/fy-00084.jpg
+FY-00085,Burgundy Cotton T-Shirt,top,Sporty,Burgundy,27.33,17,40,Urban Thread,https://example.com/products/fy-00085,https://example.com/images/fy-00085.jpg
+FY-00086,Grey Graphic Tee,top,Streetwear,Grey,33.84,17,36,Everyday Collective,https://example.com/products/fy-00086,https://example.com/images/fy-00086.jpg
+FY-00087,Green Linen Shirt,top,Minimalist,Green,66.81,18,40,Coastal Edit,https://example.com/products/fy-00087,https://example.com/images/fy-00087.jpg
+FY-00088,Brown Oxford Button-Up,top,Formal,Brown,82.63,6,29,Maple Basics,https://example.com/products/fy-00088,https://example.com/images/fy-00088.jpg
+FY-00089,White Knit Sweater,top,Vintage,White,80.77,-4,18,Motion Wear,https://example.com/products/fy-00089,https://example.com/images/fy-00089.jpg
+FY-00090,Cream Fleece Hoodie,top,Sporty,Cream,72.88,-7,18,Northline Apparel,https://example.com/products/fy-00090,https://example.com/images/fy-00090.jpg
+FY-00091,Beige Athletic Tank,top,Casual,Beige,41.79,20,41,Studio Wardrobe,https://example.com/products/fy-00091,https://example.com/images/fy-00091.jpg
+FY-00092,Pink Blouse,top,Bohemian,Pink,68.75,11,32,Heritage Closet,https://example.com/products/fy-00092,https://example.com/images/fy-00092.jpg
+FY-00093,Olive Turtleneck,top,Vintage,Olive,38.71,-7,18,Urban Thread,https://example.com/products/fy-00093,https://example.com/images/fy-00093.jpg
+FY-00094,Black Polo Shirt,top,Preppy,Black,57.27,13,35,Everyday Collective,https://example.com/products/fy-00094,https://example.com/images/fy-00094.jpg
+FY-00095,Blue Tailored Trousers,bottom,Minimalist,Blue,86.41,-5,30,Coastal Edit,https://example.com/products/fy-00095,https://example.com/images/fy-00095.jpg
+FY-00096,Navy Straight-Leg Jeans,bottom,Streetwear,Navy,75.98,-8,28,Maple Basics,https://example.com/products/fy-00096,https://example.com/images/fy-00096.jpg
+FY-00097,Burgundy Wide-Leg Jeans,bottom,Streetwear,Burgundy,101.58,-5,30,Motion Wear,https://example.com/products/fy-00097,https://example.com/images/fy-00097.jpg
+FY-00098,Grey Chino Pants,bottom,Preppy,Grey,86.94,-3,30,Northline Apparel,https://example.com/products/fy-00098,https://example.com/images/fy-00098.jpg
+FY-00099,Green Cargo Pants,bottom,Casual,Green,61.17,-3,32,Studio Wardrobe,https://example.com/products/fy-00099,https://example.com/images/fy-00099.jpg
+FY-00100,Brown Linen Pants,bottom,Bohemian,Brown,56.51,19,40,Heritage Closet,https://example.com/products/fy-00100,https://example.com/images/fy-00100.jpg
+FY-00101,White Athletic Leggings,bottom,Casual,White,68.21,1,34,Urban Thread,https://example.com/products/fy-00101,https://example.com/images/fy-00101.jpg
+FY-00102,Cream Running Shorts,bottom,Sporty,Cream,29.82,18,41,Everyday Collective,https://example.com/products/fy-00102,https://example.com/images/fy-00102.jpg
+FY-00103,Beige Denim Shorts,bottom,Casual,Beige,27.01,18,40,Coastal Edit,https://example.com/products/fy-00103,https://example.com/images/fy-00103.jpg
+FY-00104,Pink Midi Skirt,bottom,Bohemian,Pink,74.87,13,37,Maple Basics,https://example.com/products/fy-00104,https://example.com/images/fy-00104.jpg
+FY-00105,Olive Canvas Sneakers,shoes,Minimalist,Olive,87.88,6,34,Motion Wear,https://example.com/products/fy-00105,https://example.com/images/fy-00105.jpg
+FY-00106,Black Running Shoes,shoes,Sporty,Black,158.80,0,38,Northline Apparel,https://example.com/products/fy-00106,https://example.com/images/fy-00106.jpg
+FY-00107,Blue Leather Loafers,shoes,Preppy,Blue,116.30,0,30,Studio Wardrobe,https://example.com/products/fy-00107,https://example.com/images/fy-00107.jpg
+FY-00108,Navy Ankle Boots,shoes,Casual,Navy,83.89,-12,22,Heritage Closet,https://example.com/products/fy-00108,https://example.com/images/fy-00108.jpg
+FY-00109,Burgundy Sandals,shoes,Casual,Burgundy,75.94,20,41,Urban Thread,https://example.com/products/fy-00109,https://example.com/images/fy-00109.jpg
+FY-00110,Grey High-Top Sneakers,shoes,Casual,Grey,133.78,1,33,Everyday Collective,https://example.com/products/fy-00110,https://example.com/images/fy-00110.jpg
+FY-00111,Green Winter Boots,shoes,Minimalist,Green,86.01,-35,8,Coastal Edit,https://example.com/products/fy-00111,https://example.com/images/fy-00111.jpg
+FY-00112,Brown Ballet Flats,shoes,Preppy,Brown,73.63,12,35,Maple Basics,https://example.com/products/fy-00112,https://example.com/images/fy-00112.jpg
+FY-00113,White Baseball Cap,accessories,Casual,White,32.90,11,42,Motion Wear,https://example.com/products/fy-00113,https://example.com/images/fy-00113.jpg
+FY-00114,Cream Canvas Tote Bag,accessories,Bohemian,Cream,30.21,-20,40,Northline Apparel,https://example.com/products/fy-00114,https://example.com/images/fy-00114.jpg
+FY-00115,Beige Leather Belt,accessories,Formal,Beige,46.14,-20,40,Studio Wardrobe,https://example.com/products/fy-00115,https://example.com/images/fy-00115.jpg
+FY-00116,Pink Knit Beanie,accessories,Streetwear,Pink,46.94,-35,15,Heritage Closet,https://example.com/products/fy-00116,https://example.com/images/fy-00116.jpg
+FY-00117,Olive Wool Scarf,accessories,Preppy,Olive,69.37,-35,12,Urban Thread,https://example.com/products/fy-00117,https://example.com/images/fy-00117.jpg
+FY-00118,Black Crossbody Bag,accessories,Streetwear,Black,43.32,-18,40,Everyday Collective,https://example.com/products/fy-00118,https://example.com/images/fy-00118.jpg
+FY-00119,Blue Sunglasses,accessories,Bohemian,Blue,64.19,14,40,Coastal Edit,https://example.com/products/fy-00119,https://example.com/images/fy-00119.jpg
+FY-00120,Navy Simple Necklace,accessories,Minimalist,Navy,13.60,-20,42,Maple Basics,https://example.com/products/fy-00120,https://example.com/images/fy-00120.jpg
+FY-00121,Burgundy Denim Jacket,jacket,Casual,Burgundy,60.23,6,23,Motion Wear,https://example.com/products/fy-00121,https://example.com/images/fy-00121.jpg
+FY-00122,Grey Puffer Jacket,jacket,Sporty,Grey,109.12,-28,8,Northline Apparel,https://example.com/products/fy-00122,https://example.com/images/fy-00122.jpg
+FY-00123,Green Wool Coat,jacket,Minimalist,Green,125.57,-15,12,Studio Wardrobe,https://example.com/products/fy-00123,https://example.com/images/fy-00123.jpg
+FY-00124,Brown Rain Jacket,jacket,Sporty,Brown,157.16,0,22,Heritage Closet,https://example.com/products/fy-00124,https://example.com/images/fy-00124.jpg
+FY-00125,White Blazer,jacket,Preppy,White,80.19,6,28,Urban Thread,https://example.com/products/fy-00125,https://example.com/images/fy-00125.jpg
+FY-00126,Burgundy Windbreaker,jacket,Sporty,Burgundy,55.78,6,23,Motion Wear,https://example.com/products/fy-00126,https://example.com/images/fy-00126.jpg
+FY-00127,Grey Cotton T-Shirt,top,Minimalist,Grey,12.77,17,39,Northline Apparel,https://example.com/products/fy-00127,https://example.com/images/fy-00127.jpg
+FY-00128,Green Graphic Tee,top,Vintage,Green,31.05,17,36,Studio Wardrobe,https://example.com/products/fy-00128,https://example.com/images/fy-00128.jpg
+FY-00129,Brown Linen Shirt,top,Casual,Brown,49.78,19,40,Heritage Closet,https://example.com/products/fy-00129,https://example.com/images/fy-00129.jpg
+FY-00130,White Oxford Button-Up,top,Preppy,White,48.12,5,30,Urban Thread,https://example.com/products/fy-00130,https://example.com/images/fy-00130.jpg
+FY-00131,Cream Knit Sweater,top,Minimalist,Cream,36.19,-4,20,Everyday Collective,https://example.com/products/fy-00131,https://example.com/images/fy-00131.jpg
+FY-00132,Beige Fleece Hoodie,top,Casual,Beige,63.12,-6,16,Coastal Edit,https://example.com/products/fy-00132,https://example.com/images/fy-00132.jpg
+FY-00133,Pink Athletic Tank,top,Sporty,Pink,43.64,22,41,Maple Basics,https://example.com/products/fy-00133,https://example.com/images/fy-00133.jpg
+FY-00134,Olive Blouse,top,Preppy,Olive,78.33,10,33,Motion Wear,https://example.com/products/fy-00134,https://example.com/images/fy-00134.jpg
+FY-00135,Black Turtleneck,top,Formal,Black,82.96,-8,18,Northline Apparel,https://example.com/products/fy-00135,https://example.com/images/fy-00135.jpg
+FY-00136,Blue Polo Shirt,top,Casual,Blue,24.31,14,33,Studio Wardrobe,https://example.com/products/fy-00136,https://example.com/images/fy-00136.jpg
+FY-00137,Navy Tailored Trousers,bottom,Preppy,Navy,113.15,-5,30,Heritage Closet,https://example.com/products/fy-00137,https://example.com/images/fy-00137.jpg
+FY-00138,Burgundy Straight-Leg Jeans,bottom,Vintage,Burgundy,46.10,-6,28,Urban Thread,https://example.com/products/fy-00138,https://example.com/images/fy-00138.jpg
+FY-00139,Grey Wide-Leg Jeans,bottom,Vintage,Grey,81.92,-3,30,Everyday Collective,https://example.com/products/fy-00139,https://example.com/images/fy-00139.jpg
+FY-00140,Green Chino Pants,bottom,Minimalist,Green,40.19,-4,31,Coastal Edit,https://example.com/products/fy-00140,https://example.com/images/fy-00140.jpg
+FY-00141,Brown Cargo Pants,bottom,Streetwear,Brown,44.62,-4,31,Maple Basics,https://example.com/products/fy-00141,https://example.com/images/fy-00141.jpg
+FY-00142,White Linen Pants,bottom,Minimalist,White,55.68,17,40,Motion Wear,https://example.com/products/fy-00142,https://example.com/images/fy-00142.jpg
+FY-00143,Cream Athletic Leggings,bottom,Sporty,Cream,83.65,0,33,Northline Apparel,https://example.com/products/fy-00143,https://example.com/images/fy-00143.jpg
+FY-00144,Beige Running Shorts,bottom,Casual,Beige,30.11,20,42,Studio Wardrobe,https://example.com/products/fy-00144,https://example.com/images/fy-00144.jpg
+FY-00145,Pink Denim Shorts,bottom,Vintage,Pink,56.31,19,39,Heritage Closet,https://example.com/products/fy-00145,https://example.com/images/fy-00145.jpg
+FY-00146,Olive Midi Skirt,bottom,Preppy,Olive,32.39,12,37,Urban Thread,https://example.com/products/fy-00146,https://example.com/images/fy-00146.jpg
+FY-00147,Black Canvas Sneakers,shoes,Casual,Black,91.84,7,35,Everyday Collective,https://example.com/products/fy-00147,https://example.com/images/fy-00147.jpg
+FY-00148,Blue Running Shoes,shoes,Casual,Blue,92.97,-1,38,Coastal Edit,https://example.com/products/fy-00148,https://example.com/images/fy-00148.jpg
+FY-00149,Navy Leather Loafers,shoes,Minimalist,Navy,89.05,0,32,Maple Basics,https://example.com/products/fy-00149,https://example.com/images/fy-00149.jpg
+FY-00150,Burgundy Ankle Boots,shoes,Vintage,Burgundy,85.10,-10,20,Motion Wear,https://example.com/products/fy-00150,https://example.com/images/fy-00150.jpg
+FY-00151,Grey Sandals,shoes,Bohemian,Grey,48.87,20,41,Northline Apparel,https://example.com/products/fy-00151,https://example.com/images/fy-00151.jpg
+FY-00152,Green High-Top Sneakers,shoes,Vintage,Green,58.42,1,32,Studio Wardrobe,https://example.com/products/fy-00152,https://example.com/images/fy-00152.jpg
+FY-00153,Brown Winter Boots,shoes,Casual,Brown,155.34,-33,7,Heritage Closet,https://example.com/products/fy-00153,https://example.com/images/fy-00153.jpg
+FY-00154,White Ballet Flats,shoes,Formal,White,33.75,10,34,Urban Thread,https://example.com/products/fy-00154,https://example.com/images/fy-00154.jpg
+FY-00155,Cream Baseball Cap,accessories,Streetwear,Cream,42.97,10,41,Everyday Collective,https://example.com/products/fy-00155,https://example.com/images/fy-00155.jpg
+FY-00156,Beige Canvas Tote Bag,accessories,Casual,Beige,50.20,-20,40,Coastal Edit,https://example.com/products/fy-00156,https://example.com/images/fy-00156.jpg
+FY-00157,Pink Leather Belt,accessories,Preppy,Pink,61.08,-18,40,Maple Basics,https://example.com/products/fy-00157,https://example.com/images/fy-00157.jpg
+FY-00158,Olive Knit Beanie,accessories,Sporty,Olive,17.68,-35,15,Motion Wear,https://example.com/products/fy-00158,https://example.com/images/fy-00158.jpg
+FY-00159,Black Wool Scarf,accessories,Formal,Black,30.75,-34,11,Northline Apparel,https://example.com/products/fy-00159,https://example.com/images/fy-00159.jpg
+FY-00160,Blue Crossbody Bag,accessories,Casual,Blue,74.65,-20,40,Studio Wardrobe,https://example.com/products/fy-00160,https://example.com/images/fy-00160.jpg
+FY-00161,Navy Sunglasses,accessories,Sporty,Navy,27.69,13,42,Heritage Closet,https://example.com/products/fy-00161,https://example.com/images/fy-00161.jpg
+FY-00162,Burgundy Simple Necklace,accessories,Formal,Burgundy,77.85,-18,41,Urban Thread,https://example.com/products/fy-00162,https://example.com/images/fy-00162.jpg
+FY-00163,Grey Denim Jacket,jacket,Streetwear,Grey,84.09,6,21,Everyday Collective,https://example.com/products/fy-00163,https://example.com/images/fy-00163.jpg
+FY-00164,Green Puffer Jacket,jacket,Streetwear,Green,83.58,-30,8,Coastal Edit,https://example.com/products/fy-00164,https://example.com/images/fy-00164.jpg
+FY-00165,Brown Wool Coat,jacket,Formal,Brown,120.23,-15,10,Maple Basics,https://example.com/products/fy-00165,https://example.com/images/fy-00165.jpg
+FY-00166,White Rain Jacket,jacket,Casual,White,87.21,2,22,Motion Wear,https://example.com/products/fy-00166,https://example.com/images/fy-00166.jpg
+FY-00167,Cream Blazer,jacket,Minimalist,Cream,67.39,5,28,Northline Apparel,https://example.com/products/fy-00167,https://example.com/images/fy-00167.jpg
+FY-00168,Grey Windbreaker,jacket,Streetwear,Grey,42.66,7,25,Everyday Collective,https://example.com/products/fy-00168,https://example.com/images/fy-00168.jpg
+FY-00169,Green Cotton T-Shirt,top,Streetwear,Green,13.98,15,40,Coastal Edit,https://example.com/products/fy-00169,https://example.com/images/fy-00169.jpg
+FY-00170,Brown Graphic Tee,top,Casual,Brown,39.40,15,37,Maple Basics,https://example.com/products/fy-00170,https://example.com/images/fy-00170.jpg
+FY-00171,White Linen Shirt,top,Formal,White,39.52,18,40,Motion Wear,https://example.com/products/fy-00171,https://example.com/images/fy-00171.jpg
+FY-00172,Cream Oxford Button-Up,top,Minimalist,Cream,62.12,5,28,Northline Apparel,https://example.com/products/fy-00172,https://example.com/images/fy-00172.jpg
+FY-00173,Beige Knit Sweater,top,Preppy,Beige,92.85,-5,19,Studio Wardrobe,https://example.com/products/fy-00173,https://example.com/images/fy-00173.jpg
+FY-00174,Pink Fleece Hoodie,top,Streetwear,Pink,44.91,-6,18,Heritage Closet,https://example.com/products/fy-00174,https://example.com/images/fy-00174.jpg
+FY-00175,Olive Athletic Tank,top,Casual,Olive,20.37,20,42,Urban Thread,https://example.com/products/fy-00175,https://example.com/images/fy-00175.jpg
+FY-00176,Black Blouse,top,Formal,Black,77.65,12,32,Everyday Collective,https://example.com/products/fy-00176,https://example.com/images/fy-00176.jpg
+FY-00177,Blue Turtleneck,top,Minimalist,Blue,41.72,-6,18,Coastal Edit,https://example.com/products/fy-00177,https://example.com/images/fy-00177.jpg
+FY-00178,Navy Polo Shirt,top,Sporty,Navy,43.12,13,35,Maple Basics,https://example.com/products/fy-00178,https://example.com/images/fy-00178.jpg
+FY-00179,Burgundy Tailored Trousers,bottom,Formal,Burgundy,103.27,-4,30,Motion Wear,https://example.com/products/fy-00179,https://example.com/images/fy-00179.jpg
+FY-00180,Grey Straight-Leg Jeans,bottom,Casual,Grey,86.21,-8,30,Northline Apparel,https://example.com/products/fy-00180,https://example.com/images/fy-00180.jpg
+FY-00181,Green Wide-Leg Jeans,bottom,Casual,Green,79.85,-3,30,Studio Wardrobe,https://example.com/products/fy-00181,https://example.com/images/fy-00181.jpg
+FY-00182,Brown Chino Pants,bottom,Casual,Brown,63.52,-5,32,Heritage Closet,https://example.com/products/fy-00182,https://example.com/images/fy-00182.jpg
+FY-00183,White Cargo Pants,bottom,Sporty,White,99.33,-5,32,Urban Thread,https://example.com/products/fy-00183,https://example.com/images/fy-00183.jpg
+FY-00184,Cream Linen Pants,bottom,Casual,Cream,60.26,17,40,Everyday Collective,https://example.com/products/fy-00184,https://example.com/images/fy-00184.jpg
+FY-00185,Beige Athletic Leggings,bottom,Casual,Beige,55.13,0,34,Coastal Edit,https://example.com/products/fy-00185,https://example.com/images/fy-00185.jpg
+FY-00186,Pink Running Shorts,bottom,Sporty,Pink,64.72,20,42,Maple Basics,https://example.com/products/fy-00186,https://example.com/images/fy-00186.jpg
+FY-00187,Olive Denim Shorts,bottom,Streetwear,Olive,29.52,18,40,Motion Wear,https://example.com/products/fy-00187,https://example.com/images/fy-00187.jpg
+FY-00188,Black Midi Skirt,bottom,Formal,Black,35.00,13,38,Northline Apparel,https://example.com/products/fy-00188,https://example.com/images/fy-00188.jpg
+FY-00189,Blue Canvas Sneakers,shoes,Streetwear,Blue,92.86,5,35,Studio Wardrobe,https://example.com/products/fy-00189,https://example.com/images/fy-00189.jpg
+FY-00190,Navy Running Shoes,shoes,Sporty,Navy,95.01,-2,36,Heritage Closet,https://example.com/products/fy-00190,https://example.com/images/fy-00190.jpg
+FY-00191,Burgundy Leather Loafers,shoes,Formal,Burgundy,117.29,0,31,Urban Thread,https://example.com/products/fy-00191,https://example.com/images/fy-00191.jpg
+FY-00192,Grey Ankle Boots,shoes,Formal,Grey,130.26,-12,20,Everyday Collective,https://example.com/products/fy-00192,https://example.com/images/fy-00192.jpg
+FY-00193,Green Sandals,shoes,Minimalist,Green,23.09,20,42,Coastal Edit,https://example.com/products/fy-00193,https://example.com/images/fy-00193.jpg
+FY-00194,Brown High-Top Sneakers,shoes,Streetwear,Brown,101.87,2,34,Maple Basics,https://example.com/products/fy-00194,https://example.com/images/fy-00194.jpg
+FY-00195,White Winter Boots,shoes,Sporty,White,73.09,-33,7,Motion Wear,https://example.com/products/fy-00195,https://example.com/images/fy-00195.jpg
+FY-00196,Cream Ballet Flats,shoes,Minimalist,Cream,81.91,10,34,Northline Apparel,https://example.com/products/fy-00196,https://example.com/images/fy-00196.jpg
+FY-00197,Beige Baseball Cap,accessories,Sporty,Beige,27.27,11,40,Studio Wardrobe,https://example.com/products/fy-00197,https://example.com/images/fy-00197.jpg
+FY-00198,Pink Canvas Tote Bag,accessories,Minimalist,Pink,54.72,-20,40,Heritage Closet,https://example.com/products/fy-00198,https://example.com/images/fy-00198.jpg
+FY-00199,Olive Leather Belt,accessories,Minimalist,Olive,40.98,-19,41,Urban Thread,https://example.com/products/fy-00199,https://example.com/images/fy-00199.jpg
+FY-00200,Black Knit Beanie,accessories,Casual,Black,12.65,-35,14,Everyday Collective,https://example.com/products/fy-00200,https://example.com/images/fy-00200.jpg
+FY-00201,Blue Wool Scarf,accessories,Vintage,Blue,38.69,-35,10,Coastal Edit,https://example.com/products/fy-00201,https://example.com/images/fy-00201.jpg
+FY-00202,Navy Crossbody Bag,accessories,Minimalist,Navy,59.72,-20,42,Maple Basics,https://example.com/products/fy-00202,https://example.com/images/fy-00202.jpg
+FY-00203,Burgundy Sunglasses,accessories,Casual,Burgundy,19.11,12,41,Motion Wear,https://example.com/products/fy-00203,https://example.com/images/fy-00203.jpg
+FY-00204,Grey Simple Necklace,accessories,Bohemian,Grey,38.00,-19,41,Northline Apparel,https://example.com/products/fy-00204,https://example.com/images/fy-00204.jpg
+FY-00205,Green Denim Jacket,jacket,Vintage,Green,60.75,5,21,Studio Wardrobe,https://example.com/products/fy-00205,https://example.com/images/fy-00205.jpg
+FY-00206,Brown Puffer Jacket,jacket,Casual,Brown,103.32,-30,6,Heritage Closet,https://example.com/products/fy-00206,https://example.com/images/fy-00206.jpg
+FY-00207,White Wool Coat,jacket,Preppy,White,246.49,-15,12,Urban Thread,https://example.com/products/fy-00207,https://example.com/images/fy-00207.jpg
+FY-00208,Cream Rain Jacket,jacket,Minimalist,Cream,116.53,0,22,Everyday Collective,https://example.com/products/fy-00208,https://example.com/images/fy-00208.jpg
+FY-00209,Beige Blazer,jacket,Formal,Beige,115.73,7,28,Coastal Edit,https://example.com/products/fy-00209,https://example.com/images/fy-00209.jpg
+FY-00210,Green Windbreaker,jacket,Casual,Green,110.47,6,24,Studio Wardrobe,https://example.com/products/fy-00210,https://example.com/images/fy-00210.jpg
+FY-00211,Brown Cotton T-Shirt,top,Casual,Brown,26.13,17,38,Heritage Closet,https://example.com/products/fy-00211,https://example.com/images/fy-00211.jpg
+FY-00212,White Graphic Tee,top,Streetwear,White,37.68,16,37,Urban Thread,https://example.com/products/fy-00212,https://example.com/images/fy-00212.jpg
+FY-00213,Cream Linen Shirt,top,Bohemian,Cream,56.16,18,40,Everyday Collective,https://example.com/products/fy-00213,https://example.com/images/fy-00213.jpg
+FY-00214,Beige Oxford Button-Up,top,Formal,Beige,75.36,7,28,Coastal Edit,https://example.com/products/fy-00214,https://example.com/images/fy-00214.jpg
+FY-00215,Pink Knit Sweater,top,Casual,Pink,39.06,-5,18,Maple Basics,https://example.com/products/fy-00215,https://example.com/images/fy-00215.jpg
+FY-00216,Olive Fleece Hoodie,top,Sporty,Olive,30.56,-8,18,Motion Wear,https://example.com/products/fy-00216,https://example.com/images/fy-00216.jpg
+FY-00217,Black Athletic Tank,top,Sporty,Black,36.07,22,42,Northline Apparel,https://example.com/products/fy-00217,https://example.com/images/fy-00217.jpg
+FY-00218,Blue Blouse,top,Bohemian,Blue,72.34,11,33,Studio Wardrobe,https://example.com/products/fy-00218,https://example.com/images/fy-00218.jpg
+FY-00219,Navy Turtleneck,top,Vintage,Navy,56.47,-8,16,Heritage Closet,https://example.com/products/fy-00219,https://example.com/images/fy-00219.jpg
+FY-00220,Burgundy Polo Shirt,top,Preppy,Burgundy,54.16,12,35,Urban Thread,https://example.com/products/fy-00220,https://example.com/images/fy-00220.jpg
+FY-00221,Grey Tailored Trousers,bottom,Minimalist,Grey,52.10,-3,28,Everyday Collective,https://example.com/products/fy-00221,https://example.com/images/fy-00221.jpg
+FY-00222,Green Straight-Leg Jeans,bottom,Minimalist,Green,49.61,-7,28,Coastal Edit,https://example.com/products/fy-00222,https://example.com/images/fy-00222.jpg
+FY-00223,Brown Wide-Leg Jeans,bottom,Streetwear,Brown,70.81,-5,30,Maple Basics,https://example.com/products/fy-00223,https://example.com/images/fy-00223.jpg
+FY-00224,White Chino Pants,bottom,Preppy,White,44.37,-5,32,Motion Wear,https://example.com/products/fy-00224,https://example.com/images/fy-00224.jpg
+FY-00225,Cream Cargo Pants,bottom,Casual,Cream,57.19,-5,31,Northline Apparel,https://example.com/products/fy-00225,https://example.com/images/fy-00225.jpg
+FY-00226,Beige Linen Pants,bottom,Bohemian,Beige,64.29,17,40,Studio Wardrobe,https://example.com/products/fy-00226,https://example.com/images/fy-00226.jpg
+FY-00227,Pink Athletic Leggings,bottom,Sporty,Pink,39.19,2,34,Heritage Closet,https://example.com/products/fy-00227,https://example.com/images/fy-00227.jpg
+FY-00228,Olive Running Shorts,bottom,Casual,Olive,39.54,20,40,Urban Thread,https://example.com/products/fy-00228,https://example.com/images/fy-00228.jpg
+FY-00229,Black Denim Shorts,bottom,Casual,Black,42.56,19,39,Everyday Collective,https://example.com/products/fy-00229,https://example.com/images/fy-00229.jpg
+FY-00230,Blue Midi Skirt,bottom,Bohemian,Blue,48.99,12,36,Coastal Edit,https://example.com/products/fy-00230,https://example.com/images/fy-00230.jpg
+FY-00231,Navy Canvas Sneakers,shoes,Minimalist,Navy,92.34,7,35,Maple Basics,https://example.com/products/fy-00231,https://example.com/images/fy-00231.jpg
+FY-00232,Burgundy Running Shoes,shoes,Casual,Burgundy,104.50,-2,37,Motion Wear,https://example.com/products/fy-00232,https://example.com/images/fy-00232.jpg
+FY-00233,Grey Leather Loafers,shoes,Preppy,Grey,67.36,0,32,Northline Apparel,https://example.com/products/fy-00233,https://example.com/images/fy-00233.jpg
+FY-00234,Green Ankle Boots,shoes,Casual,Green,166.52,-10,22,Studio Wardrobe,https://example.com/products/fy-00234,https://example.com/images/fy-00234.jpg
+FY-00235,Brown Sandals,shoes,Casual,Brown,40.87,19,42,Heritage Closet,https://example.com/products/fy-00235,https://example.com/images/fy-00235.jpg
+FY-00236,White High-Top Sneakers,shoes,Casual,White,64.79,0,34,Urban Thread,https://example.com/products/fy-00236,https://example.com/images/fy-00236.jpg
+FY-00237,Cream Winter Boots,shoes,Minimalist,Cream,69.28,-35,8,Everyday Collective,https://example.com/products/fy-00237,https://example.com/images/fy-00237.jpg
+FY-00238,Beige Ballet Flats,shoes,Preppy,Beige,47.12,11,35,Coastal Edit,https://example.com/products/fy-00238,https://example.com/images/fy-00238.jpg
+FY-00239,Pink Baseball Cap,accessories,Casual,Pink,25.29,12,41,Maple Basics,https://example.com/products/fy-00239,https://example.com/images/fy-00239.jpg
+FY-00240,Olive Canvas Tote Bag,accessories,Bohemian,Olive,53.12,-19,42,Motion Wear,https://example.com/products/fy-00240,https://example.com/images/fy-00240.jpg
+FY-00241,Black Leather Belt,accessories,Formal,Black,22.83,-20,40,Northline Apparel,https://example.com/products/fy-00241,https://example.com/images/fy-00241.jpg
+FY-00242,Blue Knit Beanie,accessories,Streetwear,Blue,30.36,-35,13,Studio Wardrobe,https://example.com/products/fy-00242,https://example.com/images/fy-00242.jpg
+FY-00243,Navy Wool Scarf,accessories,Preppy,Navy,27.79,-34,12,Heritage Closet,https://example.com/products/fy-00243,https://example.com/images/fy-00243.jpg
+FY-00244,Burgundy Crossbody Bag,accessories,Streetwear,Burgundy,79.29,-20,42,Urban Thread,https://example.com/products/fy-00244,https://example.com/images/fy-00244.jpg
+FY-00245,Grey Sunglasses,accessories,Bohemian,Grey,93.15,12,42,Everyday Collective,https://example.com/products/fy-00245,https://example.com/images/fy-00245.jpg
+FY-00246,Green Simple Necklace,accessories,Minimalist,Green,12.36,-20,42,Coastal Edit,https://example.com/products/fy-00246,https://example.com/images/fy-00246.jpg
+FY-00247,Brown Denim Jacket,jacket,Casual,Brown,62.24,7,21,Maple Basics,https://example.com/products/fy-00247,https://example.com/images/fy-00247.jpg
+FY-00248,White Puffer Jacket,jacket,Sporty,White,78.36,-28,8,Motion Wear,https://example.com/products/fy-00248,https://example.com/images/fy-00248.jpg
+FY-00249,Cream Wool Coat,jacket,Minimalist,Cream,242.00,-15,10,Northline Apparel,https://example.com/products/fy-00249,https://example.com/images/fy-00249.jpg
+FY-00250,Beige Rain Jacket,jacket,Sporty,Beige,106.36,2,21,Studio Wardrobe,https://example.com/products/fy-00250,https://example.com/images/fy-00250.jpg
+FY-00251,Pink Blazer,jacket,Preppy,Pink,134.97,6,27,Heritage Closet,https://example.com/products/fy-00251,https://example.com/images/fy-00251.jpg
+FY-00252,Brown Windbreaker,jacket,Sporty,Brown,110.26,6,25,Maple Basics,https://example.com/products/fy-00252,https://example.com/images/fy-00252.jpg
+FY-00253,White Cotton T-Shirt,top,Sporty,White,34.91,16,38,Motion Wear,https://example.com/products/fy-00253,https://example.com/images/fy-00253.jpg
+FY-00254,Cream Graphic Tee,top,Vintage,Cream,32.72,15,38,Northline Apparel,https://example.com/products/fy-00254,https://example.com/images/fy-00254.jpg
+FY-00255,Beige Linen Shirt,top,Minimalist,Beige,72.46,20,40,Studio Wardrobe,https://example.com/products/fy-00255,https://example.com/images/fy-00255.jpg
+FY-00256,Pink Oxford Button-Up,top,Preppy,Pink,64.13,5,30,Heritage Closet,https://example.com/products/fy-00256,https://example.com/images/fy-00256.jpg
+FY-00257,Olive Knit Sweater,top,Vintage,Olive,72.26,-5,19,Urban Thread,https://example.com/products/fy-00257,https://example.com/images/fy-00257.jpg
+FY-00258,Black Fleece Hoodie,top,Casual,Black,43.69,-8,18,Everyday Collective,https://example.com/products/fy-00258,https://example.com/images/fy-00258.jpg
+FY-00259,Blue Athletic Tank,top,Casual,Blue,23.86,20,42,Coastal Edit,https://example.com/products/fy-00259,https://example.com/images/fy-00259.jpg
+FY-00260,Navy Blouse,top,Preppy,Navy,53.61,10,32,Maple Basics,https://example.com/products/fy-00260,https://example.com/images/fy-00260.jpg
+FY-00261,Burgundy Turtleneck,top,Formal,Burgundy,63.03,-6,18,Motion Wear,https://example.com/products/fy-00261,https://example.com/images/fy-00261.jpg
+FY-00262,Grey Polo Shirt,top,Casual,Grey,22.38,12,34,Northline Apparel,https://example.com/products/fy-00262,https://example.com/images/fy-00262.jpg
+FY-00263,Green Tailored Trousers,bottom,Preppy,Green,76.64,-4,29,Studio Wardrobe,https://example.com/products/fy-00263,https://example.com/images/fy-00263.jpg
+FY-00264,Brown Straight-Leg Jeans,bottom,Streetwear,Brown,85.06,-6,30,Heritage Closet,https://example.com/products/fy-00264,https://example.com/images/fy-00264.jpg
+FY-00265,White Wide-Leg Jeans,bottom,Vintage,White,41.20,-5,30,Urban Thread,https://example.com/products/fy-00265,https://example.com/images/fy-00265.jpg
+FY-00266,Cream Chino Pants,bottom,Minimalist,Cream,78.32,-5,32,Everyday Collective,https://example.com/products/fy-00266,https://example.com/images/fy-00266.jpg
+FY-00267,Beige Cargo Pants,bottom,Streetwear,Beige,86.66,-3,30,Coastal Edit,https://example.com/products/fy-00267,https://example.com/images/fy-00267.jpg
+FY-00268,Pink Linen Pants,bottom,Minimalist,Pink,73.83,17,40,Maple Basics,https://example.com/products/fy-00268,https://example.com/images/fy-00268.jpg
+FY-00269,Olive Athletic Leggings,bottom,Casual,Olive,67.12,0,35,Motion Wear,https://example.com/products/fy-00269,https://example.com/images/fy-00269.jpg
+FY-00270,Black Running Shorts,bottom,Sporty,Black,24.00,18,40,Northline Apparel,https://example.com/products/fy-00270,https://example.com/images/fy-00270.jpg
+FY-00271,Blue Denim Shorts,bottom,Vintage,Blue,46.77,19,40,Studio Wardrobe,https://example.com/products/fy-00271,https://example.com/images/fy-00271.jpg
+FY-00272,Navy Midi Skirt,bottom,Preppy,Navy,28.40,14,38,Heritage Closet,https://example.com/products/fy-00272,https://example.com/images/fy-00272.jpg
+FY-00273,Burgundy Canvas Sneakers,shoes,Casual,Burgundy,38.50,7,35,Urban Thread,https://example.com/products/fy-00273,https://example.com/images/fy-00273.jpg
+FY-00274,Grey Running Shoes,shoes,Sporty,Grey,55.75,0,36,Everyday Collective,https://example.com/products/fy-00274,https://example.com/images/fy-00274.jpg
+FY-00275,Green Leather Loafers,shoes,Minimalist,Green,77.36,0,30,Coastal Edit,https://example.com/products/fy-00275,https://example.com/images/fy-00275.jpg
+FY-00276,Brown Ankle Boots,shoes,Vintage,Brown,119.88,-12,22,Maple Basics,https://example.com/products/fy-00276,https://example.com/images/fy-00276.jpg
+FY-00277,White Sandals,shoes,Bohemian,White,93.26,20,40,Motion Wear,https://example.com/products/fy-00277,https://example.com/images/fy-00277.jpg
+FY-00278,Cream High-Top Sneakers,shoes,Vintage,Cream,126.41,2,34,Northline Apparel,https://example.com/products/fy-00278,https://example.com/images/fy-00278.jpg
+FY-00279,Beige Winter Boots,shoes,Casual,Beige,67.88,-35,8,Studio Wardrobe,https://example.com/products/fy-00279,https://example.com/images/fy-00279.jpg
+FY-00280,Pink Ballet Flats,shoes,Formal,Pink,69.95,10,34,Heritage Closet,https://example.com/products/fy-00280,https://example.com/images/fy-00280.jpg
+FY-00281,Olive Baseball Cap,accessories,Streetwear,Olive,24.09,12,42,Urban Thread,https://example.com/products/fy-00281,https://example.com/images/fy-00281.jpg
+FY-00282,Black Canvas Tote Bag,accessories,Casual,Black,53.51,-20,40,Everyday Collective,https://example.com/products/fy-00282,https://example.com/images/fy-00282.jpg
+FY-00283,Blue Leather Belt,accessories,Preppy,Blue,21.28,-19,42,Coastal Edit,https://example.com/products/fy-00283,https://example.com/images/fy-00283.jpg
+FY-00284,Navy Knit Beanie,accessories,Sporty,Navy,35.21,-33,15,Maple Basics,https://example.com/products/fy-00284,https://example.com/images/fy-00284.jpg
+FY-00285,Burgundy Wool Scarf,accessories,Formal,Burgundy,45.51,-34,11,Motion Wear,https://example.com/products/fy-00285,https://example.com/images/fy-00285.jpg
+FY-00286,Grey Crossbody Bag,accessories,Casual,Grey,119.14,-18,42,Northline Apparel,https://example.com/products/fy-00286,https://example.com/images/fy-00286.jpg
+FY-00287,Green Sunglasses,accessories,Sporty,Green,36.63,12,40,Studio Wardrobe,https://example.com/products/fy-00287,https://example.com/images/fy-00287.jpg
+FY-00288,Brown Simple Necklace,accessories,Formal,Brown,41.31,-18,41,Heritage Closet,https://example.com/products/fy-00288,https://example.com/images/fy-00288.jpg
+FY-00289,White Denim Jacket,jacket,Streetwear,White,96.73,7,22,Urban Thread,https://example.com/products/fy-00289,https://example.com/images/fy-00289.jpg
+FY-00290,Cream Puffer Jacket,jacket,Streetwear,Cream,199.24,-28,6,Everyday Collective,https://example.com/products/fy-00290,https://example.com/images/fy-00290.jpg
+FY-00291,Beige Wool Coat,jacket,Formal,Beige,141.03,-15,11,Coastal Edit,https://example.com/products/fy-00291,https://example.com/images/fy-00291.jpg
+FY-00292,Pink Rain Jacket,jacket,Casual,Pink,110.44,0,20,Maple Basics,https://example.com/products/fy-00292,https://example.com/images/fy-00292.jpg
+FY-00293,Olive Blazer,jacket,Minimalist,Olive,159.30,5,28,Motion Wear,https://example.com/products/fy-00293,https://example.com/images/fy-00293.jpg
+FY-00294,White Windbreaker,jacket,Streetwear,White,63.26,7,25,Urban Thread,https://example.com/products/fy-00294,https://example.com/images/fy-00294.jpg
+FY-00295,Cream Cotton T-Shirt,top,Minimalist,Cream,19.20,17,40,Everyday Collective,https://example.com/products/fy-00295,https://example.com/images/fy-00295.jpg
+FY-00296,Beige Graphic Tee,top,Casual,Beige,34.33,16,38,Coastal Edit,https://example.com/products/fy-00296,https://example.com/images/fy-00296.jpg
+FY-00297,Pink Linen Shirt,top,Casual,Pink,43.43,18,39,Maple Basics,https://example.com/products/fy-00297,https://example.com/images/fy-00297.jpg
+FY-00298,Olive Oxford Button-Up,top,Minimalist,Olive,68.38,6,28,Motion Wear,https://example.com/products/fy-00298,https://example.com/images/fy-00298.jpg
+FY-00299,Black Knit Sweater,top,Minimalist,Black,53.99,-5,20,Northline Apparel,https://example.com/products/fy-00299,https://example.com/images/fy-00299.jpg
+FY-00300,Blue Fleece Hoodie,top,Streetwear,Blue,38.57,-7,18,Studio Wardrobe,https://example.com/products/fy-00300,https://example.com/images/fy-00300.jpg
+FY-00301,Navy Athletic Tank,top,Sporty,Navy,43.27,21,42,Heritage Closet,https://example.com/products/fy-00301,https://example.com/images/fy-00301.jpg
+FY-00302,Burgundy Blouse,top,Formal,Burgundy,73.08,11,32,Urban Thread,https://example.com/products/fy-00302,https://example.com/images/fy-00302.jpg
+FY-00303,Grey Turtleneck,top,Minimalist,Grey,61.56,-8,16,Everyday Collective,https://example.com/products/fy-00303,https://example.com/images/fy-00303.jpg
+FY-00304,Green Polo Shirt,top,Sporty,Green,29.60,14,35,Coastal Edit,https://example.com/products/fy-00304,https://example.com/images/fy-00304.jpg
+FY-00305,Brown Tailored Trousers,bottom,Formal,Brown,58.19,-5,28,Maple Basics,https://example.com/products/fy-00305,https://example.com/images/fy-00305.jpg
+FY-00306,White Straight-Leg Jeans,bottom,Vintage,White,103.22,-8,30,Motion Wear,https://example.com/products/fy-00306,https://example.com/images/fy-00306.jpg
+FY-00307,Cream Wide-Leg Jeans,bottom,Casual,Cream,63.45,-4,30,Northline Apparel,https://example.com/products/fy-00307,https://example.com/images/fy-00307.jpg
+FY-00308,Beige Chino Pants,bottom,Casual,Beige,61.08,-3,31,Studio Wardrobe,https://example.com/products/fy-00308,https://example.com/images/fy-00308.jpg
+FY-00309,Pink Cargo Pants,bottom,Sporty,Pink,55.22,-4,32,Heritage Closet,https://example.com/products/fy-00309,https://example.com/images/fy-00309.jpg
+FY-00310,Olive Linen Pants,bottom,Casual,Olive,66.94,17,40,Urban Thread,https://example.com/products/fy-00310,https://example.com/images/fy-00310.jpg
+FY-00311,Black Athletic Leggings,bottom,Sporty,Black,30.09,0,35,Everyday Collective,https://example.com/products/fy-00311,https://example.com/images/fy-00311.jpg
+FY-00312,Blue Running Shorts,bottom,Casual,Blue,32.41,18,40,Coastal Edit,https://example.com/products/fy-00312,https://example.com/images/fy-00312.jpg
+FY-00313,Navy Denim Shorts,bottom,Streetwear,Navy,49.54,19,40,Maple Basics,https://example.com/products/fy-00313,https://example.com/images/fy-00313.jpg
+FY-00314,Burgundy Midi Skirt,bottom,Formal,Burgundy,78.35,13,37,Motion Wear,https://example.com/products/fy-00314,https://example.com/images/fy-00314.jpg
+FY-00315,Grey Canvas Sneakers,shoes,Streetwear,Grey,97.72,5,34,Northline Apparel,https://example.com/products/fy-00315,https://example.com/images/fy-00315.jpg
+FY-00316,Green Running Shoes,shoes,Casual,Green,58.13,0,37,Studio Wardrobe,https://example.com/products/fy-00316,https://example.com/images/fy-00316.jpg
+FY-00317,Brown Leather Loafers,shoes,Formal,Brown,91.18,0,32,Heritage Closet,https://example.com/products/fy-00317,https://example.com/images/fy-00317.jpg
+FY-00318,White Ankle Boots,shoes,Formal,White,161.69,-12,20,Urban Thread,https://example.com/products/fy-00318,https://example.com/images/fy-00318.jpg
+FY-00319,Cream Sandals,shoes,Minimalist,Cream,60.64,20,41,Everyday Collective,https://example.com/products/fy-00319,https://example.com/images/fy-00319.jpg
+FY-00320,Beige High-Top Sneakers,shoes,Streetwear,Beige,73.26,0,32,Coastal Edit,https://example.com/products/fy-00320,https://example.com/images/fy-00320.jpg
+FY-00321,Pink Winter Boots,shoes,Sporty,Pink,170.82,-34,8,Maple Basics,https://example.com/products/fy-00321,https://example.com/images/fy-00321.jpg
+FY-00322,Olive Ballet Flats,shoes,Minimalist,Olive,79.75,12,35,Motion Wear,https://example.com/products/fy-00322,https://example.com/images/fy-00322.jpg
+FY-00323,Black Baseball Cap,accessories,Sporty,Black,40.15,10,42,Northline Apparel,https://example.com/products/fy-00323,https://example.com/images/fy-00323.jpg
+FY-00324,Blue Canvas Tote Bag,accessories,Minimalist,Blue,27.32,-20,42,Studio Wardrobe,https://example.com/products/fy-00324,https://example.com/images/fy-00324.jpg
+FY-00325,Navy Leather Belt,accessories,Minimalist,Navy,24.77,-20,40,Heritage Closet,https://example.com/products/fy-00325,https://example.com/images/fy-00325.jpg
+FY-00326,Burgundy Knit Beanie,accessories,Casual,Burgundy,16.32,-34,13,Urban Thread,https://example.com/products/fy-00326,https://example.com/images/fy-00326.jpg
+FY-00327,Grey Wool Scarf,accessories,Vintage,Grey,31.60,-34,11,Everyday Collective,https://example.com/products/fy-00327,https://example.com/images/fy-00327.jpg
+FY-00328,Green Crossbody Bag,accessories,Minimalist,Green,64.00,-20,40,Coastal Edit,https://example.com/products/fy-00328,https://example.com/images/fy-00328.jpg
+FY-00329,Brown Sunglasses,accessories,Casual,Brown,37.35,12,42,Maple Basics,https://example.com/products/fy-00329,https://example.com/images/fy-00329.jpg
+FY-00330,White Simple Necklace,accessories,Bohemian,White,39.20,-18,42,Motion Wear,https://example.com/products/fy-00330,https://example.com/images/fy-00330.jpg
+FY-00331,Cream Denim Jacket,jacket,Vintage,Cream,80.61,6,21,Northline Apparel,https://example.com/products/fy-00331,https://example.com/images/fy-00331.jpg
+FY-00332,Beige Puffer Jacket,jacket,Casual,Beige,187.30,-29,8,Studio Wardrobe,https://example.com/products/fy-00332,https://example.com/images/fy-00332.jpg
+FY-00333,Pink Wool Coat,jacket,Preppy,Pink,113.82,-14,12,Heritage Closet,https://example.com/products/fy-00333,https://example.com/images/fy-00333.jpg
+FY-00334,Olive Rain Jacket,jacket,Minimalist,Olive,147.73,2,22,Urban Thread,https://example.com/products/fy-00334,https://example.com/images/fy-00334.jpg
+FY-00335,Black Blazer,jacket,Formal,Black,117.48,5,26,Everyday Collective,https://example.com/products/fy-00335,https://example.com/images/fy-00335.jpg
+FY-00336,Cream Windbreaker,jacket,Casual,Cream,37.55,5,23,Northline Apparel,https://example.com/products/fy-00336,https://example.com/images/fy-00336.jpg
+FY-00337,Beige Cotton T-Shirt,top,Streetwear,Beige,30.41,16,39,Studio Wardrobe,https://example.com/products/fy-00337,https://example.com/images/fy-00337.jpg
+FY-00338,Pink Graphic Tee,top,Streetwear,Pink,30.76,17,38,Heritage Closet,https://example.com/products/fy-00338,https://example.com/images/fy-00338.jpg
+FY-00339,Olive Linen Shirt,top,Formal,Olive,61.45,20,39,Urban Thread,https://example.com/products/fy-00339,https://example.com/images/fy-00339.jpg
+FY-00340,Black Oxford Button-Up,top,Formal,Black,40.47,5,30,Everyday Collective,https://example.com/products/fy-00340,https://example.com/images/fy-00340.jpg
+FY-00341,Blue Knit Sweater,top,Preppy,Blue,92.31,-5,19,Coastal Edit,https://example.com/products/fy-00341,https://example.com/images/fy-00341.jpg
+FY-00342,Navy Fleece Hoodie,top,Sporty,Navy,50.37,-7,16,Maple Basics,https://example.com/products/fy-00342,https://example.com/images/fy-00342.jpg
+FY-00343,Burgundy Athletic Tank,top,Casual,Burgundy,38.06,20,42,Motion Wear,https://example.com/products/fy-00343,https://example.com/images/fy-00343.jpg
+FY-00344,Grey Blouse,top,Bohemian,Grey,61.95,10,32,Northline Apparel,https://example.com/products/fy-00344,https://example.com/images/fy-00344.jpg
+FY-00345,Green Turtleneck,top,Vintage,Green,37.34,-8,18,Studio Wardrobe,https://example.com/products/fy-00345,https://example.com/images/fy-00345.jpg
+FY-00346,Brown Polo Shirt,top,Preppy,Brown,67.41,14,35,Heritage Closet,https://example.com/products/fy-00346,https://example.com/images/fy-00346.jpg
+FY-00347,White Tailored Trousers,bottom,Minimalist,White,99.57,-5,30,Urban Thread,https://example.com/products/fy-00347,https://example.com/images/fy-00347.jpg
+FY-00348,Cream Straight-Leg Jeans,bottom,Casual,Cream,37.64,-7,29,Everyday Collective,https://example.com/products/fy-00348,https://example.com/images/fy-00348.jpg
+FY-00349,Beige Wide-Leg Jeans,bottom,Streetwear,Beige,71.19,-5,30,Coastal Edit,https://example.com/products/fy-00349,https://example.com/images/fy-00349.jpg
+FY-00350,Pink Chino Pants,bottom,Preppy,Pink,79.41,-4,32,Maple Basics,https://example.com/products/fy-00350,https://example.com/images/fy-00350.jpg
+FY-00351,Olive Cargo Pants,bottom,Casual,Olive,76.72,-3,30,Motion Wear,https://example.com/products/fy-00351,https://example.com/images/fy-00351.jpg
+FY-00352,Black Linen Pants,bottom,Bohemian,Black,44.81,17,40,Northline Apparel,https://example.com/products/fy-00352,https://example.com/images/fy-00352.jpg
+FY-00353,Blue Athletic Leggings,bottom,Casual,Blue,29.63,0,33,Studio Wardrobe,https://example.com/products/fy-00353,https://example.com/images/fy-00353.jpg
+FY-00354,Navy Running Shorts,bottom,Sporty,Navy,51.26,18,41,Heritage Closet,https://example.com/products/fy-00354,https://example.com/images/fy-00354.jpg
+FY-00355,Burgundy Denim Shorts,bottom,Casual,Burgundy,58.15,20,40,Urban Thread,https://example.com/products/fy-00355,https://example.com/images/fy-00355.jpg
+FY-00356,Grey Midi Skirt,bottom,Bohemian,Grey,33.21,14,38,Everyday Collective,https://example.com/products/fy-00356,https://example.com/images/fy-00356.jpg
+FY-00357,Green Canvas Sneakers,shoes,Minimalist,Green,90.36,5,34,Coastal Edit,https://example.com/products/fy-00357,https://example.com/images/fy-00357.jpg
+FY-00358,Brown Running Shoes,shoes,Sporty,Brown,141.91,-2,38,Maple Basics,https://example.com/products/fy-00358,https://example.com/images/fy-00358.jpg
+FY-00359,White Leather Loafers,shoes,Preppy,White,114.16,0,32,Motion Wear,https://example.com/products/fy-00359,https://example.com/images/fy-00359.jpg
+FY-00360,Cream Ankle Boots,shoes,Casual,Cream,66.04,-12,20,Northline Apparel,https://example.com/products/fy-00360,https://example.com/images/fy-00360.jpg
+FY-00361,Beige Sandals,shoes,Casual,Beige,47.20,19,42,Studio Wardrobe,https://example.com/products/fy-00361,https://example.com/images/fy-00361.jpg
+FY-00362,Pink High-Top Sneakers,shoes,Casual,Pink,55.99,2,34,Heritage Closet,https://example.com/products/fy-00362,https://example.com/images/fy-00362.jpg
+FY-00363,Olive Winter Boots,shoes,Minimalist,Olive,109.57,-34,8,Urban Thread,https://example.com/products/fy-00363,https://example.com/images/fy-00363.jpg
+FY-00364,Black Ballet Flats,shoes,Preppy,Black,65.08,11,35,Everyday Collective,https://example.com/products/fy-00364,https://example.com/images/fy-00364.jpg
+FY-00365,Blue Baseball Cap,accessories,Casual,Blue,16.50,10,42,Coastal Edit,https://example.com/products/fy-00365,https://example.com/images/fy-00365.jpg
+FY-00366,Navy Canvas Tote Bag,accessories,Bohemian,Navy,45.09,-20,42,Maple Basics,https://example.com/products/fy-00366,https://example.com/images/fy-00366.jpg
+FY-00367,Burgundy Leather Belt,accessories,Formal,Burgundy,39.26,-19,42,Motion Wear,https://example.com/products/fy-00367,https://example.com/images/fy-00367.jpg
+FY-00368,Grey Knit Beanie,accessories,Streetwear,Grey,17.11,-35,13,Northline Apparel,https://example.com/products/fy-00368,https://example.com/images/fy-00368.jpg
+FY-00369,Green Wool Scarf,accessories,Preppy,Green,50.13,-35,11,Studio Wardrobe,https://example.com/products/fy-00369,https://example.com/images/fy-00369.jpg
+FY-00370,Brown Crossbody Bag,accessories,Streetwear,Brown,75.54,-20,41,Heritage Closet,https://example.com/products/fy-00370,https://example.com/images/fy-00370.jpg
+FY-00371,White Sunglasses,accessories,Bohemian,White,17.99,13,40,Urban Thread,https://example.com/products/fy-00371,https://example.com/images/fy-00371.jpg
+FY-00372,Cream Simple Necklace,accessories,Minimalist,Cream,73.04,-18,42,Everyday Collective,https://example.com/products/fy-00372,https://example.com/images/fy-00372.jpg
+FY-00373,Beige Denim Jacket,jacket,Casual,Beige,80.65,5,22,Coastal Edit,https://example.com/products/fy-00373,https://example.com/images/fy-00373.jpg
+FY-00374,Pink Puffer Jacket,jacket,Sporty,Pink,162.76,-28,8,Maple Basics,https://example.com/products/fy-00374,https://example.com/images/fy-00374.jpg
+FY-00375,Olive Wool Coat,jacket,Minimalist,Olive,102.09,-14,12,Motion Wear,https://example.com/products/fy-00375,https://example.com/images/fy-00375.jpg
+FY-00376,Black Rain Jacket,jacket,Sporty,Black,155.39,0,22,Northline Apparel,https://example.com/products/fy-00376,https://example.com/images/fy-00376.jpg
+FY-00377,Blue Blazer,jacket,Preppy,Blue,164.70,7,28,Studio Wardrobe,https://example.com/products/fy-00377,https://example.com/images/fy-00377.jpg
+FY-00378,Beige Windbreaker,jacket,Sporty,Beige,41.48,5,25,Coastal Edit,https://example.com/products/fy-00378,https://example.com/images/fy-00378.jpg
+FY-00379,Pink Cotton T-Shirt,top,Casual,Pink,26.25,15,38,Maple Basics,https://example.com/products/fy-00379,https://example.com/images/fy-00379.jpg
+FY-00380,Olive Graphic Tee,top,Vintage,Olive,44.25,16,36,Motion Wear,https://example.com/products/fy-00380,https://example.com/images/fy-00380.jpg
+FY-00381,Black Linen Shirt,top,Bohemian,Black,45.47,20,38,Northline Apparel,https://example.com/products/fy-00381,https://example.com/images/fy-00381.jpg
+FY-00382,Blue Oxford Button-Up,top,Preppy,Blue,59.54,6,28,Studio Wardrobe,https://example.com/products/fy-00382,https://example.com/images/fy-00382.jpg
+FY-00383,Navy Knit Sweater,top,Casual,Navy,68.92,-3,19,Heritage Closet,https://example.com/products/fy-00383,https://example.com/images/fy-00383.jpg
+FY-00384,Burgundy Fleece Hoodie,top,Casual,Burgundy,57.01,-8,16,Urban Thread,https://example.com/products/fy-00384,https://example.com/images/fy-00384.jpg
+FY-00385,Grey Athletic Tank,top,Sporty,Grey,26.61,21,41,Everyday Collective,https://example.com/products/fy-00385,https://example.com/images/fy-00385.jpg
+FY-00386,Green Blouse,top,Preppy,Green,58.35,10,34,Coastal Edit,https://example.com/products/fy-00386,https://example.com/images/fy-00386.jpg
+FY-00387,Brown Turtleneck,top,Formal,Brown,37.36,-8,16,Maple Basics,https://example.com/products/fy-00387,https://example.com/images/fy-00387.jpg
+FY-00388,White Polo Shirt,top,Casual,White,31.31,12,34,Motion Wear,https://example.com/products/fy-00388,https://example.com/images/fy-00388.jpg
+FY-00389,Cream Tailored Trousers,bottom,Preppy,Cream,73.29,-4,30,Northline Apparel,https://example.com/products/fy-00389,https://example.com/images/fy-00389.jpg
+FY-00390,Beige Straight-Leg Jeans,bottom,Minimalist,Beige,93.75,-8,28,Studio Wardrobe,https://example.com/products/fy-00390,https://example.com/images/fy-00390.jpg
+FY-00391,Pink Wide-Leg Jeans,bottom,Vintage,Pink,77.03,-5,28,Heritage Closet,https://example.com/products/fy-00391,https://example.com/images/fy-00391.jpg
+FY-00392,Olive Chino Pants,bottom,Minimalist,Olive,44.29,-5,31,Urban Thread,https://example.com/products/fy-00392,https://example.com/images/fy-00392.jpg
+FY-00393,Black Cargo Pants,bottom,Streetwear,Black,79.32,-5,31,Everyday Collective,https://example.com/products/fy-00393,https://example.com/images/fy-00393.jpg
+FY-00394,Blue Linen Pants,bottom,Minimalist,Blue,49.69,18,40,Coastal Edit,https://example.com/products/fy-00394,https://example.com/images/fy-00394.jpg
+FY-00395,Navy Athletic Leggings,bottom,Sporty,Navy,73.45,0,33,Maple Basics,https://example.com/products/fy-00395,https://example.com/images/fy-00395.jpg
+FY-00396,Burgundy Running Shorts,bottom,Casual,Burgundy,48.39,19,41,Motion Wear,https://example.com/products/fy-00396,https://example.com/images/fy-00396.jpg
+FY-00397,Grey Denim Shorts,bottom,Vintage,Grey,42.92,20,38,Northline Apparel,https://example.com/products/fy-00397,https://example.com/images/fy-00397.jpg
+FY-00398,Green Midi Skirt,bottom,Preppy,Green,76.33,12,37,Studio Wardrobe,https://example.com/products/fy-00398,https://example.com/images/fy-00398.jpg
+FY-00399,Brown Canvas Sneakers,shoes,Casual,Brown,108.59,6,35,Heritage Closet,https://example.com/products/fy-00399,https://example.com/images/fy-00399.jpg
+FY-00400,White Running Shoes,shoes,Casual,White,112.10,0,36,Urban Thread,https://example.com/products/fy-00400,https://example.com/images/fy-00400.jpg
+FY-00401,Cream Leather Loafers,shoes,Minimalist,Cream,77.02,2,31,Everyday Collective,https://example.com/products/fy-00401,https://example.com/images/fy-00401.jpg
+FY-00402,Beige Ankle Boots,shoes,Vintage,Beige,126.32,-11,22,Coastal Edit,https://example.com/products/fy-00402,https://example.com/images/fy-00402.jpg
+FY-00403,Pink Sandals,shoes,Bohemian,Pink,85.67,20,42,Maple Basics,https://example.com/products/fy-00403,https://example.com/images/fy-00403.jpg
+FY-00404,Olive High-Top Sneakers,shoes,Vintage,Olive,97.15,0,34,Motion Wear,https://example.com/products/fy-00404,https://example.com/images/fy-00404.jpg
+FY-00405,Black Winter Boots,shoes,Casual,Black,138.65,-35,7,Northline Apparel,https://example.com/products/fy-00405,https://example.com/images/fy-00405.jpg
+FY-00406,Blue Ballet Flats,shoes,Formal,Blue,86.74,12,33,Studio Wardrobe,https://example.com/products/fy-00406,https://example.com/images/fy-00406.jpg
+FY-00407,Navy Baseball Cap,accessories,Streetwear,Navy,44.07,11,42,Heritage Closet,https://example.com/products/fy-00407,https://example.com/images/fy-00407.jpg
+FY-00408,Burgundy Canvas Tote Bag,accessories,Casual,Burgundy,30.15,-20,42,Urban Thread,https://example.com/products/fy-00408,https://example.com/images/fy-00408.jpg
+FY-00409,Grey Leather Belt,accessories,Preppy,Grey,50.73,-19,42,Everyday Collective,https://example.com/products/fy-00409,https://example.com/images/fy-00409.jpg
+FY-00410,Green Knit Beanie,accessories,Sporty,Green,27.81,-34,15,Coastal Edit,https://example.com/products/fy-00410,https://example.com/images/fy-00410.jpg
+FY-00411,Brown Wool Scarf,accessories,Formal,Brown,22.72,-34,12,Maple Basics,https://example.com/products/fy-00411,https://example.com/images/fy-00411.jpg
+FY-00412,White Crossbody Bag,accessories,Casual,White,38.32,-18,42,Motion Wear,https://example.com/products/fy-00412,https://example.com/images/fy-00412.jpg
+FY-00413,Cream Sunglasses,accessories,Sporty,Cream,87.23,12,41,Northline Apparel,https://example.com/products/fy-00413,https://example.com/images/fy-00413.jpg
+FY-00414,Beige Simple Necklace,accessories,Formal,Beige,60.07,-19,41,Studio Wardrobe,https://example.com/products/fy-00414,https://example.com/images/fy-00414.jpg
+FY-00415,Pink Denim Jacket,jacket,Streetwear,Pink,113.76,5,22,Heritage Closet,https://example.com/products/fy-00415,https://example.com/images/fy-00415.jpg
+FY-00416,Olive Puffer Jacket,jacket,Streetwear,Olive,197.89,-28,6,Urban Thread,https://example.com/products/fy-00416,https://example.com/images/fy-00416.jpg
+FY-00417,Black Wool Coat,jacket,Formal,Black,194.77,-15,10,Everyday Collective,https://example.com/products/fy-00417,https://example.com/images/fy-00417.jpg
+FY-00418,Blue Rain Jacket,jacket,Casual,Blue,100.72,0,22,Coastal Edit,https://example.com/products/fy-00418,https://example.com/images/fy-00418.jpg
+FY-00419,Navy Blazer,jacket,Minimalist,Navy,120.60,5,28,Maple Basics,https://example.com/products/fy-00419,https://example.com/images/fy-00419.jpg
+FY-00420,Pink Windbreaker,jacket,Streetwear,Pink,89.13,6,23,Heritage Closet,https://example.com/products/fy-00420,https://example.com/images/fy-00420.jpg
+FY-00421,Olive Cotton T-Shirt,top,Sporty,Olive,23.29,16,38,Urban Thread,https://example.com/products/fy-00421,https://example.com/images/fy-00421.jpg
+FY-00422,Black Graphic Tee,top,Casual,Black,39.25,17,38,Everyday Collective,https://example.com/products/fy-00422,https://example.com/images/fy-00422.jpg
+FY-00423,Blue Linen Shirt,top,Minimalist,Blue,65.59,19,40,Coastal Edit,https://example.com/products/fy-00423,https://example.com/images/fy-00423.jpg
+FY-00424,Navy Oxford Button-Up,top,Minimalist,Navy,82.61,5,29,Maple Basics,https://example.com/products/fy-00424,https://example.com/images/fy-00424.jpg
+FY-00425,Burgundy Knit Sweater,top,Vintage,Burgundy,82.38,-4,20,Motion Wear,https://example.com/products/fy-00425,https://example.com/images/fy-00425.jpg
+FY-00426,Grey Fleece Hoodie,top,Streetwear,Grey,54.13,-8,18,Northline Apparel,https://example.com/products/fy-00426,https://example.com/images/fy-00426.jpg
+FY-00427,Green Athletic Tank,top,Casual,Green,40.57,20,41,Studio Wardrobe,https://example.com/products/fy-00427,https://example.com/images/fy-00427.jpg
+FY-00428,Brown Blouse,top,Formal,Brown,38.99,12,32,Heritage Closet,https://example.com/products/fy-00428,https://example.com/images/fy-00428.jpg
+FY-00429,White Turtleneck,top,Minimalist,White,38.25,-7,18,Urban Thread,https://example.com/products/fy-00429,https://example.com/images/fy-00429.jpg
+FY-00430,Cream Polo Shirt,top,Sporty,Cream,57.70,12,35,Everyday Collective,https://example.com/products/fy-00430,https://example.com/images/fy-00430.jpg
+FY-00431,Beige Tailored Trousers,bottom,Formal,Beige,56.00,-5,30,Coastal Edit,https://example.com/products/fy-00431,https://example.com/images/fy-00431.jpg
+FY-00432,Pink Straight-Leg Jeans,bottom,Streetwear,Pink,106.79,-6,29,Maple Basics,https://example.com/products/fy-00432,https://example.com/images/fy-00432.jpg
+FY-00433,Olive Wide-Leg Jeans,bottom,Casual,Olive,100.78,-4,29,Motion Wear,https://example.com/products/fy-00433,https://example.com/images/fy-00433.jpg
+FY-00434,Black Chino Pants,bottom,Casual,Black,69.08,-5,31,Northline Apparel,https://example.com/products/fy-00434,https://example.com/images/fy-00434.jpg
+FY-00435,Blue Cargo Pants,bottom,Sporty,Blue,64.21,-3,32,Studio Wardrobe,https://example.com/products/fy-00435,https://example.com/images/fy-00435.jpg
+FY-00436,Navy Linen Pants,bottom,Casual,Navy,43.48,17,40,Heritage Closet,https://example.com/products/fy-00436,https://example.com/images/fy-00436.jpg
+FY-00437,Burgundy Athletic Leggings,bottom,Casual,Burgundy,83.21,0,35,Urban Thread,https://example.com/products/fy-00437,https://example.com/images/fy-00437.jpg
+FY-00438,Grey Running Shorts,bottom,Sporty,Grey,61.18,18,42,Everyday Collective,https://example.com/products/fy-00438,https://example.com/images/fy-00438.jpg
+FY-00439,Green Denim Shorts,bottom,Streetwear,Green,52.28,18,40,Coastal Edit,https://example.com/products/fy-00439,https://example.com/images/fy-00439.jpg
+FY-00440,Brown Midi Skirt,bottom,Formal,Brown,60.03,14,38,Maple Basics,https://example.com/products/fy-00440,https://example.com/images/fy-00440.jpg
+FY-00441,White Canvas Sneakers,shoes,Streetwear,White,72.72,7,34,Motion Wear,https://example.com/products/fy-00441,https://example.com/images/fy-00441.jpg
+FY-00442,Cream Running Shoes,shoes,Sporty,Cream,74.49,-2,38,Northline Apparel,https://example.com/products/fy-00442,https://example.com/images/fy-00442.jpg
+FY-00443,Beige Leather Loafers,shoes,Formal,Beige,143.55,0,32,Studio Wardrobe,https://example.com/products/fy-00443,https://example.com/images/fy-00443.jpg
+FY-00444,Pink Ankle Boots,shoes,Formal,Pink,114.07,-10,22,Heritage Closet,https://example.com/products/fy-00444,https://example.com/images/fy-00444.jpg
+FY-00445,Olive Sandals,shoes,Minimalist,Olive,94.58,19,41,Urban Thread,https://example.com/products/fy-00445,https://example.com/images/fy-00445.jpg
+FY-00446,Black High-Top Sneakers,shoes,Streetwear,Black,145.98,1,34,Everyday Collective,https://example.com/products/fy-00446,https://example.com/images/fy-00446.jpg
+FY-00447,Blue Winter Boots,shoes,Sporty,Blue,131.88,-35,8,Coastal Edit,https://example.com/products/fy-00447,https://example.com/images/fy-00447.jpg
+FY-00448,Navy Ballet Flats,shoes,Minimalist,Navy,69.11,11,34,Maple Basics,https://example.com/products/fy-00448,https://example.com/images/fy-00448.jpg
+FY-00449,Burgundy Baseball Cap,accessories,Sporty,Burgundy,28.61,11,41,Motion Wear,https://example.com/products/fy-00449,https://example.com/images/fy-00449.jpg
+FY-00450,Grey Canvas Tote Bag,accessories,Minimalist,Grey,54.18,-20,42,Northline Apparel,https://example.com/products/fy-00450,https://example.com/images/fy-00450.jpg
+FY-00451,Green Leather Belt,accessories,Minimalist,Green,59.45,-20,42,Studio Wardrobe,https://example.com/products/fy-00451,https://example.com/images/fy-00451.jpg
+FY-00452,Brown Knit Beanie,accessories,Casual,Brown,30.01,-35,15,Heritage Closet,https://example.com/products/fy-00452,https://example.com/images/fy-00452.jpg
+FY-00453,White Wool Scarf,accessories,Vintage,White,48.27,-35,12,Urban Thread,https://example.com/products/fy-00453,https://example.com/images/fy-00453.jpg
+FY-00454,Cream Crossbody Bag,accessories,Minimalist,Cream,105.09,-18,41,Everyday Collective,https://example.com/products/fy-00454,https://example.com/images/fy-00454.jpg
+FY-00455,Beige Sunglasses,accessories,Casual,Beige,20.23,13,42,Coastal Edit,https://example.com/products/fy-00455,https://example.com/images/fy-00455.jpg
+FY-00456,Pink Simple Necklace,accessories,Bohemian,Pink,79.27,-20,42,Maple Basics,https://example.com/products/fy-00456,https://example.com/images/fy-00456.jpg
+FY-00457,Olive Denim Jacket,jacket,Vintage,Olive,90.51,7,22,Motion Wear,https://example.com/products/fy-00457,https://example.com/images/fy-00457.jpg
+FY-00458,Black Puffer Jacket,jacket,Casual,Black,151.38,-28,8,Northline Apparel,https://example.com/products/fy-00458,https://example.com/images/fy-00458.jpg
+FY-00459,Blue Wool Coat,jacket,Preppy,Blue,259.52,-15,10,Studio Wardrobe,https://example.com/products/fy-00459,https://example.com/images/fy-00459.jpg
+FY-00460,Navy Rain Jacket,jacket,Minimalist,Navy,59.75,1,22,Heritage Closet,https://example.com/products/fy-00460,https://example.com/images/fy-00460.jpg
+FY-00461,Burgundy Blazer,jacket,Formal,Burgundy,68.11,6,28,Urban Thread,https://example.com/products/fy-00461,https://example.com/images/fy-00461.jpg
+FY-00462,Olive Windbreaker,jacket,Casual,Olive,114.18,7,24,Motion Wear,https://example.com/products/fy-00462,https://example.com/images/fy-00462.jpg
+FY-00463,Black Cotton T-Shirt,top,Minimalist,Black,34.35,16,40,Northline Apparel,https://example.com/products/fy-00463,https://example.com/images/fy-00463.jpg
+FY-00464,Blue Graphic Tee,top,Streetwear,Blue,27.35,16,38,Studio Wardrobe,https://example.com/products/fy-00464,https://example.com/images/fy-00464.jpg
+FY-00465,Navy Linen Shirt,top,Casual,Navy,58.04,18,39,Heritage Closet,https://example.com/products/fy-00465,https://example.com/images/fy-00465.jpg
+FY-00466,Burgundy Oxford Button-Up,top,Formal,Burgundy,66.03,7,30,Urban Thread,https://example.com/products/fy-00466,https://example.com/images/fy-00466.jpg
+FY-00467,Grey Knit Sweater,top,Minimalist,Grey,63.00,-3,20,Everyday Collective,https://example.com/products/fy-00467,https://example.com/images/fy-00467.jpg
+FY-00468,Green Fleece Hoodie,top,Sporty,Green,38.46,-8,18,Coastal Edit,https://example.com/products/fy-00468,https://example.com/images/fy-00468.jpg
+FY-00469,Brown Athletic Tank,top,Sporty,Brown,16.81,20,42,Maple Basics,https://example.com/products/fy-00469,https://example.com/images/fy-00469.jpg
+FY-00470,White Blouse,top,Bohemian,White,64.03,10,34,Motion Wear,https://example.com/products/fy-00470,https://example.com/images/fy-00470.jpg
+FY-00471,Cream Turtleneck,top,Vintage,Cream,58.34,-8,18,Northline Apparel,https://example.com/products/fy-00471,https://example.com/images/fy-00471.jpg
+FY-00472,Beige Polo Shirt,top,Preppy,Beige,62.37,13,34,Studio Wardrobe,https://example.com/products/fy-00472,https://example.com/images/fy-00472.jpg
+FY-00473,Pink Tailored Trousers,bottom,Minimalist,Pink,110.57,-5,28,Heritage Closet,https://example.com/products/fy-00473,https://example.com/images/fy-00473.jpg
+FY-00474,Olive Straight-Leg Jeans,bottom,Vintage,Olive,53.69,-8,30,Urban Thread,https://example.com/products/fy-00474,https://example.com/images/fy-00474.jpg
+FY-00475,Black Wide-Leg Jeans,bottom,Streetwear,Black,67.06,-5,29,Everyday Collective,https://example.com/products/fy-00475,https://example.com/images/fy-00475.jpg
+FY-00476,Blue Chino Pants,bottom,Preppy,Blue,32.71,-3,30,Coastal Edit,https://example.com/products/fy-00476,https://example.com/images/fy-00476.jpg
+FY-00477,Navy Cargo Pants,bottom,Casual,Navy,37.45,-3,30,Maple Basics,https://example.com/products/fy-00477,https://example.com/images/fy-00477.jpg
+FY-00478,Burgundy Linen Pants,bottom,Bohemian,Burgundy,44.95,17,40,Motion Wear,https://example.com/products/fy-00478,https://example.com/images/fy-00478.jpg
+FY-00479,Grey Athletic Leggings,bottom,Sporty,Grey,36.53,0,35,Northline Apparel,https://example.com/products/fy-00479,https://example.com/images/fy-00479.jpg
+FY-00480,Green Running Shorts,bottom,Casual,Green,21.22,18,42,Studio Wardrobe,https://example.com/products/fy-00480,https://example.com/images/fy-00480.jpg
+FY-00481,Brown Denim Shorts,bottom,Casual,Brown,56.34,18,40,Heritage Closet,https://example.com/products/fy-00481,https://example.com/images/fy-00481.jpg
+FY-00482,White Midi Skirt,bottom,Bohemian,White,82.09,12,37,Urban Thread,https://example.com/products/fy-00482,https://example.com/images/fy-00482.jpg
+FY-00483,Cream Canvas Sneakers,shoes,Minimalist,Cream,96.34,5,34,Everyday Collective,https://example.com/products/fy-00483,https://example.com/images/fy-00483.jpg
+FY-00484,Beige Running Shoes,shoes,Casual,Beige,147.20,-1,38,Coastal Edit,https://example.com/products/fy-00484,https://example.com/images/fy-00484.jpg
+FY-00485,Pink Leather Loafers,shoes,Preppy,Pink,118.19,0,32,Maple Basics,https://example.com/products/fy-00485,https://example.com/images/fy-00485.jpg
+FY-00486,Olive Ankle Boots,shoes,Casual,Olive,100.91,-12,20,Motion Wear,https://example.com/products/fy-00486,https://example.com/images/fy-00486.jpg
+FY-00487,Black Sandals,shoes,Casual,Black,88.62,19,41,Northline Apparel,https://example.com/products/fy-00487,https://example.com/images/fy-00487.jpg
+FY-00488,Blue High-Top Sneakers,shoes,Casual,Blue,104.16,1,33,Studio Wardrobe,https://example.com/products/fy-00488,https://example.com/images/fy-00488.jpg
+FY-00489,Navy Winter Boots,shoes,Minimalist,Navy,115.29,-35,6,Heritage Closet,https://example.com/products/fy-00489,https://example.com/images/fy-00489.jpg
+FY-00490,Burgundy Ballet Flats,shoes,Preppy,Burgundy,85.76,11,34,Urban Thread,https://example.com/products/fy-00490,https://example.com/images/fy-00490.jpg
+FY-00491,Grey Baseball Cap,accessories,Casual,Grey,13.83,11,42,Everyday Collective,https://example.com/products/fy-00491,https://example.com/images/fy-00491.jpg
+FY-00492,Green Canvas Tote Bag,accessories,Bohemian,Green,47.20,-20,42,Coastal Edit,https://example.com/products/fy-00492,https://example.com/images/fy-00492.jpg
+FY-00493,Brown Leather Belt,accessories,Formal,Brown,55.56,-20,42,Maple Basics,https://example.com/products/fy-00493,https://example.com/images/fy-00493.jpg
+FY-00494,White Knit Beanie,accessories,Streetwear,White,12.45,-34,13,Motion Wear,https://example.com/products/fy-00494,https://example.com/images/fy-00494.jpg
+FY-00495,Cream Wool Scarf,accessories,Preppy,Cream,26.11,-33,11,Northline Apparel,https://example.com/products/fy-00495,https://example.com/images/fy-00495.jpg
+FY-00496,Beige Crossbody Bag,accessories,Streetwear,Beige,104.24,-20,41,Studio Wardrobe,https://example.com/products/fy-00496,https://example.com/images/fy-00496.jpg
+FY-00497,Pink Sunglasses,accessories,Bohemian,Pink,67.07,12,40,Heritage Closet,https://example.com/products/fy-00497,https://example.com/images/fy-00497.jpg
+FY-00498,Olive Simple Necklace,accessories,Minimalist,Olive,66.63,-20,42,Urban Thread,https://example.com/products/fy-00498,https://example.com/images/fy-00498.jpg
+FY-00499,Black Denim Jacket,jacket,Casual,Black,45.67,5,23,Everyday Collective,https://example.com/products/fy-00499,https://example.com/images/fy-00499.jpg
+FY-00500,Blue Puffer Jacket,jacket,Sporty,Blue,180.58,-30,6,Coastal Edit,https://example.com/products/fy-00500,https://example.com/images/fy-00500.jpg
+FY-00501,Navy Wool Coat,jacket,Minimalist,Navy,160.16,-15,10,Maple Basics,https://example.com/products/fy-00501,https://example.com/images/fy-00501.jpg
+FY-00502,Burgundy Rain Jacket,jacket,Sporty,Burgundy,135.40,0,22,Motion Wear,https://example.com/products/fy-00502,https://example.com/images/fy-00502.jpg
+FY-00503,Grey Blazer,jacket,Preppy,Grey,101.96,7,27,Northline Apparel,https://example.com/products/fy-00503,https://example.com/images/fy-00503.jpg
+FY-00504,Black Windbreaker,jacket,Sporty,Black,46.59,7,23,Everyday Collective,https://example.com/products/fy-00504,https://example.com/images/fy-00504.jpg
+FY-00505,Blue Cotton T-Shirt,top,Streetwear,Blue,27.35,15,38,Coastal Edit,https://example.com/products/fy-00505,https://example.com/images/fy-00505.jpg
+FY-00506,Navy Graphic Tee,top,Vintage,Navy,40.02,15,37,Maple Basics,https://example.com/products/fy-00506,https://example.com/images/fy-00506.jpg
+FY-00507,Burgundy Linen Shirt,top,Formal,Burgundy,55.29,18,38,Motion Wear,https://example.com/products/fy-00507,https://example.com/images/fy-00507.jpg
+FY-00508,Grey Oxford Button-Up,top,Preppy,Grey,32.77,7,28,Northline Apparel,https://example.com/products/fy-00508,https://example.com/images/fy-00508.jpg
+FY-00509,Green Knit Sweater,top,Preppy,Green,47.85,-5,19,Studio Wardrobe,https://example.com/products/fy-00509,https://example.com/images/fy-00509.jpg
+FY-00510,Brown Fleece Hoodie,top,Casual,Brown,73.77,-8,16,Heritage Closet,https://example.com/products/fy-00510,https://example.com/images/fy-00510.jpg
+FY-00511,White Athletic Tank,top,Casual,White,16.03,22,41,Urban Thread,https://example.com/products/fy-00511,https://example.com/images/fy-00511.jpg
+FY-00512,Cream Blouse,top,Preppy,Cream,83.23,11,34,Everyday Collective,https://example.com/products/fy-00512,https://example.com/images/fy-00512.jpg
+FY-00513,Beige Turtleneck,top,Formal,Beige,38.05,-8,18,Coastal Edit,https://example.com/products/fy-00513,https://example.com/images/fy-00513.jpg
+FY-00514,Pink Polo Shirt,top,Casual,Pink,62.88,12,33,Maple Basics,https://example.com/products/fy-00514,https://example.com/images/fy-00514.jpg
+FY-00515,Olive Tailored Trousers,bottom,Preppy,Olive,55.20,-4,30,Motion Wear,https://example.com/products/fy-00515,https://example.com/images/fy-00515.jpg
+FY-00516,Black Straight-Leg Jeans,bottom,Casual,Black,102.77,-6,30,Northline Apparel,https://example.com/products/fy-00516,https://example.com/images/fy-00516.jpg
+FY-00517,Blue Wide-Leg Jeans,bottom,Vintage,Blue,101.63,-3,28,Studio Wardrobe,https://example.com/products/fy-00517,https://example.com/images/fy-00517.jpg
+FY-00518,Navy Chino Pants,bottom,Minimalist,Navy,79.42,-3,32,Heritage Closet,https://example.com/products/fy-00518,https://example.com/images/fy-00518.jpg
+FY-00519,Burgundy Cargo Pants,bottom,Streetwear,Burgundy,38.29,-5,32,Urban Thread,https://example.com/products/fy-00519,https://example.com/images/fy-00519.jpg
+FY-00520,Grey Linen Pants,bottom,Minimalist,Grey,53.67,18,39,Everyday Collective,https://example.com/products/fy-00520,https://example.com/images/fy-00520.jpg
+FY-00521,Green Athletic Leggings,bottom,Casual,Green,58.22,0,33,Coastal Edit,https://example.com/products/fy-00521,https://example.com/images/fy-00521.jpg
+FY-00522,Brown Running Shorts,bottom,Sporty,Brown,27.74,19,42,Maple Basics,https://example.com/products/fy-00522,https://example.com/images/fy-00522.jpg
+FY-00523,White Denim Shorts,bottom,Vintage,White,43.49,20,40,Motion Wear,https://example.com/products/fy-00523,https://example.com/images/fy-00523.jpg
+FY-00524,Cream Midi Skirt,bottom,Preppy,Cream,69.63,12,38,Northline Apparel,https://example.com/products/fy-00524,https://example.com/images/fy-00524.jpg
+FY-00525,Beige Canvas Sneakers,shoes,Casual,Beige,40.71,5,33,Studio Wardrobe,https://example.com/products/fy-00525,https://example.com/images/fy-00525.jpg
+FY-00526,Pink Running Shoes,shoes,Sporty,Pink,92.64,0,36,Heritage Closet,https://example.com/products/fy-00526,https://example.com/images/fy-00526.jpg
+FY-00527,Olive Leather Loafers,shoes,Minimalist,Olive,135.84,0,31,Urban Thread,https://example.com/products/fy-00527,https://example.com/images/fy-00527.jpg
+FY-00528,Black Ankle Boots,shoes,Vintage,Black,144.59,-12,21,Everyday Collective,https://example.com/products/fy-00528,https://example.com/images/fy-00528.jpg
+FY-00529,Blue Sandals,shoes,Bohemian,Blue,21.19,20,41,Coastal Edit,https://example.com/products/fy-00529,https://example.com/images/fy-00529.jpg
+FY-00530,Navy High-Top Sneakers,shoes,Vintage,Navy,68.89,0,32,Maple Basics,https://example.com/products/fy-00530,https://example.com/images/fy-00530.jpg
+FY-00531,Burgundy Winter Boots,shoes,Casual,Burgundy,70.53,-34,8,Motion Wear,https://example.com/products/fy-00531,https://example.com/images/fy-00531.jpg
+FY-00532,Grey Ballet Flats,shoes,Formal,Grey,90.84,11,34,Northline Apparel,https://example.com/products/fy-00532,https://example.com/images/fy-00532.jpg
+FY-00533,Green Baseball Cap,accessories,Streetwear,Green,19.58,10,42,Studio Wardrobe,https://example.com/products/fy-00533,https://example.com/images/fy-00533.jpg
+FY-00534,Brown Canvas Tote Bag,accessories,Casual,Brown,37.75,-18,42,Heritage Closet,https://example.com/products/fy-00534,https://example.com/images/fy-00534.jpg
+FY-00535,White Leather Belt,accessories,Preppy,White,59.48,-19,41,Urban Thread,https://example.com/products/fy-00535,https://example.com/images/fy-00535.jpg
+FY-00536,Cream Knit Beanie,accessories,Sporty,Cream,34.82,-33,15,Everyday Collective,https://example.com/products/fy-00536,https://example.com/images/fy-00536.jpg
+FY-00537,Beige Wool Scarf,accessories,Formal,Beige,57.75,-33,11,Coastal Edit,https://example.com/products/fy-00537,https://example.com/images/fy-00537.jpg
+FY-00538,Pink Crossbody Bag,accessories,Casual,Pink,81.28,-20,42,Maple Basics,https://example.com/products/fy-00538,https://example.com/images/fy-00538.jpg
+FY-00539,Olive Sunglasses,accessories,Sporty,Olive,87.97,12,42,Motion Wear,https://example.com/products/fy-00539,https://example.com/images/fy-00539.jpg
+FY-00540,Black Simple Necklace,accessories,Formal,Black,52.06,-19,40,Northline Apparel,https://example.com/products/fy-00540,https://example.com/images/fy-00540.jpg
+FY-00541,Blue Denim Jacket,jacket,Streetwear,Blue,63.26,6,22,Studio Wardrobe,https://example.com/products/fy-00541,https://example.com/images/fy-00541.jpg
+FY-00542,Navy Puffer Jacket,jacket,Streetwear,Navy,78.18,-30,6,Heritage Closet,https://example.com/products/fy-00542,https://example.com/images/fy-00542.jpg
+FY-00543,Burgundy Wool Coat,jacket,Formal,Burgundy,172.10,-14,12,Urban Thread,https://example.com/products/fy-00543,https://example.com/images/fy-00543.jpg
+FY-00544,Grey Rain Jacket,jacket,Casual,Grey,111.74,0,20,Everyday Collective,https://example.com/products/fy-00544,https://example.com/images/fy-00544.jpg
+FY-00545,Green Blazer,jacket,Minimalist,Green,70.01,5,28,Coastal Edit,https://example.com/products/fy-00545,https://example.com/images/fy-00545.jpg
+FY-00546,Blue Windbreaker,jacket,Streetwear,Blue,79.30,5,25,Studio Wardrobe,https://example.com/products/fy-00546,https://example.com/images/fy-00546.jpg
+FY-00547,Navy Cotton T-Shirt,top,Casual,Navy,32.92,17,40,Heritage Closet,https://example.com/products/fy-00547,https://example.com/images/fy-00547.jpg
+FY-00548,Burgundy Graphic Tee,top,Casual,Burgundy,43.86,15,36,Urban Thread,https://example.com/products/fy-00548,https://example.com/images/fy-00548.jpg
+FY-00549,Grey Linen Shirt,top,Bohemian,Grey,71.17,18,40,Everyday Collective,https://example.com/products/fy-00549,https://example.com/images/fy-00549.jpg
+FY-00550,Green Oxford Button-Up,top,Minimalist,Green,49.44,7,28,Coastal Edit,https://example.com/products/fy-00550,https://example.com/images/fy-00550.jpg
+FY-00551,Brown Knit Sweater,top,Casual,Brown,36.31,-5,18,Maple Basics,https://example.com/products/fy-00551,https://example.com/images/fy-00551.jpg
+FY-00552,White Fleece Hoodie,top,Streetwear,White,41.89,-8,18,Motion Wear,https://example.com/products/fy-00552,https://example.com/images/fy-00552.jpg
+FY-00553,Cream Athletic Tank,top,Sporty,Cream,29.90,20,42,Northline Apparel,https://example.com/products/fy-00553,https://example.com/images/fy-00553.jpg
+FY-00554,Beige Blouse,top,Formal,Beige,82.41,10,34,Studio Wardrobe,https://example.com/products/fy-00554,https://example.com/images/fy-00554.jpg
+FY-00555,Pink Turtleneck,top,Minimalist,Pink,41.13,-8,16,Heritage Closet,https://example.com/products/fy-00555,https://example.com/images/fy-00555.jpg
+FY-00556,Olive Polo Shirt,top,Sporty,Olive,33.26,12,34,Urban Thread,https://example.com/products/fy-00556,https://example.com/images/fy-00556.jpg
+FY-00557,Black Tailored Trousers,bottom,Formal,Black,68.57,-3,28,Everyday Collective,https://example.com/products/fy-00557,https://example.com/images/fy-00557.jpg
+FY-00558,Blue Straight-Leg Jeans,bottom,Minimalist,Blue,89.60,-8,28,Coastal Edit,https://example.com/products/fy-00558,https://example.com/images/fy-00558.jpg
+FY-00559,Navy Wide-Leg Jeans,bottom,Casual,Navy,69.77,-5,29,Maple Basics,https://example.com/products/fy-00559,https://example.com/images/fy-00559.jpg
+FY-00560,Burgundy Chino Pants,bottom,Casual,Burgundy,35.19,-3,31,Motion Wear,https://example.com/products/fy-00560,https://example.com/images/fy-00560.jpg
+FY-00561,Grey Cargo Pants,bottom,Sporty,Grey,73.14,-5,32,Northline Apparel,https://example.com/products/fy-00561,https://example.com/images/fy-00561.jpg
+FY-00562,Green Linen Pants,bottom,Casual,Green,43.37,17,40,Studio Wardrobe,https://example.com/products/fy-00562,https://example.com/images/fy-00562.jpg
+FY-00563,Brown Athletic Leggings,bottom,Sporty,Brown,76.25,1,33,Heritage Closet,https://example.com/products/fy-00563,https://example.com/images/fy-00563.jpg
+FY-00564,White Running Shorts,bottom,Casual,White,52.24,18,41,Urban Thread,https://example.com/products/fy-00564,https://example.com/images/fy-00564.jpg
+FY-00565,Cream Denim Shorts,bottom,Streetwear,Cream,37.51,20,39,Everyday Collective,https://example.com/products/fy-00565,https://example.com/images/fy-00565.jpg
+FY-00566,Beige Midi Skirt,bottom,Formal,Beige,79.48,12,36,Coastal Edit,https://example.com/products/fy-00566,https://example.com/images/fy-00566.jpg
+FY-00567,Pink Canvas Sneakers,shoes,Streetwear,Pink,72.85,6,34,Maple Basics,https://example.com/products/fy-00567,https://example.com/images/fy-00567.jpg
+FY-00568,Olive Running Shoes,shoes,Casual,Olive,120.20,0,38,Motion Wear,https://example.com/products/fy-00568,https://example.com/images/fy-00568.jpg
+FY-00569,Black Leather Loafers,shoes,Formal,Black,140.10,0,30,Northline Apparel,https://example.com/products/fy-00569,https://example.com/images/fy-00569.jpg
+FY-00570,Blue Ankle Boots,shoes,Formal,Blue,133.60,-12,20,Studio Wardrobe,https://example.com/products/fy-00570,https://example.com/images/fy-00570.jpg
+FY-00571,Navy Sandals,shoes,Minimalist,Navy,53.09,19,42,Heritage Closet,https://example.com/products/fy-00571,https://example.com/images/fy-00571.jpg
+FY-00572,Burgundy High-Top Sneakers,shoes,Streetwear,Burgundy,99.95,0,34,Urban Thread,https://example.com/products/fy-00572,https://example.com/images/fy-00572.jpg
+FY-00573,Grey Winter Boots,shoes,Sporty,Grey,99.11,-34,8,Everyday Collective,https://example.com/products/fy-00573,https://example.com/images/fy-00573.jpg
+FY-00574,Green Ballet Flats,shoes,Minimalist,Green,52.53,10,35,Coastal Edit,https://example.com/products/fy-00574,https://example.com/images/fy-00574.jpg
+FY-00575,Brown Baseball Cap,accessories,Sporty,Brown,30.07,12,42,Maple Basics,https://example.com/products/fy-00575,https://example.com/images/fy-00575.jpg
+FY-00576,White Canvas Tote Bag,accessories,Minimalist,White,29.21,-18,41,Motion Wear,https://example.com/products/fy-00576,https://example.com/images/fy-00576.jpg
+FY-00577,Cream Leather Belt,accessories,Minimalist,Cream,19.63,-18,42,Northline Apparel,https://example.com/products/fy-00577,https://example.com/images/fy-00577.jpg
+FY-00578,Beige Knit Beanie,accessories,Casual,Beige,12.59,-35,14,Studio Wardrobe,https://example.com/products/fy-00578,https://example.com/images/fy-00578.jpg
+FY-00579,Pink Wool Scarf,accessories,Vintage,Pink,45.49,-33,11,Heritage Closet,https://example.com/products/fy-00579,https://example.com/images/fy-00579.jpg
+FY-00580,Olive Crossbody Bag,accessories,Minimalist,Olive,35.02,-18,42,Urban Thread,https://example.com/products/fy-00580,https://example.com/images/fy-00580.jpg
+FY-00581,Black Sunglasses,accessories,Casual,Black,25.63,12,42,Everyday Collective,https://example.com/products/fy-00581,https://example.com/images/fy-00581.jpg
+FY-00582,Blue Simple Necklace,accessories,Bohemian,Blue,31.68,-20,40,Coastal Edit,https://example.com/products/fy-00582,https://example.com/images/fy-00582.jpg
+FY-00583,Navy Denim Jacket,jacket,Vintage,Navy,112.45,6,23,Maple Basics,https://example.com/products/fy-00583,https://example.com/images/fy-00583.jpg
+FY-00584,Burgundy Puffer Jacket,jacket,Casual,Burgundy,212.81,-29,6,Motion Wear,https://example.com/products/fy-00584,https://example.com/images/fy-00584.jpg
+FY-00585,Grey Wool Coat,jacket,Preppy,Grey,111.79,-13,12,Northline Apparel,https://example.com/products/fy-00585,https://example.com/images/fy-00585.jpg
+FY-00586,Green Rain Jacket,jacket,Minimalist,Green,131.21,0,21,Studio Wardrobe,https://example.com/products/fy-00586,https://example.com/images/fy-00586.jpg
+FY-00587,Brown Blazer,jacket,Formal,Brown,143.27,5,26,Heritage Closet,https://example.com/products/fy-00587,https://example.com/images/fy-00587.jpg
+FY-00588,Navy Windbreaker,jacket,Casual,Navy,57.06,6,25,Maple Basics,https://example.com/products/fy-00588,https://example.com/images/fy-00588.jpg
+FY-00589,Burgundy Cotton T-Shirt,top,Sporty,Burgundy,24.16,15,38,Motion Wear,https://example.com/products/fy-00589,https://example.com/images/fy-00589.jpg
+FY-00590,Grey Graphic Tee,top,Streetwear,Grey,29.65,17,38,Northline Apparel,https://example.com/products/fy-00590,https://example.com/images/fy-00590.jpg
+FY-00591,Green Linen Shirt,top,Minimalist,Green,53.50,18,39,Studio Wardrobe,https://example.com/products/fy-00591,https://example.com/images/fy-00591.jpg
+FY-00592,Brown Oxford Button-Up,top,Formal,Brown,41.45,6,29,Heritage Closet,https://example.com/products/fy-00592,https://example.com/images/fy-00592.jpg
+FY-00593,White Knit Sweater,top,Vintage,White,37.86,-5,18,Urban Thread,https://example.com/products/fy-00593,https://example.com/images/fy-00593.jpg
+FY-00594,Cream Fleece Hoodie,top,Sporty,Cream,76.89,-8,18,Everyday Collective,https://example.com/products/fy-00594,https://example.com/images/fy-00594.jpg
+FY-00595,Beige Athletic Tank,top,Casual,Beige,17.18,20,41,Coastal Edit,https://example.com/products/fy-00595,https://example.com/images/fy-00595.jpg
+FY-00596,Pink Blouse,top,Bohemian,Pink,31.49,10,32,Maple Basics,https://example.com/products/fy-00596,https://example.com/images/fy-00596.jpg
+FY-00597,Olive Turtleneck,top,Vintage,Olive,39.08,-8,18,Motion Wear,https://example.com/products/fy-00597,https://example.com/images/fy-00597.jpg
+FY-00598,Black Polo Shirt,top,Preppy,Black,27.25,12,35,Northline Apparel,https://example.com/products/fy-00598,https://example.com/images/fy-00598.jpg
+FY-00599,Blue Tailored Trousers,bottom,Minimalist,Blue,40.38,-3,30,Studio Wardrobe,https://example.com/products/fy-00599,https://example.com/images/fy-00599.jpg
+FY-00600,Navy Straight-Leg Jeans,bottom,Streetwear,Navy,98.31,-8,30,Heritage Closet,https://example.com/products/fy-00600,https://example.com/images/fy-00600.jpg
+FY-00601,Burgundy Wide-Leg Jeans,bottom,Streetwear,Burgundy,48.56,-4,29,Urban Thread,https://example.com/products/fy-00601,https://example.com/images/fy-00601.jpg
+FY-00602,Grey Chino Pants,bottom,Preppy,Grey,53.54,-5,30,Everyday Collective,https://example.com/products/fy-00602,https://example.com/images/fy-00602.jpg
+FY-00603,Green Cargo Pants,bottom,Casual,Green,62.75,-4,32,Coastal Edit,https://example.com/products/fy-00603,https://example.com/images/fy-00603.jpg
+FY-00604,Brown Linen Pants,bottom,Bohemian,Brown,45.78,17,40,Maple Basics,https://example.com/products/fy-00604,https://example.com/images/fy-00604.jpg
+FY-00605,White Athletic Leggings,bottom,Casual,White,70.03,1,33,Motion Wear,https://example.com/products/fy-00605,https://example.com/images/fy-00605.jpg
+FY-00606,Cream Running Shorts,bottom,Sporty,Cream,48.02,19,42,Northline Apparel,https://example.com/products/fy-00606,https://example.com/images/fy-00606.jpg
+FY-00607,Beige Denim Shorts,bottom,Casual,Beige,22.36,19,40,Studio Wardrobe,https://example.com/products/fy-00607,https://example.com/images/fy-00607.jpg
+FY-00608,Pink Midi Skirt,bottom,Bohemian,Pink,53.90,14,37,Heritage Closet,https://example.com/products/fy-00608,https://example.com/images/fy-00608.jpg
+FY-00609,Olive Canvas Sneakers,shoes,Minimalist,Olive,69.88,5,35,Urban Thread,https://example.com/products/fy-00609,https://example.com/images/fy-00609.jpg
+FY-00610,Black Running Shoes,shoes,Sporty,Black,57.98,-2,37,Everyday Collective,https://example.com/products/fy-00610,https://example.com/images/fy-00610.jpg
+FY-00611,Blue Leather Loafers,shoes,Preppy,Blue,140.50,2,30,Coastal Edit,https://example.com/products/fy-00611,https://example.com/images/fy-00611.jpg
+FY-00612,Navy Ankle Boots,shoes,Casual,Navy,125.51,-10,20,Maple Basics,https://example.com/products/fy-00612,https://example.com/images/fy-00612.jpg
+FY-00613,Burgundy Sandals,shoes,Casual,Burgundy,49.21,21,41,Motion Wear,https://example.com/products/fy-00613,https://example.com/images/fy-00613.jpg
+FY-00614,Grey High-Top Sneakers,shoes,Casual,Grey,130.00,1,32,Northline Apparel,https://example.com/products/fy-00614,https://example.com/images/fy-00614.jpg
+FY-00615,Green Winter Boots,shoes,Minimalist,Green,160.96,-35,8,Studio Wardrobe,https://example.com/products/fy-00615,https://example.com/images/fy-00615.jpg
+FY-00616,Brown Ballet Flats,shoes,Preppy,Brown,32.60,12,35,Heritage Closet,https://example.com/products/fy-00616,https://example.com/images/fy-00616.jpg
+FY-00617,White Baseball Cap,accessories,Casual,White,14.93,10,42,Urban Thread,https://example.com/products/fy-00617,https://example.com/images/fy-00617.jpg
+FY-00618,Cream Canvas Tote Bag,accessories,Bohemian,Cream,42.74,-19,40,Everyday Collective,https://example.com/products/fy-00618,https://example.com/images/fy-00618.jpg
+FY-00619,Beige Leather Belt,accessories,Formal,Beige,24.99,-20,42,Coastal Edit,https://example.com/products/fy-00619,https://example.com/images/fy-00619.jpg
+FY-00620,Pink Knit Beanie,accessories,Streetwear,Pink,26.21,-34,13,Maple Basics,https://example.com/products/fy-00620,https://example.com/images/fy-00620.jpg
+FY-00621,Olive Wool Scarf,accessories,Preppy,Olive,62.38,-33,11,Motion Wear,https://example.com/products/fy-00621,https://example.com/images/fy-00621.jpg
+FY-00622,Black Crossbody Bag,accessories,Streetwear,Black,89.18,-19,41,Northline Apparel,https://example.com/products/fy-00622,https://example.com/images/fy-00622.jpg
+FY-00623,Blue Sunglasses,accessories,Bohemian,Blue,43.32,12,40,Studio Wardrobe,https://example.com/products/fy-00623,https://example.com/images/fy-00623.jpg
+FY-00624,Navy Simple Necklace,accessories,Minimalist,Navy,33.48,-20,40,Heritage Closet,https://example.com/products/fy-00624,https://example.com/images/fy-00624.jpg
+FY-00625,Burgundy Denim Jacket,jacket,Casual,Burgundy,46.99,5,21,Urban Thread,https://example.com/products/fy-00625,https://example.com/images/fy-00625.jpg
+FY-00626,Grey Puffer Jacket,jacket,Sporty,Grey,205.38,-30,7,Everyday Collective,https://example.com/products/fy-00626,https://example.com/images/fy-00626.jpg
+FY-00627,Green Wool Coat,jacket,Minimalist,Green,215.85,-14,12,Coastal Edit,https://example.com/products/fy-00627,https://example.com/images/fy-00627.jpg
+FY-00628,Brown Rain Jacket,jacket,Sporty,Brown,82.05,0,20,Maple Basics,https://example.com/products/fy-00628,https://example.com/images/fy-00628.jpg
+FY-00629,White Blazer,jacket,Preppy,White,63.82,7,28,Motion Wear,https://example.com/products/fy-00629,https://example.com/images/fy-00629.jpg
+FY-00630,Burgundy Windbreaker,jacket,Sporty,Burgundy,65.36,7,24,Urban Thread,https://example.com/products/fy-00630,https://example.com/images/fy-00630.jpg
+FY-00631,Grey Cotton T-Shirt,top,Minimalist,Grey,30.06,16,38,Everyday Collective,https://example.com/products/fy-00631,https://example.com/images/fy-00631.jpg
+FY-00632,Green Graphic Tee,top,Vintage,Green,42.92,17,38,Coastal Edit,https://example.com/products/fy-00632,https://example.com/images/fy-00632.jpg
+FY-00633,Brown Linen Shirt,top,Casual,Brown,43.34,18,40,Maple Basics,https://example.com/products/fy-00633,https://example.com/images/fy-00633.jpg
+FY-00634,White Oxford Button-Up,top,Preppy,White,51.09,7,29,Motion Wear,https://example.com/products/fy-00634,https://example.com/images/fy-00634.jpg
+FY-00635,Cream Knit Sweater,top,Minimalist,Cream,77.49,-4,19,Northline Apparel,https://example.com/products/fy-00635,https://example.com/images/fy-00635.jpg
+FY-00636,Beige Fleece Hoodie,top,Casual,Beige,62.27,-8,18,Studio Wardrobe,https://example.com/products/fy-00636,https://example.com/images/fy-00636.jpg
+FY-00637,Pink Athletic Tank,top,Sporty,Pink,31.23,22,40,Heritage Closet,https://example.com/products/fy-00637,https://example.com/images/fy-00637.jpg
+FY-00638,Olive Blouse,top,Preppy,Olive,71.66,10,34,Urban Thread,https://example.com/products/fy-00638,https://example.com/images/fy-00638.jpg
+FY-00639,Black Turtleneck,top,Formal,Black,38.47,-6,16,Everyday Collective,https://example.com/products/fy-00639,https://example.com/images/fy-00639.jpg
+FY-00640,Blue Polo Shirt,top,Casual,Blue,44.65,12,33,Coastal Edit,https://example.com/products/fy-00640,https://example.com/images/fy-00640.jpg
+FY-00641,Navy Tailored Trousers,bottom,Preppy,Navy,99.25,-5,29,Maple Basics,https://example.com/products/fy-00641,https://example.com/images/fy-00641.jpg
+FY-00642,Burgundy Straight-Leg Jeans,bottom,Vintage,Burgundy,88.94,-8,28,Motion Wear,https://example.com/products/fy-00642,https://example.com/images/fy-00642.jpg
+FY-00643,Grey Wide-Leg Jeans,bottom,Vintage,Grey,65.27,-5,29,Northline Apparel,https://example.com/products/fy-00643,https://example.com/images/fy-00643.jpg
+FY-00644,Green Chino Pants,bottom,Minimalist,Green,33.63,-5,32,Studio Wardrobe,https://example.com/products/fy-00644,https://example.com/images/fy-00644.jpg
+FY-00645,Brown Cargo Pants,bottom,Streetwear,Brown,88.79,-5,32,Heritage Closet,https://example.com/products/fy-00645,https://example.com/images/fy-00645.jpg
+FY-00646,White Linen Pants,bottom,Minimalist,White,88.46,17,40,Urban Thread,https://example.com/products/fy-00646,https://example.com/images/fy-00646.jpg
+FY-00647,Cream Athletic Leggings,bottom,Sporty,Cream,53.37,1,33,Everyday Collective,https://example.com/products/fy-00647,https://example.com/images/fy-00647.jpg
+FY-00648,Beige Running Shorts,bottom,Casual,Beige,59.16,18,41,Coastal Edit,https://example.com/products/fy-00648,https://example.com/images/fy-00648.jpg
+FY-00649,Pink Denim Shorts,bottom,Vintage,Pink,56.29,19,40,Maple Basics,https://example.com/products/fy-00649,https://example.com/images/fy-00649.jpg
+FY-00650,Olive Midi Skirt,bottom,Preppy,Olive,30.08,12,37,Motion Wear,https://example.com/products/fy-00650,https://example.com/images/fy-00650.jpg
+FY-00651,Black Canvas Sneakers,shoes,Casual,Black,79.85,7,35,Northline Apparel,https://example.com/products/fy-00651,https://example.com/images/fy-00651.jpg
+FY-00652,Blue Running Shoes,shoes,Casual,Blue,148.49,0,38,Studio Wardrobe,https://example.com/products/fy-00652,https://example.com/images/fy-00652.jpg
+FY-00653,Navy Leather Loafers,shoes,Minimalist,Navy,161.28,0,32,Heritage Closet,https://example.com/products/fy-00653,https://example.com/images/fy-00653.jpg
+FY-00654,Burgundy Ankle Boots,shoes,Vintage,Burgundy,152.58,-12,22,Urban Thread,https://example.com/products/fy-00654,https://example.com/images/fy-00654.jpg
+FY-00655,Grey Sandals,shoes,Bohemian,Grey,90.91,21,41,Everyday Collective,https://example.com/products/fy-00655,https://example.com/images/fy-00655.jpg
+FY-00656,Green High-Top Sneakers,shoes,Vintage,Green,69.19,1,34,Coastal Edit,https://example.com/products/fy-00656,https://example.com/images/fy-00656.jpg
+FY-00657,Brown Winter Boots,shoes,Casual,Brown,72.09,-35,6,Maple Basics,https://example.com/products/fy-00657,https://example.com/images/fy-00657.jpg
+FY-00658,White Ballet Flats,shoes,Formal,White,89.23,10,34,Motion Wear,https://example.com/products/fy-00658,https://example.com/images/fy-00658.jpg
+FY-00659,Cream Baseball Cap,accessories,Streetwear,Cream,37.40,12,42,Northline Apparel,https://example.com/products/fy-00659,https://example.com/images/fy-00659.jpg
+FY-00660,Beige Canvas Tote Bag,accessories,Casual,Beige,25.86,-19,42,Studio Wardrobe,https://example.com/products/fy-00660,https://example.com/images/fy-00660.jpg
+FY-00661,Pink Leather Belt,accessories,Preppy,Pink,59.51,-18,41,Heritage Closet,https://example.com/products/fy-00661,https://example.com/images/fy-00661.jpg
+FY-00662,Olive Knit Beanie,accessories,Sporty,Olive,45.64,-35,13,Urban Thread,https://example.com/products/fy-00662,https://example.com/images/fy-00662.jpg
+FY-00663,Black Wool Scarf,accessories,Formal,Black,60.95,-34,11,Everyday Collective,https://example.com/products/fy-00663,https://example.com/images/fy-00663.jpg
+FY-00664,Blue Crossbody Bag,accessories,Casual,Blue,55.59,-20,40,Coastal Edit,https://example.com/products/fy-00664,https://example.com/images/fy-00664.jpg
+FY-00665,Navy Sunglasses,accessories,Sporty,Navy,36.71,12,41,Maple Basics,https://example.com/products/fy-00665,https://example.com/images/fy-00665.jpg
+FY-00666,Burgundy Simple Necklace,accessories,Formal,Burgundy,50.73,-20,41,Motion Wear,https://example.com/products/fy-00666,https://example.com/images/fy-00666.jpg
+FY-00667,Grey Denim Jacket,jacket,Streetwear,Grey,56.31,5,23,Northline Apparel,https://example.com/products/fy-00667,https://example.com/images/fy-00667.jpg
+FY-00668,Green Puffer Jacket,jacket,Streetwear,Green,124.18,-28,8,Studio Wardrobe,https://example.com/products/fy-00668,https://example.com/images/fy-00668.jpg
+FY-00669,Brown Wool Coat,jacket,Formal,Brown,100.06,-13,10,Heritage Closet,https://example.com/products/fy-00669,https://example.com/images/fy-00669.jpg
+FY-00670,White Rain Jacket,jacket,Casual,White,113.28,0,20,Urban Thread,https://example.com/products/fy-00670,https://example.com/images/fy-00670.jpg
+FY-00671,Cream Blazer,jacket,Minimalist,Cream,74.73,5,28,Everyday Collective,https://example.com/products/fy-00671,https://example.com/images/fy-00671.jpg
+FY-00672,Grey Windbreaker,jacket,Streetwear,Grey,65.66,5,23,Northline Apparel,https://example.com/products/fy-00672,https://example.com/images/fy-00672.jpg
+FY-00673,Green Cotton T-Shirt,top,Streetwear,Green,24.74,17,38,Studio Wardrobe,https://example.com/products/fy-00673,https://example.com/images/fy-00673.jpg
+FY-00674,Brown Graphic Tee,top,Casual,Brown,34.33,16,38,Heritage Closet,https://example.com/products/fy-00674,https://example.com/images/fy-00674.jpg
+FY-00675,White Linen Shirt,top,Formal,White,46.32,19,39,Urban Thread,https://example.com/products/fy-00675,https://example.com/images/fy-00675.jpg
+FY-00676,Cream Oxford Button-Up,top,Minimalist,Cream,70.44,7,30,Everyday Collective,https://example.com/products/fy-00676,https://example.com/images/fy-00676.jpg
+FY-00677,Beige Knit Sweater,top,Preppy,Beige,59.06,-5,19,Coastal Edit,https://example.com/products/fy-00677,https://example.com/images/fy-00677.jpg
+FY-00678,Pink Fleece Hoodie,top,Streetwear,Pink,58.37,-7,18,Maple Basics,https://example.com/products/fy-00678,https://example.com/images/fy-00678.jpg
+FY-00679,Olive Athletic Tank,top,Casual,Olive,19.14,20,42,Motion Wear,https://example.com/products/fy-00679,https://example.com/images/fy-00679.jpg
+FY-00680,Black Blouse,top,Formal,Black,44.03,10,32,Northline Apparel,https://example.com/products/fy-00680,https://example.com/images/fy-00680.jpg
+FY-00681,Blue Turtleneck,top,Minimalist,Blue,40.89,-8,18,Studio Wardrobe,https://example.com/products/fy-00681,https://example.com/images/fy-00681.jpg
+FY-00682,Navy Polo Shirt,top,Sporty,Navy,69.52,12,35,Heritage Closet,https://example.com/products/fy-00682,https://example.com/images/fy-00682.jpg
+FY-00683,Burgundy Tailored Trousers,bottom,Formal,Burgundy,76.80,-5,30,Urban Thread,https://example.com/products/fy-00683,https://example.com/images/fy-00683.jpg
+FY-00684,Grey Straight-Leg Jeans,bottom,Casual,Grey,75.37,-8,28,Everyday Collective,https://example.com/products/fy-00684,https://example.com/images/fy-00684.jpg
+FY-00685,Green Wide-Leg Jeans,bottom,Casual,Green,114.29,-3,30,Coastal Edit,https://example.com/products/fy-00685,https://example.com/images/fy-00685.jpg
+FY-00686,Brown Chino Pants,bottom,Casual,Brown,56.22,-3,31,Maple Basics,https://example.com/products/fy-00686,https://example.com/images/fy-00686.jpg
+FY-00687,White Cargo Pants,bottom,Sporty,White,33.21,-5,32,Motion Wear,https://example.com/products/fy-00687,https://example.com/images/fy-00687.jpg
+FY-00688,Cream Linen Pants,bottom,Casual,Cream,34.43,18,39,Northline Apparel,https://example.com/products/fy-00688,https://example.com/images/fy-00688.jpg
+FY-00689,Beige Athletic Leggings,bottom,Casual,Beige,36.77,1,35,Studio Wardrobe,https://example.com/products/fy-00689,https://example.com/images/fy-00689.jpg
+FY-00690,Pink Running Shorts,bottom,Sporty,Pink,32.08,18,42,Heritage Closet,https://example.com/products/fy-00690,https://example.com/images/fy-00690.jpg
+FY-00691,Olive Denim Shorts,bottom,Streetwear,Olive,37.86,20,38,Urban Thread,https://example.com/products/fy-00691,https://example.com/images/fy-00691.jpg
+FY-00692,Black Midi Skirt,bottom,Formal,Black,65.61,13,36,Everyday Collective,https://example.com/products/fy-00692,https://example.com/images/fy-00692.jpg
+FY-00693,Blue Canvas Sneakers,shoes,Streetwear,Blue,50.88,5,34,Coastal Edit,https://example.com/products/fy-00693,https://example.com/images/fy-00693.jpg
+FY-00694,Navy Running Shoes,shoes,Sporty,Navy,112.14,-1,38,Maple Basics,https://example.com/products/fy-00694,https://example.com/images/fy-00694.jpg
+FY-00695,Burgundy Leather Loafers,shoes,Formal,Burgundy,140.55,0,31,Motion Wear,https://example.com/products/fy-00695,https://example.com/images/fy-00695.jpg
+FY-00696,Grey Ankle Boots,shoes,Formal,Grey,168.26,-10,21,Northline Apparel,https://example.com/products/fy-00696,https://example.com/images/fy-00696.jpg
+FY-00697,Green Sandals,shoes,Minimalist,Green,78.40,19,41,Studio Wardrobe,https://example.com/products/fy-00697,https://example.com/images/fy-00697.jpg
+FY-00698,Brown High-Top Sneakers,shoes,Streetwear,Brown,129.33,0,32,Heritage Closet,https://example.com/products/fy-00698,https://example.com/images/fy-00698.jpg
+FY-00699,White Winter Boots,shoes,Sporty,White,123.32,-35,8,Urban Thread,https://example.com/products/fy-00699,https://example.com/images/fy-00699.jpg
+FY-00700,Cream Ballet Flats,shoes,Minimalist,Cream,55.02,10,35,Everyday Collective,https://example.com/products/fy-00700,https://example.com/images/fy-00700.jpg
+FY-00701,Beige Baseball Cap,accessories,Sporty,Beige,31.35,10,40,Coastal Edit,https://example.com/products/fy-00701,https://example.com/images/fy-00701.jpg
+FY-00702,Pink Canvas Tote Bag,accessories,Minimalist,Pink,30.07,-20,40,Maple Basics,https://example.com/products/fy-00702,https://example.com/images/fy-00702.jpg
+FY-00703,Olive Leather Belt,accessories,Minimalist,Olive,54.66,-18,41,Motion Wear,https://example.com/products/fy-00703,https://example.com/images/fy-00703.jpg
+FY-00704,Black Knit Beanie,accessories,Casual,Black,37.87,-33,13,Northline Apparel,https://example.com/products/fy-00704,https://example.com/images/fy-00704.jpg
+FY-00705,Blue Wool Scarf,accessories,Vintage,Blue,39.95,-33,10,Studio Wardrobe,https://example.com/products/fy-00705,https://example.com/images/fy-00705.jpg
+FY-00706,Navy Crossbody Bag,accessories,Minimalist,Navy,28.41,-18,40,Heritage Closet,https://example.com/products/fy-00706,https://example.com/images/fy-00706.jpg
+FY-00707,Burgundy Sunglasses,accessories,Casual,Burgundy,80.55,12,40,Urban Thread,https://example.com/products/fy-00707,https://example.com/images/fy-00707.jpg
+FY-00708,Grey Simple Necklace,accessories,Bohemian,Grey,27.69,-20,41,Everyday Collective,https://example.com/products/fy-00708,https://example.com/images/fy-00708.jpg
+FY-00709,Green Denim Jacket,jacket,Vintage,Green,77.98,7,22,Coastal Edit,https://example.com/products/fy-00709,https://example.com/images/fy-00709.jpg
+FY-00710,Brown Puffer Jacket,jacket,Casual,Brown,168.34,-30,8,Maple Basics,https://example.com/products/fy-00710,https://example.com/images/fy-00710.jpg
+FY-00711,White Wool Coat,jacket,Preppy,White,247.69,-15,10,Motion Wear,https://example.com/products/fy-00711,https://example.com/images/fy-00711.jpg
+FY-00712,Cream Rain Jacket,jacket,Minimalist,Cream,141.67,1,22,Northline Apparel,https://example.com/products/fy-00712,https://example.com/images/fy-00712.jpg
+FY-00713,Beige Blazer,jacket,Formal,Beige,127.94,5,27,Studio Wardrobe,https://example.com/products/fy-00713,https://example.com/images/fy-00713.jpg
+FY-00714,Green Windbreaker,jacket,Casual,Green,57.22,6,24,Coastal Edit,https://example.com/products/fy-00714,https://example.com/images/fy-00714.jpg
+FY-00715,Brown Cotton T-Shirt,top,Casual,Brown,17.58,16,38,Maple Basics,https://example.com/products/fy-00715,https://example.com/images/fy-00715.jpg
+FY-00716,White Graphic Tee,top,Streetwear,White,26.02,15,38,Motion Wear,https://example.com/products/fy-00716,https://example.com/images/fy-00716.jpg
+FY-00717,Cream Linen Shirt,top,Bohemian,Cream,68.28,18,39,Northline Apparel,https://example.com/products/fy-00717,https://example.com/images/fy-00717.jpg
+FY-00718,Beige Oxford Button-Up,top,Formal,Beige,36.06,7,28,Studio Wardrobe,https://example.com/products/fy-00718,https://example.com/images/fy-00718.jpg
+FY-00719,Pink Knit Sweater,top,Casual,Pink,42.60,-5,20,Heritage Closet,https://example.com/products/fy-00719,https://example.com/images/fy-00719.jpg
+FY-00720,Olive Fleece Hoodie,top,Sporty,Olive,36.98,-8,17,Urban Thread,https://example.com/products/fy-00720,https://example.com/images/fy-00720.jpg
+FY-00721,Black Athletic Tank,top,Sporty,Black,19.11,20,41,Everyday Collective,https://example.com/products/fy-00721,https://example.com/images/fy-00721.jpg
+FY-00722,Blue Blouse,top,Bohemian,Blue,67.11,10,34,Coastal Edit,https://example.com/products/fy-00722,https://example.com/images/fy-00722.jpg
+FY-00723,Navy Turtleneck,top,Vintage,Navy,38.89,-8,18,Maple Basics,https://example.com/products/fy-00723,https://example.com/images/fy-00723.jpg
+FY-00724,Burgundy Polo Shirt,top,Preppy,Burgundy,48.90,13,33,Motion Wear,https://example.com/products/fy-00724,https://example.com/images/fy-00724.jpg
+FY-00725,Grey Tailored Trousers,bottom,Minimalist,Grey,111.87,-5,28,Northline Apparel,https://example.com/products/fy-00725,https://example.com/images/fy-00725.jpg
+FY-00726,Green Straight-Leg Jeans,bottom,Minimalist,Green,93.47,-6,29,Studio Wardrobe,https://example.com/products/fy-00726,https://example.com/images/fy-00726.jpg
+FY-00727,Brown Wide-Leg Jeans,bottom,Streetwear,Brown,114.80,-4,30,Heritage Closet,https://example.com/products/fy-00727,https://example.com/images/fy-00727.jpg
+FY-00728,White Chino Pants,bottom,Preppy,White,86.10,-5,32,Urban Thread,https://example.com/products/fy-00728,https://example.com/images/fy-00728.jpg
+FY-00729,Cream Cargo Pants,bottom,Casual,Cream,54.86,-5,32,Everyday Collective,https://example.com/products/fy-00729,https://example.com/images/fy-00729.jpg
+FY-00730,Beige Linen Pants,bottom,Bohemian,Beige,86.64,17,39,Coastal Edit,https://example.com/products/fy-00730,https://example.com/images/fy-00730.jpg
+FY-00731,Pink Athletic Leggings,bottom,Sporty,Pink,25.40,0,35,Maple Basics,https://example.com/products/fy-00731,https://example.com/images/fy-00731.jpg
+FY-00732,Olive Running Shorts,bottom,Casual,Olive,30.36,18,40,Motion Wear,https://example.com/products/fy-00732,https://example.com/images/fy-00732.jpg
+FY-00733,Black Denim Shorts,bottom,Casual,Black,42.56,18,38,Northline Apparel,https://example.com/products/fy-00733,https://example.com/images/fy-00733.jpg
+FY-00734,Blue Midi Skirt,bottom,Bohemian,Blue,68.74,13,36,Studio Wardrobe,https://example.com/products/fy-00734,https://example.com/images/fy-00734.jpg
+FY-00735,Navy Canvas Sneakers,shoes,Minimalist,Navy,61.73,5,35,Heritage Closet,https://example.com/products/fy-00735,https://example.com/images/fy-00735.jpg
+FY-00736,Burgundy Running Shoes,shoes,Casual,Burgundy,155.30,0,38,Urban Thread,https://example.com/products/fy-00736,https://example.com/images/fy-00736.jpg
+FY-00737,Grey Leather Loafers,shoes,Preppy,Grey,174.07,2,30,Everyday Collective,https://example.com/products/fy-00737,https://example.com/images/fy-00737.jpg
+FY-00738,Green Ankle Boots,shoes,Casual,Green,96.25,-10,22,Coastal Edit,https://example.com/products/fy-00738,https://example.com/images/fy-00738.jpg
+FY-00739,Brown Sandals,shoes,Casual,Brown,52.68,21,40,Maple Basics,https://example.com/products/fy-00739,https://example.com/images/fy-00739.jpg
+FY-00740,White High-Top Sneakers,shoes,Casual,White,129.71,2,33,Motion Wear,https://example.com/products/fy-00740,https://example.com/images/fy-00740.jpg
+FY-00741,Cream Winter Boots,shoes,Minimalist,Cream,181.58,-34,7,Northline Apparel,https://example.com/products/fy-00741,https://example.com/images/fy-00741.jpg
+FY-00742,Beige Ballet Flats,shoes,Preppy,Beige,90.24,10,35,Studio Wardrobe,https://example.com/products/fy-00742,https://example.com/images/fy-00742.jpg
+FY-00743,Pink Baseball Cap,accessories,Casual,Pink,15.73,12,41,Heritage Closet,https://example.com/products/fy-00743,https://example.com/images/fy-00743.jpg
+FY-00744,Olive Canvas Tote Bag,accessories,Bohemian,Olive,43.80,-19,41,Urban Thread,https://example.com/products/fy-00744,https://example.com/images/fy-00744.jpg
+FY-00745,Black Leather Belt,accessories,Formal,Black,44.51,-18,42,Everyday Collective,https://example.com/products/fy-00745,https://example.com/images/fy-00745.jpg
+FY-00746,Blue Knit Beanie,accessories,Streetwear,Blue,25.57,-34,15,Coastal Edit,https://example.com/products/fy-00746,https://example.com/images/fy-00746.jpg
+FY-00747,Navy Wool Scarf,accessories,Preppy,Navy,45.02,-35,12,Maple Basics,https://example.com/products/fy-00747,https://example.com/images/fy-00747.jpg
+FY-00748,Burgundy Crossbody Bag,accessories,Streetwear,Burgundy,119.85,-19,41,Motion Wear,https://example.com/products/fy-00748,https://example.com/images/fy-00748.jpg
+FY-00749,Grey Sunglasses,accessories,Bohemian,Grey,94.65,14,42,Northline Apparel,https://example.com/products/fy-00749,https://example.com/images/fy-00749.jpg
+FY-00750,Green Simple Necklace,accessories,Minimalist,Green,62.51,-20,42,Studio Wardrobe,https://example.com/products/fy-00750,https://example.com/images/fy-00750.jpg
+FY-00751,Brown Denim Jacket,jacket,Casual,Brown,111.95,5,23,Heritage Closet,https://example.com/products/fy-00751,https://example.com/images/fy-00751.jpg
+FY-00752,White Puffer Jacket,jacket,Sporty,White,156.09,-29,6,Urban Thread,https://example.com/products/fy-00752,https://example.com/images/fy-00752.jpg
+FY-00753,Cream Wool Coat,jacket,Minimalist,Cream,165.15,-15,11,Everyday Collective,https://example.com/products/fy-00753,https://example.com/images/fy-00753.jpg
+FY-00754,Beige Rain Jacket,jacket,Sporty,Beige,125.34,0,22,Coastal Edit,https://example.com/products/fy-00754,https://example.com/images/fy-00754.jpg
+FY-00755,Pink Blazer,jacket,Preppy,Pink,67.50,5,27,Maple Basics,https://example.com/products/fy-00755,https://example.com/images/fy-00755.jpg
+FY-00756,Brown Windbreaker,jacket,Sporty,Brown,110.75,7,25,Heritage Closet,https://example.com/products/fy-00756,https://example.com/images/fy-00756.jpg
+FY-00757,White Cotton T-Shirt,top,Sporty,White,28.28,15,40,Urban Thread,https://example.com/products/fy-00757,https://example.com/images/fy-00757.jpg
+FY-00758,Cream Graphic Tee,top,Vintage,Cream,24.31,16,38,Everyday Collective,https://example.com/products/fy-00758,https://example.com/images/fy-00758.jpg
+FY-00759,Beige Linen Shirt,top,Minimalist,Beige,62.52,19,40,Coastal Edit,https://example.com/products/fy-00759,https://example.com/images/fy-00759.jpg
+FY-00760,Pink Oxford Button-Up,top,Preppy,Pink,65.23,5,29,Maple Basics,https://example.com/products/fy-00760,https://example.com/images/fy-00760.jpg
+FY-00761,Olive Knit Sweater,top,Vintage,Olive,87.21,-5,19,Motion Wear,https://example.com/products/fy-00761,https://example.com/images/fy-00761.jpg
+FY-00762,Black Fleece Hoodie,top,Casual,Black,57.16,-7,16,Northline Apparel,https://example.com/products/fy-00762,https://example.com/images/fy-00762.jpg
+FY-00763,Blue Athletic Tank,top,Casual,Blue,20.94,20,42,Studio Wardrobe,https://example.com/products/fy-00763,https://example.com/images/fy-00763.jpg
+FY-00764,Navy Blouse,top,Preppy,Navy,77.57,12,33,Heritage Closet,https://example.com/products/fy-00764,https://example.com/images/fy-00764.jpg
+FY-00765,Burgundy Turtleneck,top,Formal,Burgundy,63.54,-8,18,Urban Thread,https://example.com/products/fy-00765,https://example.com/images/fy-00765.jpg
+FY-00766,Grey Polo Shirt,top,Casual,Grey,30.43,12,35,Everyday Collective,https://example.com/products/fy-00766,https://example.com/images/fy-00766.jpg
+FY-00767,Green Tailored Trousers,bottom,Preppy,Green,47.24,-3,30,Coastal Edit,https://example.com/products/fy-00767,https://example.com/images/fy-00767.jpg
+FY-00768,Brown Straight-Leg Jeans,bottom,Streetwear,Brown,108.56,-8,30,Maple Basics,https://example.com/products/fy-00768,https://example.com/images/fy-00768.jpg
+FY-00769,White Wide-Leg Jeans,bottom,Vintage,White,68.42,-3,30,Motion Wear,https://example.com/products/fy-00769,https://example.com/images/fy-00769.jpg
+FY-00770,Cream Chino Pants,bottom,Minimalist,Cream,45.68,-5,32,Northline Apparel,https://example.com/products/fy-00770,https://example.com/images/fy-00770.jpg
+FY-00771,Beige Cargo Pants,bottom,Streetwear,Beige,61.60,-4,30,Studio Wardrobe,https://example.com/products/fy-00771,https://example.com/images/fy-00771.jpg
+FY-00772,Pink Linen Pants,bottom,Minimalist,Pink,52.85,19,40,Heritage Closet,https://example.com/products/fy-00772,https://example.com/images/fy-00772.jpg
+FY-00773,Olive Athletic Leggings,bottom,Casual,Olive,38.12,1,34,Urban Thread,https://example.com/products/fy-00773,https://example.com/images/fy-00773.jpg
+FY-00774,Black Running Shorts,bottom,Sporty,Black,22.51,20,41,Everyday Collective,https://example.com/products/fy-00774,https://example.com/images/fy-00774.jpg
+FY-00775,Blue Denim Shorts,bottom,Vintage,Blue,34.36,19,40,Coastal Edit,https://example.com/products/fy-00775,https://example.com/images/fy-00775.jpg
+FY-00776,Navy Midi Skirt,bottom,Preppy,Navy,36.29,12,38,Maple Basics,https://example.com/products/fy-00776,https://example.com/images/fy-00776.jpg
+FY-00777,Burgundy Canvas Sneakers,shoes,Casual,Burgundy,36.73,5,35,Motion Wear,https://example.com/products/fy-00777,https://example.com/images/fy-00777.jpg
+FY-00778,Grey Running Shoes,shoes,Sporty,Grey,61.65,0,36,Northline Apparel,https://example.com/products/fy-00778,https://example.com/images/fy-00778.jpg
+FY-00779,Green Leather Loafers,shoes,Minimalist,Green,110.29,1,31,Studio Wardrobe,https://example.com/products/fy-00779,https://example.com/images/fy-00779.jpg
+FY-00780,Brown Ankle Boots,shoes,Vintage,Brown,88.26,-10,20,Heritage Closet,https://example.com/products/fy-00780,https://example.com/images/fy-00780.jpg
+FY-00781,White Sandals,shoes,Bohemian,White,84.26,21,42,Urban Thread,https://example.com/products/fy-00781,https://example.com/images/fy-00781.jpg
+FY-00782,Cream High-Top Sneakers,shoes,Vintage,Cream,143.75,2,33,Everyday Collective,https://example.com/products/fy-00782,https://example.com/images/fy-00782.jpg
+FY-00783,Beige Winter Boots,shoes,Casual,Beige,137.04,-35,8,Coastal Edit,https://example.com/products/fy-00783,https://example.com/images/fy-00783.jpg
+FY-00784,Pink Ballet Flats,shoes,Formal,Pink,85.62,12,35,Maple Basics,https://example.com/products/fy-00784,https://example.com/images/fy-00784.jpg
+FY-00785,Olive Baseball Cap,accessories,Streetwear,Olive,14.87,10,41,Motion Wear,https://example.com/products/fy-00785,https://example.com/images/fy-00785.jpg
+FY-00786,Black Canvas Tote Bag,accessories,Casual,Black,24.37,-20,41,Northline Apparel,https://example.com/products/fy-00786,https://example.com/images/fy-00786.jpg
+FY-00787,Blue Leather Belt,accessories,Preppy,Blue,52.29,-18,40,Studio Wardrobe,https://example.com/products/fy-00787,https://example.com/images/fy-00787.jpg
+FY-00788,Navy Knit Beanie,accessories,Sporty,Navy,47.16,-35,15,Heritage Closet,https://example.com/products/fy-00788,https://example.com/images/fy-00788.jpg
+FY-00789,Burgundy Wool Scarf,accessories,Formal,Burgundy,34.25,-33,11,Urban Thread,https://example.com/products/fy-00789,https://example.com/images/fy-00789.jpg
+FY-00790,Grey Crossbody Bag,accessories,Casual,Grey,40.81,-19,40,Everyday Collective,https://example.com/products/fy-00790,https://example.com/images/fy-00790.jpg
+FY-00791,Green Sunglasses,accessories,Sporty,Green,46.04,12,41,Coastal Edit,https://example.com/products/fy-00791,https://example.com/images/fy-00791.jpg
+FY-00792,Brown Simple Necklace,accessories,Formal,Brown,50.85,-19,42,Maple Basics,https://example.com/products/fy-00792,https://example.com/images/fy-00792.jpg
+FY-00793,White Denim Jacket,jacket,Streetwear,White,57.35,7,21,Motion Wear,https://example.com/products/fy-00793,https://example.com/images/fy-00793.jpg
+FY-00794,Cream Puffer Jacket,jacket,Streetwear,Cream,104.68,-28,8,Northline Apparel,https://example.com/products/fy-00794,https://example.com/images/fy-00794.jpg
+FY-00795,Beige Wool Coat,jacket,Formal,Beige,115.63,-15,10,Studio Wardrobe,https://example.com/products/fy-00795,https://example.com/images/fy-00795.jpg
+FY-00796,Pink Rain Jacket,jacket,Casual,Pink,167.01,0,20,Heritage Closet,https://example.com/products/fy-00796,https://example.com/images/fy-00796.jpg
+FY-00797,Olive Blazer,jacket,Minimalist,Olive,152.87,7,26,Urban Thread,https://example.com/products/fy-00797,https://example.com/images/fy-00797.jpg
+FY-00798,White Windbreaker,jacket,Streetwear,White,108.02,5,23,Motion Wear,https://example.com/products/fy-00798,https://example.com/images/fy-00798.jpg
+FY-00799,Cream Cotton T-Shirt,top,Minimalist,Cream,27.41,15,40,Northline Apparel,https://example.com/products/fy-00799,https://example.com/images/fy-00799.jpg
+FY-00800,Beige Graphic Tee,top,Casual,Beige,27.75,17,38,Studio Wardrobe,https://example.com/products/fy-00800,https://example.com/images/fy-00800.jpg
