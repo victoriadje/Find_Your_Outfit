@@ -53,12 +53,12 @@ public class RecommendOutfitInteractor implements RecommendOutfitInputBoundary{
                 List<ClothingItems> baseRecommended = new ArrayList<>();
                 baseRecommended.add(top);
                 baseRecommended.add(bottom);
-                if (baseCost <= inputData.getBudget()) {
+                if (inputData.getBudget()==null || baseCost <= inputData.getBudget()) {
                     recommendation.add(new Outfit(baseRecommended));
                 }
                 for (ClothingItems accessory : accessories) {
                     double totalCost = accessory.getPrice() + accessory.getPrice();
-                    if (totalCost <= inputData.getBudget()) {
+                    if (inputData.getBudget()==null || totalCost <= inputData.getBudget()) {
                         List<ClothingItems> outfitItems = new ArrayList<>(baseRecommended);
                         outfitItems.add(accessory);
                         recommendation.add(new Outfit(outfitItems));

@@ -3,6 +3,8 @@ package com.outfitgen.interface_adapter.recommend_outfit;
 import com.outfitgen.use_case.recommend_outfit.RecommendOutfitOutputBoundary;
 import com.outfitgen.use_case.recommend_outfit.RecommendOutfitOutputData;
 
+import java.util.ArrayList;
+
 public class RecommendOutfitPresenter implements RecommendOutfitOutputBoundary {
     private final RecommendOutfitViewModel viewModel;
     public RecommendOutfitPresenter(RecommendOutfitViewModel viewModel) {
@@ -19,7 +21,7 @@ public class RecommendOutfitPresenter implements RecommendOutfitOutputBoundary {
     @Override
     public void prepareFailView(String message) {
         RecommendOutfitState state = viewModel.getRecommendOutfitState();
-        state.setRecommendedOutfits(null);
+        state.setRecommendedOutfits(new ArrayList<>());
         state.setError(message);
         viewModel.setRecommendOutfitState(state);
         viewModel.firePropertyChanged();

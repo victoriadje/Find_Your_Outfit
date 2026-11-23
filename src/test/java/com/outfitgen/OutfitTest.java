@@ -1,14 +1,15 @@
-package java.com.outfitgen;
+package com.outfitgen;
 
 import com.outfitgen.entity.ClothingItems;
 import com.outfitgen.entity.Outfit;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
+import java.util.Collections;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class OutfitTest {
+class OutfitTest {
 
     @Test
     void getTotalOutfitCost() {
@@ -21,5 +22,9 @@ public class OutfitTest {
         Outfit newOutfit = new Outfit(Arrays.asList(blackZaraTop, blackHMJeans));
         assertEquals(45.75, newOutfit.getTotalCost(), 0.001);
     }
-
+    @Test
+    void getEmptyOutfitCost() {
+        Outfit newOutfit = new Outfit(Collections.emptyList());
+        assertEquals(0, newOutfit.getTotalCost(), 0.001);
+    }
 }
