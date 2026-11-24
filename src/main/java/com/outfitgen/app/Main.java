@@ -1,4 +1,4 @@
-package app;
+package com.outfitgen.app;
 
 import javax.swing.*;
 
@@ -6,7 +6,12 @@ public class Main {
     public static void main(String[] args) {
         AppBuilder appBuilder = new AppBuilder();
         JFrame application = appBuilder
-                //TODO: add VIews
+                .addLoginView()
+                .addSignupView()
+                .addLoggedInView()
+                .addSignupUseCase()
+                .addLoginUseCase()
+                .addLogoutUseCase()
                 .build();
 
         application.pack();
