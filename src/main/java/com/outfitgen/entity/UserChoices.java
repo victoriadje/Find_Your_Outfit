@@ -5,6 +5,9 @@ package com.outfitgen.entity;
  */
 public class UserChoices {
 
+    private final String userName;
+    private final String size;
+    private final String location;
     private final String style;
     private final Double budget;
 
@@ -16,7 +19,11 @@ public class UserChoices {
      */
     //TODO: update once location once meteorological part of the code is done.
     public  UserChoices(String style, double budget, String location) {
+        this.size = size;
+        this.budget = budget;
+        this.location = location;
         this.style = style;
+
         if(budget < 0) {
             throw new IllegalArgumentException("Budget cannot be negative");
         }
@@ -26,6 +33,8 @@ public class UserChoices {
     public String getStyle() {
         return style;
     }
+    public String getSize() { return size; }
+    public String getLocation() { return location}
     public Double getBudget() {
         return budget;
     }
