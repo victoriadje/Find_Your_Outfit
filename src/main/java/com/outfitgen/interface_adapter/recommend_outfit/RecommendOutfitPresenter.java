@@ -4,7 +4,7 @@ import com.outfitgen.use_case.recommend_outfit.RecommendOutfitOutputBoundary;
 import com.outfitgen.use_case.recommend_outfit.RecommendOutfitOutputData;
 
 import java.util.ArrayList;
-
+//TODO: Update presenter
 public class RecommendOutfitPresenter implements RecommendOutfitOutputBoundary {
     private final RecommendOutfitViewModel viewModel;
     public RecommendOutfitPresenter(RecommendOutfitViewModel viewModel) {

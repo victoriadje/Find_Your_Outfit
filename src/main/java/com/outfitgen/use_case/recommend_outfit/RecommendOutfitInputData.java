@@ -4,23 +4,17 @@ package com.outfitgen.use_case.recommend_outfit;
  * The Input Data for the Recommend Outfit Use Case.
  */
 
-//TODO: decide if userChoices is needed
 public class RecommendOutfitInputData {
 
-    //private final UserChoices userChoices;
     private final String preferredStyle;
     private final Double budget;
-    private final double temperature;
-    public RecommendOutfitInputData( String preferredStyle, Double budget, double temperature) {
-       // this.userChoices = userChoices;
+    private final String location;
+    public RecommendOutfitInputData( String preferredStyle, Double budget, String location) {
         this.preferredStyle = preferredStyle;
         this.budget = budget;
-        this.temperature = temperature;
+        this.location = location;
     }
 
-//    public UserChoices getUserChoices() {
-//        return userChoices;
-//    }
 
     public String getStyle() {
         return preferredStyle;
@@ -30,7 +24,7 @@ public class RecommendOutfitInputData {
         return budget;
     }
 
-    public double getTemperature() {
-        return temperature;
+    public String getLocation() {
+        return location;
     }
 }

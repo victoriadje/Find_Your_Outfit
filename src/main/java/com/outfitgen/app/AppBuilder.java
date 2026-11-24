@@ -3,10 +3,7 @@ package com.outfitgen.app;
 import com.outfitgen.interface_adapter.recommend_outfit.RecommendOutfitController;
 import com.outfitgen.interface_adapter.recommend_outfit.RecommendOutfitPresenter;
 import com.outfitgen.interface_adapter.recommend_outfit.RecommendOutfitViewModel;
-import com.outfitgen.use_case.recommend_outfit.RecommendOutfitDataAccessInterface;
-import com.outfitgen.use_case.recommend_outfit.RecommendOutfitInputBoundary;
-import com.outfitgen.use_case.recommend_outfit.RecommendOutfitInteractor;
-import com.outfitgen.use_case.recommend_outfit.RecommendOutfitOutputBoundary;
+import com.outfitgen.use_case.recommend_outfit.*;
 import com.outfitgen.view.RecommendOutfitView;
 
 import javax.swing.*;
@@ -14,17 +11,19 @@ import javax.swing.*;
 //TODO: whole class
 public class AppBuilder {
     private final RecommendOutfitDataAccessInterface clothingRepository;
+    private final WeatherDataAccessInterface weatherRepository;
 
     private RecommendOutfitViewModel recommendOutfitViewModel;
     private RecommendOutfitController recommendOutfitController;
     private RecommendOutfitView recommendOutfitView;
-    public AppBuilder(RecommendOutfitDataAccessInterface clothingRepository) {
+    public AppBuilder(RecommendOutfitDataAccessInterface clothingRepository,  WeatherDataAccessInterface weatherRepository) {
         this.clothingRepository = clothingRepository;
+        this.weatherRepository = weatherRepository;
     }
     public AppBuilder addRecommendOutfitUseCase(){
         recommendOutfitViewModel = new RecommendOutfitViewModel();
         RecommendOutfitOutputBoundary presenter = new RecommendOutfitPresenter(recommendOutfitViewModel);
-        RecommendOutfitInputBoundary interactor = new RecommendOutfitInteractor(clothingRepository, presenter);
+        RecommendOutfitInputBoundary interactor = new RecommendOutfitInteractor(clothingRepository, weatherRepository, presenter);
         recommendOutfitController = new RecommendOutfitController(interactor);
         return this;
     }
