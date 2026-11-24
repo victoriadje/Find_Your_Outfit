@@ -2,6 +2,7 @@ package com.outfitgen.use_case.recommend_outfit;
 
 import com.outfitgen.entity.ClothingItems;
 import com.outfitgen.entity.Outfit;
+import com.outfitgen.entity.WeatherData;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,31 +10,49 @@ import java.util.List;
 * The Recommend Outfit Interactor
  */
 public class RecommendOutfitInteractor implements RecommendOutfitInputBoundary{
-    private final RecommendOutfitDataAccessInterface clothingDataAccess;
+
+    private final RecommendOutfitDataAccessInterface clothingDataAccessObject;
+    private final WeatherDataAccessInterface weatherDataAccessObject;
     private final RecommendOutfitOutputBoundary presenter;
-    public RecommendOutfitInteractor(RecommendOutfitDataAccessInterface clothingDataAccess, RecommendOutfitOutputBoundary presenter) {
-        this.clothingDataAccess=clothingDataAccess;
+
+    public RecommendOutfitInteractor(RecommendOutfitDataAccessInterface clothingDataAccessObject, WeatherDataAccessInterface weatherDataAccessObject, RecommendOutfitOutputBoundary presenter) {
+        this.clothingDataAccessObject=clothingDataAccessObject;
+        this.weatherDataAccessObject=weatherDataAccessObject;
         this.presenter=presenter;
     }
 
     @Override
     public void execute(RecommendOutfitInputData inputData) {
+
         if(inputData.getBudget() != null && inputData.getBudget() < 0) {
             presenter.prepareFailView("Budget cannot be negative");
             return;
         }
 
-        List<ClothingItems> items = clothingDataAccess.getAllItems();
+        WeatherData weather;
+
+        try {
+            weather = weatherDataAccessObject.getWeather(inputData.getLocation());
+        } catch (RuntimeException e) {
+            presenter.prepareFailView("Unable to fetch weather data");
+            return;
+        }
+
+        double temperature = weather.getTemperature();
+
+        List<ClothingItems> items = clothingDataAccessObject.getAllItems();
 
         List<ClothingItems> tops = new ArrayList<ClothingItems>();
         List<ClothingItems> bottoms = new ArrayList<>();
         List<ClothingItems> accessories = new ArrayList<>();
 
         for(ClothingItems item :items) {
-            //TODO: Add filters like temp
+
             boolean styleMatch = inputData.getStyle() == null || inputData.getStyle(). isBlank() ||
                     item.getStyle().equalsIgnoreCase(inputData.getStyle());
-            boolean tempMatch = item.isAppropriateForTemp(inputData.getTemperature());
+
+            boolean tempMatch = item.isAppropriateForTemp(temperature);
+
             if(styleMatch && tempMatch) {
                 if(item.getType().equalsIgnoreCase("top")){
                     tops.add(item);
@@ -57,7 +76,7 @@ public class RecommendOutfitInteractor implements RecommendOutfitInputBoundary{
                     recommendation.add(new Outfit(baseRecommended));
                 }
                 for (ClothingItems accessory : accessories) {
-                    double totalCost = accessory.getPrice() + accessory.getPrice();
+                    double totalCost = baseCost + accessory.getPrice();
                     if (inputData.getBudget()==null || totalCost <= inputData.getBudget()) {
                         List<ClothingItems> outfitItems = new ArrayList<>(baseRecommended);
                         outfitItems.add(accessory);
@@ -69,7 +88,7 @@ public class RecommendOutfitInteractor implements RecommendOutfitInputBoundary{
         if(recommendation.isEmpty()) {
             presenter.prepareFailView("No outfits match your preferences");
         } else {
-            RecommendOutfitOutputData outputData = new RecommendOutfitOutputData(recommendation);
+            RecommendOutfitOutputData outputData = new RecommendOutfitOutputData(recommendation, weather.getLocation(), temperature);
             presenter.prepareSuccessView(outputData);
         }
     }

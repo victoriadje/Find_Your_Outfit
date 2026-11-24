@@ -11,12 +11,17 @@ import java.util.List;
 public class RecommendOutfitOutputData {
 
     private final List<Outfit> recommendedOutfit;
-
-    public RecommendOutfitOutputData(List<Outfit> recommendedOutfit) {
+    private final String location;
+    private final double temperature;
+    public RecommendOutfitOutputData(List<Outfit> recommendedOutfit, String location, double temperature) {
         this.recommendedOutfit = recommendedOutfit;
+        this.location = location;
+        this.temperature = temperature;
     }
 
     public List<Outfit> getOutfit() {
         return recommendedOutfit;
     }
+    public String getLocation() {return location;}
+    public double getTemperature() {return temperature;}
 }

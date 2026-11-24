@@ -4,7 +4,7 @@ import com.outfitgen.use_case.recommend_outfit.RecommendOutfitOutputBoundary;
 import com.outfitgen.use_case.recommend_outfit.RecommendOutfitOutputData;
 
 import java.util.ArrayList;
-
+//TODO: Update presenter
 public class RecommendOutfitPresenter implements RecommendOutfitOutputBoundary {
     private final RecommendOutfitViewModel viewModel;
     public RecommendOutfitPresenter(RecommendOutfitViewModel viewModel) {
@@ -12,18 +12,24 @@ public class RecommendOutfitPresenter implements RecommendOutfitOutputBoundary {
     }
     @Override
     public void prepareSuccessView(RecommendOutfitOutputData outputData) {
-        RecommendOutfitState state = viewModel.getRecommendOutfitState();
+        RecommendOutfitState state = viewModel.getState();
+
+        state.setLocation(outputData.getLocation());
+        state.setTemperature(outputData.getTemperature());
         state.setRecommendedOutfits(outputData.getOutfit());
         state.setError("");
-        viewModel.setRecommendOutfitState(state);
+        viewModel.setState(state);
         viewModel.firePropertyChanged();
     }
+
     @Override
     public void prepareFailView(String message) {
-        RecommendOutfitState state = viewModel.getRecommendOutfitState();
-        state.setRecommendedOutfits(new ArrayList<>());
+        RecommendOutfitState state = viewModel.getState();
         state.setError(message);
-        viewModel.setRecommendOutfitState(state);
+        state.setLocation("");
+        state.setTemperature(null);
+        state.setRecommendedOutfits(new ArrayList<>());
+        viewModel.setState(state);
         viewModel.firePropertyChanged();
     }
 

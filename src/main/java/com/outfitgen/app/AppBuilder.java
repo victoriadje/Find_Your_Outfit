@@ -1,48 +1,64 @@
 package com.outfitgen.app;
 
+import com.outfitgen.data_access.CSVClothingRepository;
+import com.outfitgen.data_access.WeatherDataAccessObject;
 import com.outfitgen.interface_adapter.recommend_outfit.RecommendOutfitController;
 import com.outfitgen.interface_adapter.recommend_outfit.RecommendOutfitPresenter;
 import com.outfitgen.interface_adapter.recommend_outfit.RecommendOutfitViewModel;
-import com.outfitgen.use_case.recommend_outfit.RecommendOutfitDataAccessInterface;
-import com.outfitgen.use_case.recommend_outfit.RecommendOutfitInputBoundary;
-import com.outfitgen.use_case.recommend_outfit.RecommendOutfitInteractor;
-import com.outfitgen.use_case.recommend_outfit.RecommendOutfitOutputBoundary;
+import com.outfitgen.use_case.recommend_outfit.*;
 import com.outfitgen.view.RecommendOutfitView;
 
 import javax.swing.*;
+import java.awt.*;
 
 //TODO: whole class
 public class AppBuilder {
-    private final RecommendOutfitDataAccessInterface clothingRepository;
+    private final JPanel recommendOutfitPanel = new JPanel();
+    private final CardLayout recommendLayout = new CardLayout();
+
+    private final RecommendOutfitDataAccessInterface clothingDAO;
+    private final WeatherDataAccessInterface weatherDAO;
 
     private RecommendOutfitViewModel recommendOutfitViewModel;
-    private RecommendOutfitController recommendOutfitController;
     private RecommendOutfitView recommendOutfitView;
-    public AppBuilder(RecommendOutfitDataAccessInterface clothingRepository) {
-        this.clothingRepository = clothingRepository;
+    private RecommendOutfitController recommendController;
+
+    //Initializing the data access objs
+    public AppBuilder() {
+        recommendOutfitPanel.setLayout(recommendLayout);
+
+        clothingDAO = new CSVClothingRepository("ssrc/main/java/com/outfitgen/data_access/SavedRepository");
+        weatherDAO = new WeatherDataAccessObject();
     }
-    public AppBuilder addRecommendOutfitUseCase(){
-        recommendOutfitViewModel = new RecommendOutfitViewModel();
-        RecommendOutfitOutputBoundary presenter = new RecommendOutfitPresenter(recommendOutfitViewModel);
-        RecommendOutfitInputBoundary interactor = new RecommendOutfitInteractor(clothingRepository, presenter);
-        recommendOutfitController = new RecommendOutfitController(interactor);
-        return this;
-    }
+    //Create the view and view Model
     public AppBuilder addRecommendOutfitView(){
-        if (recommendOutfitController == null){
-            throw new NullPointerException("RecommendOutfitController is null");
-        }
-        recommendOutfitView = new RecommendOutfitView(recommendOutfitController, recommendOutfitViewModel);
+        recommendOutfitViewModel = new RecommendOutfitViewModel();
+
+        recommendOutfitView = new RecommendOutfitView(recommendController, recommendOutfitViewModel);
+
+        recommendOutfitPanel.add(recommendOutfitView);
+        return this;
+
+    }
+    //Connect the recommend outfit use case
+    public AppBuilder addRecommendOutfitUseCase(){
+        RecommendOutfitOutputBoundary presenter = new RecommendOutfitPresenter(recommendOutfitViewModel);
+
+        RecommendOutfitInputBoundary interactor = new RecommendOutfitInteractor(clothingDAO, weatherDAO, presenter);
+
+        RecommendOutfitController controller = new RecommendOutfitController(interactor);
+
         return this;
     }
+
+    //Builds the application window
     public JFrame build(){
-        if (recommendOutfitView == null){
-            throw new NullPointerException("RecommendOutfitView is null");
-        }
-        JFrame frame = new JFrame("Recommend Outfit");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setContentPane(recommendOutfitView);
-        return frame;
+       JFrame app = new JFrame("Find Your Outfit");
+       app.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+       app.add(recommendOutfitPanel);
+       recommendLayout.show(recommendOutfitPanel, "recommendOutfitPanel");
+       app.pack();
+       return app;
     }
 
 }
