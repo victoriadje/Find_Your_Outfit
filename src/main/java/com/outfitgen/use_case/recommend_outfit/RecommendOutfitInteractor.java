@@ -88,7 +88,7 @@ public class RecommendOutfitInteractor implements RecommendOutfitInputBoundary{
         if(recommendation.isEmpty()) {
             presenter.prepareFailView("No outfits match your preferences");
         } else {
-            RecommendOutfitOutputData outputData = new RecommendOutfitOutputData(recommendation);
+            RecommendOutfitOutputData outputData = new RecommendOutfitOutputData(recommendation, weather.getLocation(), temperature);
             presenter.prepareSuccessView(outputData);
         }
     }

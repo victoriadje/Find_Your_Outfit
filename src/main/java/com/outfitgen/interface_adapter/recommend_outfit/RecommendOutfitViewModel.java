@@ -1,21 +1,14 @@
 package com.outfitgen.interface_adapter.recommend_outfit;
 
-import java.beans.PropertyChangeListener;
-import java.beans.PropertyChangeSupport;
 //TODO: Update view Model
-public class RecommendOutfitViewModel {
-    private RecommendOutfitState recommendOutfitState = new RecommendOutfitState();
-    private final PropertyChangeSupport support = new PropertyChangeSupport(this);
-    public RecommendOutfitState getRecommendOutfitState() {
-        return recommendOutfitState;
-    }
-    public void setRecommendOutfitState(RecommendOutfitState recommendOutfitState) {
-        this.recommendOutfitState = recommendOutfitState;
-    }
-    public void firePropertyChanged() {
-        support.firePropertyChange("state", null, recommendOutfitState);
-    }
-    public void addPropertyChangeListener(PropertyChangeListener listener) {
-        support.addPropertyChangeListener(listener);
+public class RecommendOutfitViewModel extends ViewModel<RecommendOutfitState> {
+    public static final String TITLE_LABEL = "Recommend Outfit";
+    public static final String LOCATION_LABEL = "Enter your location by city";
+    public static final String STYLE_LABEL = "Choose your style (Optional)";
+    public static final String BUDGET_LABEL = "Choose your budget limits (Optional)";
+    public static final String RECOMMEND_BUTTON_LABEL = "Generate Recommendations";
+    public RecommendOutfitViewModel() {
+        super();
+        setState(new RecommendOutfitState());
     }
 }

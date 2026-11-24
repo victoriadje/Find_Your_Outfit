@@ -23,10 +23,12 @@ public class RecommendOutfitPresenterTest {
     @Test
     void testPrepareSuccessView() {
         List<Outfit> outfits = new ArrayList<>();
-        RecommendOutfitOutputData outputData = new RecommendOutfitOutputData(outfits);
+        String location = "";
+        double temperature = 0;
+        RecommendOutfitOutputData outputData = new RecommendOutfitOutputData(outfits, location, temperature);
         presenter.prepareSuccessView(outputData);
 
-        RecommendOutfitState state = viewModel.getRecommendOutfitState();
+        RecommendOutfitState state = viewModel.getState();
         assertNotNull(state.getRecommendedOutfits());
         assertTrue(state.getRecommendedOutfits().isEmpty());
         assertEquals("", state.getError());
@@ -34,7 +36,7 @@ public class RecommendOutfitPresenterTest {
     @Test
     void testPrepareFailView() {
         presenter.prepareFailView("No outfits match your preferences");
-        RecommendOutfitState state = viewModel.getRecommendOutfitState();
+        RecommendOutfitState state = viewModel.getState();
         assertEquals("No outfits match your preferences", state.getError());
         assertTrue(state.getRecommendedOutfits().isEmpty());
     }

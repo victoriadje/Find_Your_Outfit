@@ -1,20 +1,18 @@
 package com.outfitgen.app;
 
-//import javax.swing.*;
+import javax.swing.*;
+
 //
-//public class Main {
-//    public static void main(String[] args) {
-//        SwingUtilities.invokeLater(()-> {
-//            RecommendOutfitDataAccessInterface clothingRepository = new CSVClothingRepository("src/main/java/com/outfitgen/data_access/SavedRepository");
-//                }
-//            }
-//            AppBuilder appBuilder = new AppBuilder(repository);
-//            JFrame application = appBuilder
-//                    .addRecommendOutfitUseCase()
-//                    .addRecommendOutfitView()
-//                    .build();
-//            application.setVisible(true);
-//        });
-//
-//    }
-//}
+public class Main {
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(()-> {
+            AppBuilder appBuilder = new AppBuilder();
+            JFrame application = appBuilder
+                    .addRecommendOutfitView()
+                    .addRecommendOutfitUseCase()
+                    .build();
+            application.setVisible(true);
+        });
+
+    }
+}
