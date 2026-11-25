@@ -31,7 +31,7 @@ public class RecommendOutfitPresenterTest {
         RecommendOutfitState state = viewModel.getState();
         assertNotNull(state.getRecommendedOutfits());
         assertTrue(state.getRecommendedOutfits().isEmpty());
-        assertEquals("", state.getError());
+        assertNull(state.getError());
     }
     @Test
     void testPrepareFailView() {
