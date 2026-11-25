@@ -63,6 +63,7 @@ public class RecommendOutfitInteractor implements RecommendOutfitInputBoundary{
                 }
             }
         }
+
         //Create an outfit recommendation
         List<Outfit> recommendation = new ArrayList<>();
 

@@ -11,7 +11,7 @@ public class RecommendOutfitState {
     private Double budget;
 
     private Double temperature;
-    private String error;
+    private String error = null;
     private List<Outfit> recommendedOutfits = new ArrayList<Outfit>();
 
     public String getLocation() {
@@ -20,24 +20,28 @@ public class RecommendOutfitState {
     public void setLocation(String location) {
         this.location = location;
     }
+
     public String getStyle() {
         return style;
     }
     public void setStyle(String style) {
         this.style = style;
     }
+
     public Double getBudget() {
         return budget;
     }
     public void setBudget(Double budget) {
         this.budget = budget;
     }
+
     public Double getTemperature() {
         return temperature;
     }
     public void setTemperature(Double temperature) {
         this.temperature = temperature;
     }
+
     public List<Outfit> getRecommendedOutfits() {
         return recommendedOutfits;
     }
