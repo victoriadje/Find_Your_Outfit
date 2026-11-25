@@ -1,10 +1,8 @@
 package com.outfitgen.interface_adapter;
 
-public class ViewManagerModelListener {
+public interface ViewManagerModelListener {
     /**
      * Update which view is currently being displayed.
      */
-    void viewChanged() {
-
-    }
+    void viewChanged();
 }
