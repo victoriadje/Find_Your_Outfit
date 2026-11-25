@@ -60,6 +60,8 @@ public class AppBuilder {
     private RecommendOutfitView recommendOutfitView;
     private RecommendOutfitViewModel recommendOutfitViewModel;
     private RecommendOutfitController recommendController;
+    //Logout
+    private LogoutController logoutController;
 
     public AppBuilder() {
         cardPanel.setLayout(cardLayout);
@@ -136,7 +138,6 @@ public class AppBuilder {
         return this;
     }
 
-    //TODO: UPDATE LOGOUT to fit
     /**
      * Adds the Logout Use Case to the application.
      *
@@ -149,7 +150,8 @@ public class AppBuilder {
         final LogoutInputBoundary logoutInteractor =
                 new LogoutInteractor(userDataAccessObject, logoutOutputBoundary);
 
-        final LogoutController logoutController = new LogoutController(logoutInteractor);
+        logoutController = new LogoutController(logoutInteractor);
+        loggedInView.setLogoutController(logoutController);
 
         return this;
     }
@@ -164,6 +166,8 @@ public class AppBuilder {
 
         recommendOutfitView = new RecommendOutfitView(recommendController, recommendOutfitViewModel);
 
+        // Log Out button on the Recommend Outfit screen (users land here after logging in).
+        recommendOutfitView.setLogoutController(logoutController);
         cardPanel.add(recommendOutfitView, RecommendOutfitViewModel.VIEW_NAME);
 
         return this;
