@@ -6,6 +6,15 @@ import java.beans.PropertyChangeSupport;
 public class ViewModel<T> {
     private final PropertyChangeSupport support = new PropertyChangeSupport(this);
     private T state;
+    public String viewName = "recommend outfit";
+
+    public ViewModel(String viewName) {
+        this.viewName = viewName;
+    }
+
+    public String getViewName() {
+        return viewName;
+    }
 
     //getState returns the current State object stored in View Model
     public T getState() {
@@ -14,6 +23,7 @@ public class ViewModel<T> {
     public void setState(T state) {
         this.state = state;
     }
+
     public void addPropertyChangeListener(PropertyChangeListener listener) {
         this.support.addPropertyChangeListener(listener);
     }

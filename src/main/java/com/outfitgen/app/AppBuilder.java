@@ -27,11 +27,7 @@ import com.outfitgen.use_case.recommend_outfit.*;
 import com.outfitgen.use_case.signup.SignupInputBoundary;
 import com.outfitgen.use_case.signup.SignupInteractor;
 import com.outfitgen.use_case.signup.SignupOutputBoundary;
-import com.outfitgen.view.LoggedInView;
-import com.outfitgen.view.LoginView;
-import com.outfitgen.view.RecommendOutfitView;
-import com.outfitgen.view.SignupView;
-import com.outfitgen.view.ViewManager;
+import com.outfitgen.view.*;
 
 import javax.swing.*;
 import java.awt.*;
@@ -39,93 +35,108 @@ import java.awt.*;
 public class AppBuilder {
     private final JPanel cardPanel = new JPanel();
     private final CardLayout cardLayout = new CardLayout();
-    final UserFactory userFactory = new UserFactory();
-    final ViewManagerModel viewManagerModel = new ViewManagerModel();
-    ViewManager viewManager = new ViewManager(cardPanel, cardLayout, viewManagerModel);
 
-    // set which data access implementation to use, can be any
-    // of the classes from the data_access package
+    private final UserFactory userFactory = new UserFactory();
 
-    // DAO version using local file storage
-    final FileUserDataAccessObject userDataAccessObject = new FileUserDataAccessObject("users.csv", userFactory);
+    private final ViewManagerModel viewManagerModel = new ViewManagerModel();
+    private final ViewManager viewManager = new ViewManager(cardPanel, cardLayout, viewManagerModel);
 
-    // Victoria's: data access for recommending outfits
+
+    // Data access objects
+    private final FileUserDataAccessObject userDataAccessObject = new FileUserDataAccessObject("users.csv", userFactory);
     private final RecommendOutfitDataAccessInterface clothingDAO;
     private final WeatherDataAccessInterface weatherDAO;
 
+    //SignUp
     private SignupView signupView;
     private SignupViewModel signupViewModel;
-    private LoginViewModel loginViewModel;
-    private LoggedInViewModel loggedInViewModel;
-    private LoggedInView loggedInView;
+    //Login
     private LoginView loginView;
-
-    // Victoria's
-    private RecommendOutfitViewModel recommendOutfitViewModel;
+    private LoginViewModel loginViewModel;
+    //Logged in
+    private LoggedInView loggedInView;
+    private LoggedInViewModel loggedInViewModel;
+    //Recommend Outfit
     private RecommendOutfitView recommendOutfitView;
+    private RecommendOutfitViewModel recommendOutfitViewModel;
     private RecommendOutfitController recommendController;
 
     public AppBuilder() {
         cardPanel.setLayout(cardLayout);
 
-        // Victoria's: initializing the data access objs
-        clothingDAO = new CSVClothingRepository("ssrc/main/java/com/outfitgen/data_access/SavedRepository");
+        clothingDAO = new CSVClothingRepository("src/main/java/com/outfitgen/data_access/SavedRepository");
+
         weatherDAO = new WeatherDataAccessObject();
     }
 
     public AppBuilder addSignupView() {
+
         signupViewModel = new SignupViewModel();
+
         signupView = new SignupView(signupViewModel);
+
         cardPanel.add(signupView, SignupViewModel.VIEW_NAME);
+
         return this;
     }
 
     public AppBuilder addLoginView() {
+
         loginViewModel = new LoginViewModel();
         loginView = new LoginView(loginViewModel);
+
         cardPanel.add(loginView, LoginViewModel.VIEW_NAME);
+
         return this;
     }
 
     public AppBuilder addLoggedInView() {
+
         loggedInViewModel = new LoggedInViewModel();
         loggedInView = new LoggedInView(loggedInViewModel);
+
         cardPanel.add(loggedInView, LoggedInViewModel.VIEW_NAME);
+
         return this;
     }
 
-    // Victoria's: create the view and view model
     public AppBuilder addRecommendOutfitView() {
+
         recommendOutfitViewModel = new RecommendOutfitViewModel();
 
-        recommendOutfitView = new RecommendOutfitView(recommendController, recommendOutfitViewModel);
-
-        cardPanel.add(recommendOutfitView, "recommend outfit");
         return this;
     }
 
     public AppBuilder addSignupUseCase() {
         final SignupOutputBoundary signupOutputBoundary = new SignupPresenter(viewManagerModel,
                 signupViewModel, loginViewModel);
+
         final SignupInputBoundary userSignupInteractor = new SignupInteractor(
                 userDataAccessObject, signupOutputBoundary, userFactory);
 
         SignupController controller = new SignupController(userSignupInteractor);
+
         signupView.setSignupController(controller);
+
         return this;
     }
 
     public AppBuilder addLoginUseCase() {
-        final LoginOutputBoundary loginOutputBoundary = new LoginPresenter(viewManagerModel,
-                loggedInViewModel, loginViewModel);
+        final LoginOutputBoundary loginOutputBoundary =
+                new LoginPresenter(
+                        viewManagerModel, loggedInViewModel, loginViewModel
+                );
         final LoginInputBoundary loginInteractor = new LoginInteractor(
                 userDataAccessObject, loginOutputBoundary);
 
         LoginController loginController = new LoginController(loginInteractor);
+
         loginView.setLoginController(loginController);
+
         return this;
     }
 
+    //TODO: UPDATE LOGOUT to fit
     /**
      * Adds the Logout Use Case to the application.
      *
@@ -139,23 +150,29 @@ public class AppBuilder {
                 new LogoutInteractor(userDataAccessObject, logoutOutputBoundary);
 
         final LogoutController logoutController = new LogoutController(logoutInteractor);
-        loggedInView.setLogoutController(logoutController);
+
         return this;
     }
 
     // Victoria's: connect the recommend outfit use case
     public AppBuilder addRecommendOutfitUseCase() {
-        RecommendOutfitOutputBoundary presenter = new RecommendOutfitPresenter(recommendOutfitViewModel);
+        final RecommendOutfitOutputBoundary presenter = new RecommendOutfitPresenter(recommendOutfitViewModel);
 
-        RecommendOutfitInputBoundary interactor = new RecommendOutfitInteractor(clothingDAO, weatherDAO, presenter);
+        final RecommendOutfitInputBoundary recommendOutfitInteractor = new RecommendOutfitInteractor(clothingDAO, weatherDAO, presenter);
 
-        RecommendOutfitController controller = new RecommendOutfitController(interactor);
+        recommendController = new RecommendOutfitController(recommendOutfitInteractor);
+
+        recommendOutfitView = new RecommendOutfitView(recommendController, recommendOutfitViewModel);
+
+        cardPanel.add(recommendOutfitView, RecommendOutfitViewModel.VIEW_NAME);
 
         return this;
     }
 
     public JFrame build() {
+
         final JFrame application = new JFrame("Find Your Outfit");
+
         application.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         application.add(cardPanel);
