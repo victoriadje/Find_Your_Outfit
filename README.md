@@ -20,17 +20,28 @@ Personalized outfit generator: you specify the vibe, the temperature, and your b
 - Saving and viewing favorite outfits
 - Plan your own outfit on a model before trying it on   
 
-## User Stories
+## User Stories/ Features
 
-1. As a user, I want to see various outfit options for a specific occasion, tailored to the current temperature.
-2. As a user, I want to browse my inventory and select specific items.
-3. As a user, I want to save my preferences so that I receive recommendations that match my size and personal vibe.
-4. As a user, I want to hand pick my own outfit and see it on someone before I change into it
+1. As a user, I want to see various outfit options for a specific occasion, tailored to the current temperature. (Victoria) 
+2. As a user, I want to browse the inventory and select specific items. (Disha) 
+3. As a user, I want to save my preferences so that I receive recommendations tailored to my size, preference, and location. (Sufia) 
+4. As a user, I want to hand pick my own outfit and save the combination. (Disha & Sufia)
+5. As a user, I want to be able to see all the content of my outfit as a vision board (TBD)
+6. As a user, I want to be able to log out with my changes saved. (Disha) 
 
 ## Architecture
 
 Clean Architecture, with dependencies pointing inward:
 - Make different purposes of our code in different classes to keep code organized
 - Test cases will be made first to ensure code works as expected
-- Code will be reusable, this project can be adapted to code a similar idea without having to change much content 
-# To Be CONTINUEDDDDDD
+- Code will be reusable, this project can be adapted to code a similar idea without having to change much content
+
+## Resource Credits 
+
+## App launching instruction 
+
+## Design process 
+
+## General explanation of classes 
+
+## Contribution 
