@@ -1,6 +1,13 @@
 package com.outfitgen.use_case.login;
 
 public class LoginOutputData {
-    //TODO: todo
+    private final String username;
 
+    public LoginOutputData (String user) {
+        this.username = user;
+    }
+
+    public String getUsername() {
+        return username;
+    }
 }
