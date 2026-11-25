@@ -16,8 +16,6 @@ public class WeatherDataAccessObjectTest {
         assertEquals("Toronto", weather.getLocation());
         //Double.isFinite checks that weather is a valid number
         assertTrue(Double.isFinite(weather.getTemperature()));
-        System.out.println("Location: " + weather.getLocation());
-        System.out.println("Temperature: " + weather.getTemperature() + "C");
     }
     @Test
     void invalidLocationTest() {

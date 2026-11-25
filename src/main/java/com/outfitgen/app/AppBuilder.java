@@ -156,7 +156,7 @@ public class AppBuilder {
         return this;
     }
 
-    // Victoria's: connect the recommend outfit use case
+    // Connect the recommend outfit use case
     public AppBuilder addRecommendOutfitUseCase() {
         final RecommendOutfitOutputBoundary presenter = new RecommendOutfitPresenter(recommendOutfitViewModel);
 

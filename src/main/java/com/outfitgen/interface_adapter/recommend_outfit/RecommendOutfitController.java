@@ -11,6 +11,7 @@ public class RecommendOutfitController {
     }
 
     public void execute(String preferredStyle, Double budget, String location) {
+
         RecommendOutfitInputData inputData = new RecommendOutfitInputData(preferredStyle, budget, location);
         interactor.execute(inputData);
     }

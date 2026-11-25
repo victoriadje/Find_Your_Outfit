@@ -7,6 +7,7 @@ import com.outfitgen.interface_adapter.recommend_outfit.RecommendOutfitViewModel
 import com.outfitgen.interface_adapter.logout.LogoutController;
 
 import javax.swing.*;
+import java.awt.*;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 
@@ -25,7 +26,7 @@ public class RecommendOutfitView extends JPanel implements PropertyChangeListene
     private final JTextArea outfitResults = new JTextArea(10, 30);
 
     private final JLabel tempLabel = new JLabel("Weather:");
-    private final JLabel errorLabel = new JLabel("Error:");
+    private final JLabel errorLabel = new JLabel("");
 
     public RecommendOutfitView(RecommendOutfitController controller, RecommendOutfitViewModel viewModel) {
         this.controller = controller;
@@ -33,13 +34,27 @@ public class RecommendOutfitView extends JPanel implements PropertyChangeListene
 
         viewModel.addPropertyChangeListener(this);
         setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
+        setBorder(BorderFactory.createEmptyBorder(20, 25, 20, 25));
 
         JLabel titleLabel = new JLabel("Find Your Outfit");
+        titleLabel.setFont(new Font("SansSerif", Font.BOLD, 24));
+
         JLabel subtitleLabel = new JLabel("Find  outfits based on your style, budget, and weather.");
-        JPanel headerPanel = new JPanel();
-        headerPanel.setLayout(new BoxLayout(headerPanel, BoxLayout.Y_AXIS));
-        headerPanel.add(titleLabel);
-        headerPanel.add(subtitleLabel);
+        subtitleLabel.setFont(new Font("SansSerif", Font.BOLD, 16));
+
+        titleLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
+        subtitleLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
+
+//
+//        JPanel headerPanel = new JPanel();
+//        headerPanel.setLayout(new BoxLayout(headerPanel, BoxLayout.Y_AXIS));
+//        headerPanel.add(titleLabel);
+//        headerPanel.add(subtitleLabel);
+        add(titleLabel);
+        add(Box.createVerticalStrut(5));
+        add(subtitleLabel);
+        add(Box.createVerticalStrut(20));
+
 
         // Log Out button: saves the user's changes and goes back to the login screen.
         JButton logOutButton = new JButton("Log out");
@@ -75,7 +90,7 @@ public class RecommendOutfitView extends JPanel implements PropertyChangeListene
 
         outfitResults.setEditable(false);
         outputPanel.add(new JScrollPane(outfitResults));
-        add(headerPanel);
+        //add(headerPanel);
         add(inputPanel);
         add(outputPanel);
 
@@ -111,6 +126,7 @@ public class RecommendOutfitView extends JPanel implements PropertyChangeListene
             errorLabel.setText("Please enter a location");
             return;
         }
+
         controller.execute(style, budget, location);
     }
 
@@ -118,13 +134,13 @@ public class RecommendOutfitView extends JPanel implements PropertyChangeListene
     public void propertyChange(PropertyChangeEvent event) {
         if ("state".equals(event.getPropertyName())) {
             RecommendOutfitState state = (RecommendOutfitState) event.getNewValue();
-            if (state.getError() != null) {
-                errorLabel.setText(state.getError());
-                tempLabel.setText("");
+            if (state.getError() != null && !state.getError().isBlank()) {
+                errorLabel.setText("Error: " + state.getError());
+                tempLabel.setText("Weather: Not available");
                 outfitResults.setText("");
             } else {
                 errorLabel.setText("");
-                tempLabel.setText(state.getTemperature()+"C");
+                tempLabel.setText("Current temperature: " + state.getTemperature()+"C");
                 displayRecommendedOutfits(state);
             }
         }
