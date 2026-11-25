@@ -42,7 +42,7 @@ public class RecommendOutfitView extends JPanel implements PropertyChangeListene
         headerPanel.add(subtitleLabel);
 
         // Log Out button: saves the user's changes and goes back to the login screen.
-        JButton logOutButton = new JButton("Log Out");
+        JButton logOutButton = new JButton("Log out");
         headerPanel.add(logOutButton);
 
         logOutButton.addActionListener(event -> {

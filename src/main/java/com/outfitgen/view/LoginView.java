@@ -33,7 +33,7 @@ public class LoginView extends JPanel implements ActionListener, LoginViewModelL
         this.loginViewModel = loginViewModel;
         this.loginViewModel.addListener(this);
 
-        final JLabel title = new JLabel("Login Screen");
+        final JLabel title = new JLabel("Log in");
         title.setAlignmentX(Component.CENTER_ALIGNMENT);
 
         final LabelTextPanel usernameInfo = new LabelTextPanel(
@@ -42,9 +42,9 @@ public class LoginView extends JPanel implements ActionListener, LoginViewModelL
                 new JLabel("Password"), passwordInputField);
 
         final JPanel buttons = new JPanel();
-        logIn = new JButton("log in");
+        logIn = new JButton("Log in");
         buttons.add(logIn);
-        cancel = new JButton("cancel");
+        cancel = new JButton("Cancel");
         buttons.add(cancel);
 
         logIn.addActionListener(
