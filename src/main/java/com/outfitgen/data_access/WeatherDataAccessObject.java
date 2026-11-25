@@ -31,7 +31,7 @@ public class WeatherDataAccessObject implements WeatherDataAccessInterface {
             throw new IllegalArgumentException("Location cannot be null or empty");
         }
         String encodedLocation = URLEncoder.encode(location.trim(), StandardCharsets.UTF_8);
-        //TODO
+
         String geocodingUrl = GEOCODING_URL + "?name=" + encodedLocation + "&count=1"+"&language=en"+"&format=json";
         JSONObject geocodingResponse = fetchJson(geocodingUrl);
         JSONArray results = geocodingResponse.optJSONArray("results");

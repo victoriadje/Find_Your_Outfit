@@ -3,6 +3,7 @@ package com.outfitgen.interface_adapter.login;
 import com.outfitgen.interface_adapter.ViewManagerModel;
 import com.outfitgen.interface_adapter.logged_in.LoggedInState;
 import com.outfitgen.interface_adapter.logged_in.LoggedInViewModel;
+import com.outfitgen.interface_adapter.recommend_outfit.RecommendOutfitViewModel;
 import com.outfitgen.use_case.login.LoginOutputBoundary;
 import com.outfitgen.use_case.login.LoginOutputData;
 
@@ -23,6 +24,7 @@ public class LoginPresenter implements LoginOutputBoundary {
         this.loginViewModel = loginViewModel;
     }
 
+
     @Override
     public void prepareSuccessView(LoginOutputData response) {
         // On success, update the loggedInViewModel's state
@@ -35,7 +37,7 @@ public class LoginPresenter implements LoginOutputBoundary {
         this.loginViewModel.notifyStateChanged();
 
         // switch to the logged in view
-        this.viewManagerModel.setState(LoggedInViewModel.VIEW_NAME);
+        this.viewManagerModel.setState(RecommendOutfitViewModel.VIEW_NAME);
         this.viewManagerModel.notifyViewChanged();
     }
 

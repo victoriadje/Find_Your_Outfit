@@ -13,25 +13,22 @@ public class RecommendOutfitView extends JPanel implements PropertyChangeListene
     private final RecommendOutfitViewModel viewModel;
     private final RecommendOutfitController controller;
 
-    //Styles are going to be "pre chosen", they have options, rather then letting users write it out
+    //Styles are going to be "pre chosen", they have options, rather than letting users write it out
     private final JComboBox<String> styleInput = new JComboBox<>(new String[]{ "N/A", "Casual", "Formal", "Sporty", "Streetwear"});
     private final JTextField budgetInput = new JTextField(20);
     private final JTextField locationInput = new JTextField(20);
 
-    //TODO: Update how recommendations are outputed
+    //TODO: Update how recommendations are outputted
     private final JTextArea outfitResults = new JTextArea(10, 30);
 
     private final JLabel tempLabel = new JLabel("Weather:");
     private final JLabel errorLabel = new JLabel("Error:");
-
-    private final JButton outfitGenerateButton = new JButton("Generate Outfit Recommendations");
 
     public RecommendOutfitView(RecommendOutfitController controller, RecommendOutfitViewModel viewModel) {
         this.controller = controller;
         this.viewModel = viewModel;
 
         viewModel.addPropertyChangeListener(this);
-        //TODO: check  options
         setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
 
         JLabel titleLabel = new JLabel("Find Your Outfit");
@@ -43,22 +40,37 @@ public class RecommendOutfitView extends JPanel implements PropertyChangeListene
 
         JPanel inputPanel = new JPanel();
         inputPanel.setLayout(new BoxLayout(inputPanel, BoxLayout.Y_AXIS));
+
+        inputPanel.add(new JLabel("Preferred Style:"));
         inputPanel.add(styleInput);
+
+        inputPanel.add(new JLabel("Budget:"));
         inputPanel.add(budgetInput);
+
+        inputPanel.add(new JLabel("Location:"));
         inputPanel.add(locationInput);
+
+        JButton outfitGenerateButton = new JButton("Generate Outfit Recommendations");
         inputPanel.add(outfitGenerateButton);
+
         JPanel outputPanel = new JPanel();
         outputPanel.setLayout(new BoxLayout(outputPanel, BoxLayout.Y_AXIS));
         outputPanel.add(tempLabel);
         outputPanel.add(errorLabel);
+
         outfitGenerateButton.addActionListener(event -> {
-            recommendOutift();
+            recommendOutfit();
         });
 
+        outfitResults.setEditable(false);
+        outputPanel.add(new JScrollPane(outfitResults));
+        add(headerPanel);
+        add(inputPanel);
+        add(outputPanel);
 
     }
 
-    public void recommendOutift() {
+    public void recommendOutfit() {
         String style = (String) styleInput.getSelectedItem();
         String budgetString = budgetInput.getText().trim();
         String location = locationInput.getText().trim();
@@ -73,11 +85,6 @@ public class RecommendOutfitView extends JPanel implements PropertyChangeListene
         try {
             if(!budgetString.isBlank()) {
                 budget = Double.parseDouble(budgetString);
-                if(budget <= 0 ) {
-                    throw new IllegalArgumentException("Budget must be a positive number");
-                } else if(!Double.isFinite(budget)){
-                    throw new IllegalArgumentException("Budget must be a valid finite number");
-                }
             }
         } catch (NumberFormatException e) {
             errorLabel.setText("Please enter a valid budget");
@@ -89,10 +96,6 @@ public class RecommendOutfitView extends JPanel implements PropertyChangeListene
             errorLabel.setText("Please enter a location");
             return;
         }
-
-        RecommendOutfitState state = viewModel.getState();
-        state.setLocation(location);
-        state.setBudget(budget);
         controller.execute(style, budget, location);
     }
 
