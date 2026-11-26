@@ -4,6 +4,7 @@ import com.outfitgen.entity.Outfit;
 import com.outfitgen.interface_adapter.recommend_outfit.RecommendOutfitController;
 import com.outfitgen.interface_adapter.recommend_outfit.RecommendOutfitState;
 import com.outfitgen.interface_adapter.recommend_outfit.RecommendOutfitViewModel;
+import com.outfitgen.interface_adapter.logout.LogoutController;
 
 import javax.swing.*;
 import java.awt.*;
@@ -13,6 +14,8 @@ import java.beans.PropertyChangeListener;
 public class RecommendOutfitView extends JPanel implements PropertyChangeListener {
     private final RecommendOutfitViewModel viewModel;
     private final RecommendOutfitController controller;
+    // Log out use case when user clicks log out
+    private LogoutController logoutController;
 
     //Styles are going to be "pre chosen", they have options, rather than letting users write it out
     private final JComboBox<String> styleInput = new JComboBox<>(new String[]{ "N/A", "Casual", "Formal", "Sporty", "Streetwear"});
@@ -53,6 +56,15 @@ public class RecommendOutfitView extends JPanel implements PropertyChangeListene
         add(Box.createVerticalStrut(20));
 
 
+        // Log Out button: saves the user's changes and goes back to the login screen.
+        JButton logOutButton = new JButton("Log out");
+        JPanel logoutPanel = new JPanel(new FlowLayout(FlowLayout.RIGHT));
+        logoutPanel.add(logOutButton);
+
+        logOutButton.addActionListener(event -> {
+            logoutController.execute();
+        });
+
         JPanel inputPanel = new JPanel();
         inputPanel.setLayout(new BoxLayout(inputPanel, BoxLayout.Y_AXIS));
 
@@ -82,7 +94,12 @@ public class RecommendOutfitView extends JPanel implements PropertyChangeListene
         //add(headerPanel);
         add(inputPanel);
         add(outputPanel);
+        add(logoutPanel);
 
+    }
+
+    public void setLogoutController(LogoutController logoutController) {
+        this.logoutController = logoutController;
     }
 
     public void recommendOutfit() {

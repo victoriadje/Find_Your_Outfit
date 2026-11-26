@@ -26,14 +26,14 @@ public class LoggedInView extends JPanel implements ActionListener, LoggedInView
         this.loggedInViewModel = loggedInViewModel;
         this.loggedInViewModel.addListener(this);
 
-        final JLabel title = new JLabel("Logged In Screen");
+        final JLabel title = new JLabel("Logged in");
         title.setAlignmentX(Component.CENTER_ALIGNMENT);
 
         final JLabel usernameInfo = new JLabel("Currently logged in: ");
         username = new JLabel();
 
         final JPanel buttons = new JPanel();
-        logOut = new JButton("Log Out");
+        logOut = new JButton("Log out");
         buttons.add(logOut);
 
         logOut.addActionListener(this);
