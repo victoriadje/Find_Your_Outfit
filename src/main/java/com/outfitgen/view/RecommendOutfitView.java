@@ -1,6 +1,7 @@
 package com.outfitgen.view;
 
 import com.outfitgen.entity.Outfit;
+import com.outfitgen.interface_adapter.logout.LogoutController;
 import com.outfitgen.interface_adapter.recommend_outfit.RecommendOutfitController;
 import com.outfitgen.interface_adapter.recommend_outfit.RecommendOutfitState;
 import com.outfitgen.interface_adapter.recommend_outfit.RecommendOutfitViewModel;
@@ -13,6 +14,7 @@ import java.beans.PropertyChangeListener;
 public class RecommendOutfitView extends JPanel implements PropertyChangeListener {
     private final RecommendOutfitViewModel viewModel;
     private final RecommendOutfitController controller;
+    private LogoutController logoutController;
 
     //Styles are going to be "pre chosen", they have options, rather than letting users write it out
     private final JComboBox<String> styleInput = new JComboBox<>(new String[]{ "N/A", "Casual", "Formal", "Sporty", "Streetwear"});
@@ -76,13 +78,24 @@ public class RecommendOutfitView extends JPanel implements PropertyChangeListene
         outfitGenerateButton.addActionListener(event -> {
             recommendOutfit();
         });
+        // Log Out button: saves the user's changes and goes back to the login screen.
+        JButton logOutButton = new JButton("Log out");
+
+        logOutButton.addActionListener(event -> {
+            logoutController.execute();
+        });
 
         outfitResults.setEditable(false);
         outputPanel.add(new JScrollPane(outfitResults));
         //add(headerPanel);
         add(inputPanel);
         add(outputPanel);
+        add(logOutButton);
 
+    }
+
+    public void setLogoutController(LogoutController logoutController) {
+        this.logoutController = logoutController;
     }
 
     public void recommendOutfit() {
@@ -135,19 +148,32 @@ public class RecommendOutfitView extends JPanel implements PropertyChangeListene
         StringBuilder recommendedResults = new StringBuilder();
         int outfitNumber = 0;
 
+        if (state.getRecommendedOutfits() == null || state.getRecommendedOutfits().isEmpty()) {
+            recommendedResults.append("No Outfit Found");
+
+        }
         for (Outfit outfit : state.getRecommendedOutfits()) {
             outfitNumber++;
             recommendedResults.append("Outfit ");
             recommendedResults.append(outfitNumber);
             recommendedResults.append("\n");
 
-            recommendedResults.append(outfit);
-            recommendedResults.append("\n\n\n");
+            for(var item : outfit.getItems()) {
+                recommendedResults.append(item.getName());
+                recommendedResults.append("-- $");
+                recommendedResults.append(item.getPrice());
+                recommendedResults.append("\n");
+            }
+            recommendedResults.append("Total Price: $");
+            recommendedResults.append(outfit.getTotalCost());
+            //recommendedResults.append(outfit);
+            recommendedResults.append("\n\n");
         }
-        if (outfitNumber == 0) {
-            recommendedResults.append("No Outfit Found");
-        }
+
         outfitResults.setText(recommendedResults.toString());
+        outfitResults.setCaretPosition(0);
+
     }
 
 }
+

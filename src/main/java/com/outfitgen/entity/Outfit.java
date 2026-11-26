@@ -1,4 +1,7 @@
 package com.outfitgen.entity;
+
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.List;
 //TODO: figure out if id is needed.
 
@@ -30,6 +33,8 @@ public class Outfit {
         for(ClothingItems i : items){
             totalCost += i.getPrice();
         }
-        return totalCost;
+        BigDecimal roundedTotal = BigDecimal.valueOf(totalCost);
+        roundedTotal = roundedTotal.setScale(2, RoundingMode.HALF_UP);
+        return roundedTotal.doubleValue();
     }
 }
